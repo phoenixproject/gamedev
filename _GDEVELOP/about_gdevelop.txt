@@ -1,0 +1,2 @@
+01 - Todo o jogo composto pela GDevelop é composto por cenas. Então a tela inicial, o menu,
+os níveis são cenas.
