@@ -30,8 +30,8 @@ function setCarro(){
     }
 }
 
-function randomize(min, max){
-    return min + Math.round(Math.round() * (max - min));
+function randomize(min, max){    
+    return min + Math.round(Math.random() * (max - min));
 }
 
 function moveImagem(){
@@ -51,7 +51,7 @@ function fim(vencedor){
         document.getElementById("carro" + (i + 1)).src = 'images/i_' + carroCorrida[i].imagem + '.png';
         if(i === vencedor){
             document.getElementById("vencedor" + (i + 1)).innerHTML = '<div class="vencedor">' +
-                '<img src="images/trofeu.png"> <p>Vencedor!</p>';
+                '<img src="images/trofeu.png"><p>Vencedor!</p>';
         }
     }
 }   
