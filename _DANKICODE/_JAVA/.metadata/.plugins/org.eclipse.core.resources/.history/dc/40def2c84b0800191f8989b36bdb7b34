@@ -1,0 +1,31 @@
+package _INICIOLOGICAGAMES;
+
+public class Game implements Runnable {
+	
+	public boolean isRunning;
+	
+	public static void main(String[] args) {
+			
+		
+	}
+	
+	// tick pode ser uma volta no loop ou atualizar
+	public void tick() {
+		System.out.println("Tick");
+	}
+	
+	// Renderizar o jogo
+	public void render() {
+		System.out.println("Render");		
+	}
+
+	@Override
+	public void run() {
+
+		while(isRunning) {
+			
+		}
+		
+	}
+	
+}
