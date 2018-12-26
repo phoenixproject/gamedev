@@ -1,9 +1,23 @@
 package _INICIOLOGICAGAMES;
 
+import java.util.ArrayList;
+
 public class Game implements Runnable {
 	
 	private boolean isRunning;
 	private Thread thread;
+
+	private ArrayList<Entidade> entidades = new ArrayList<>();
+	
+	public Game() {
+		entidades.add(new Entidade());
+		entidades.add(new Entidade());
+		entidades.add(new Entidade());
+		entidades.add(new Entidade());
+		for(int i = 0; i < entidades.size(); i++) {
+			Entidade e = entidades.get(0);
+		}
+	}
 	
 	public static void main(String[] args) {
 		
