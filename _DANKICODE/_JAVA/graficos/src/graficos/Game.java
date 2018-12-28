@@ -1,7 +1,13 @@
 package graficos;
 
+import java.awt.BufferCapabilities;
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
 import java.util.concurrent.SynchronousQueue;
 
 import javax.swing.JFrame;
@@ -17,12 +23,15 @@ public class Game extends Canvas implements Runnable {
 	public static JFrame frame;
 	private final int WIDTH = 160;
 	private final int HEIGHT = 120;
-	private final int SCALE = 3;
+	private final int SCALE = 4;
+	
+	private BufferedImage image;
 	
 	public Game()
 	{
 		this.setPreferredSize(new Dimension(WIDTH*SCALE,HEIGHT*SCALE));
 		initFrame();
+		image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	}
 	
 	public void initFrame() {
@@ -42,7 +51,14 @@ public class Game extends Canvas implements Runnable {
 	}
 	
 	public synchronized void stop() {
-		
+
+		isRunning = false;
+		try {
+			thread.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public static void main(String args[]) {
@@ -58,8 +74,29 @@ public class Game extends Canvas implements Runnable {
 	}
 	
 	// Método responsável pelos gráficos
+	
+	// BufferStrategy é uma classe reponsável para
+	// colocar uma série de buffers para renderização.
 	public void render() {
+		BufferStrategy bs = this.getBufferStrategy();
 		
+		if(bs == null) {
+			this.createBufferStrategy(3);
+			return;
+		}
+		
+		// Inicializando a tela
+		Graphics g = image.getGraphics();
+		g.setColor(new Color(255,0,0));
+		g.fillRect(0, 0, 160, 120);
+		
+		g.setColor(Color.CYAN);
+		g.fillRect(20, 20, 80, 80);
+		
+		g = bs.getDrawGraphics();
+		g.drawImage(image, 0, 0, WIDTH*SCALE, HEIGHT*SCALE, null);
+		
+		bs.show();
 	}
 	
 	@Override
@@ -106,6 +143,8 @@ public class Game extends Canvas implements Runnable {
 			}
 			
 		}
+		
+		stop();
 		
 	}
 
