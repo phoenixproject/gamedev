@@ -4,6 +4,7 @@ import java.awt.BufferCapabilities;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
@@ -21,9 +22,11 @@ public class Game extends Canvas implements Runnable {
 	private Thread thread;
 	private boolean isRunning = true;
 	public static JFrame frame;
-	private final int WIDTH = 160;
-	private final int HEIGHT = 120;
-	private final int SCALE = 4;
+	
+	private final int WIDTH = 240;
+	private final int HEIGHT = 160;
+	// Escala 3 para dar um tom meio pixelado
+	private final int SCALE = 3;
 	
 	private BufferedImage image;
 	
@@ -87,11 +90,18 @@ public class Game extends Canvas implements Runnable {
 		
 		// Inicializando a tela
 		Graphics g = image.getGraphics();
-		g.setColor(new Color(255,0,0));
+		//g.setColor(new Color(255,0,0));
+		g.setColor(new Color(0,0,0));
 		g.fillRect(0, 0, 160, 120);
 		
-		g.setColor(Color.CYAN);
-		g.fillRect(20, 20, 80, 80);
+		// Renderizando um cículo
+		//g.setColor(Color.CYAN);
+		//g.fillRect(20, 20, 80, 80);
+		
+		// Renderiznado uma String
+		g.setFont(new Font("Arial",Font.BOLD,20));
+		g.setColor(Color.WHITE);
+		g.drawString("Hello World", 19, 19);
 		
 		g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, WIDTH*SCALE, HEIGHT*SCALE, null);
