@@ -30,9 +30,17 @@ public class Game extends Canvas implements Runnable {
 	
 	private BufferedImage image;
 	
+	private Spritesheet sheet;
+	
+	private BufferedImage player;
+	
+	private int x = 0;
+	
 	public Game()
 	{
-		this.setPreferredSize(new Dimension(WIDTH*SCALE,HEIGHT*SCALE));
+		sheet = new Spritesheet("/spritesheet.png");
+		player = sheet.getSprite(0, 0, 16, 16);
+		setPreferredSize(new Dimension(WIDTH*SCALE,HEIGHT*SCALE));
 		initFrame();
 		image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	}
@@ -73,7 +81,7 @@ public class Game extends Canvas implements Runnable {
 	
 	// Função responsável pelo update (atualização do game)
 	public void tick() {
-		
+		x++;
 	}
 	
 	// Método responsável pelos gráficos
@@ -91,17 +99,30 @@ public class Game extends Canvas implements Runnable {
 		// Inicializando a tela
 		Graphics g = image.getGraphics();
 		//g.setColor(new Color(255,0,0));
-		g.setColor(new Color(0,0,0));
-		g.fillRect(0, 0, 160, 120);
+		//g.setColor(new Color(0,0,0));
+		g.setColor(new Color(0,0,255));
+		g.fillRect(0, 0, WIDTH, HEIGHT);
 		
 		// Renderizando um cículo
 		//g.setColor(Color.CYAN);
 		//g.fillRect(20, 20, 80, 80);
 		
 		// Renderiznado uma String
-		g.setFont(new Font("Arial",Font.BOLD,20));
-		g.setColor(Color.WHITE);
-		g.drawString("Hello World", 19, 19);
+		//g.setFont(new Font("Arial",Font.BOLD,20));
+		//g.setColor(Color.WHITE);
+		//g.drawString("Hello World", 19, 19);
+		
+		/* Renderização do Jogo */
+		
+		/****/
+		
+		g.drawImage(player, 20, 20, null);
+		g.drawImage(player, 20, 40, null);
+		g.drawImage(player, 20, 80, null);
+		g.drawImage(player, 20, 100, null);
+		
+		// Para limpar o lixo do buffer na imagem
+		g.dispose();		
 		
 		g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, WIDTH*SCALE, HEIGHT*SCALE, null);
