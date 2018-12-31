@@ -6,6 +6,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
@@ -32,14 +33,28 @@ public class Game extends Canvas implements Runnable {
 	
 	private Spritesheet sheet;
 	
-	private BufferedImage player;
-	
-	private int x = 0;
+	// Para o caso de ser uma imagem estática
+	// private BufferedImage player;
+	// Para o caso de conter animações
+	private BufferedImage[] player;
+	// Para definir a quantidade de vezes que o frame é animado	
+	private int frames = 0;
+	private int maxFrames = 20;
+	private int currentAnimation = 0;
+	private int maxAnimation = 4;
 	
 	public Game()
 	{
 		sheet = new Spritesheet("/spritesheet.png");
-		player = sheet.getSprite(0, 0, 16, 16);
+		// Para o caso de ser uma imagem estática
+		// player = sheet.getSprite(0, 0, 16, 16);
+		// Para o caso de conter uma animação
+		player = new BufferedImage[4];
+		player[0] = sheet.getSprite(0, 0, 16, 16);
+		player[1] = sheet.getSprite(16, 0, 16, 16);
+		player[2] = sheet.getSprite(32, 0, 16, 16);
+		player[3] = sheet.getSprite(48, 0, 16, 16);
+		
 		setPreferredSize(new Dimension(WIDTH*SCALE,HEIGHT*SCALE));
 		initFrame();
 		image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
@@ -81,7 +96,14 @@ public class Game extends Canvas implements Runnable {
 	
 	// Função responsável pelo update (atualização do game)
 	public void tick() {
-		x++;
+		frames++;
+		if(frames > maxFrames) {
+			frames = 0;
+			currentAnimation++;
+			if(currentAnimation >= maxAnimation) {
+				currentAnimation = 0;
+			}
+		}
 	}
 	
 	// Método responsável pelos gráficos
@@ -116,10 +138,29 @@ public class Game extends Canvas implements Runnable {
 		
 		/****/
 		
-		g.drawImage(player, 20, 20, null);
-		g.drawImage(player, 20, 40, null);
-		g.drawImage(player, 20, 80, null);
-		g.drawImage(player, 20, 100, null);
+		// Para rotacionar o spritesheet.
+		/* Lembrando que este spritesheet tem
+		 * 16 x 16 pixels. Então no método rotate
+		 * da classe Graphics2D o primeiro parâmetro
+		 * (que define a rotação) deve ser convertido
+		 * em radianos. Os 2 últimos parâmetros devem
+		 * conter as coordenadas que informam onde está
+		 * o spritesheet e preferencialmente somar a estes
+		 * valores a metade do valor do tamanho horizontal
+		 * e vertical do spritesheet. No caso já é o tamanho
+		 * é 16 x 16, então deve ser somado 8 a cada uma das
+		 * coordenadas porque nesse caso ele irá rotacionar
+		 * o spritesheet exatamente em seu centro.
+		 * 
+		 */
+		Graphics2D g2 = (Graphics2D) g;
+		//g2.rotate(Math.toRadians(45), 90 + 8, 90 + 8);
+		
+		// Desenhando o player (jogador)
+		g2.drawImage(player[currentAnimation], 90, 90, null);
+		//g.drawImage(player, x, 40, null);
+		//g.drawImage(player, 20, 80, null);
+		//g.drawImage(player, x, 100, null);
 		
 		// Para limpar o lixo do buffer na imagem
 		g.dispose();		
