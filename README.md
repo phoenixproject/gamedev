@@ -146,7 +146,6 @@ pelo termo collider.
 
  - Metal texture
  
- 
 ##### Ferramentas (tools)
 
 ### Paint.net
