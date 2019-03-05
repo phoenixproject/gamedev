@@ -57,8 +57,6 @@ Modelo para blueprint frontal e lateral
 
 ### Paint.net
 
-## Estrutura básica do Blender
-
 ## Ferramentas do Java utilizas em desenvolvimento de Apps e Games
 
 ### Runnable
