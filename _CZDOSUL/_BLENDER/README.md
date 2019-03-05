@@ -67,12 +67,6 @@ Após a execução do script é possível encontrá-lo no menu de objetos.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/06_screencastkeys.png?raw=true "Timeline")
 
-Esta área é utilizada para quem pretende trabalhar com animações.
-
-### Teclas de atalho
-
-O software detecta as teclas de atalho a partir de onde se encontra o cursor do mouse.
-
 #### Botão Scroll do mouse em Operações de Visualização
 
 Girando este botão é possível se distanciar e se aproximar da cena.
@@ -83,9 +77,14 @@ para cima e pra baixo quanto para esquerda e direita.
 Segurando a tecla Shift junto a e este botão é possível deslocar a vista do que está sendo
 visto na cena 3D.
 
+### Seleção de Objetos
+
+No Blender a seleção de objetos é feita com o botão direito do mouse, diferente do que fazem
+outros apps de modelagem.
+
 ### Modo de visualizações da Cena e Atalhos
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/03_modosdevisualizacao.png?raw=true "Modos de Visualização")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/07_modosdevisualizacao.png?raw=true "Modos de Visualização")
 
 Na área superior à direita da cena 3D é exibido qual o modo de visualização está sendo utilizado na cena 3d
 (no caso acima é a User Perpective).
@@ -137,3 +136,61 @@ que seja possível basta clicar na área superior como mostrada na imagem e troc
 Caso seja preciso buscar algum comando durante o trabalho basta pressionar a tecla espaço que um menu
 contendo um índice com todos os comandos possíveis se abrirá com a função auto completar filtrando
 os resultado enquanto digita.
+
+### Edição de Objetos
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/13_edicaodeobjetos.png?raw=true "Edição de Objetos")
+
+Caso precise alterar um face, os componentes do vértice ou edge é necessário alter para modo de edição de objetos ou pressionar a tecla TAB.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/14_edicaodeobjetosabrangente.png?raw=true "Edição de Objetos Funções")
+
+Quando o objeto selecionado está em modo edição é possível utilizar os botões acima circulados que permitem selecionar múltiplos vértices,
+selecionar múltiplos edges e múltiplas faces.
+
+Para selecionar/remover múltiplos itens a tecla SHIFT deverá estar pressionada.
+
+### Display/Shade methods
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/15_displayshademethods.png?raw=true "Display/Shade")
+
+Durante o trabalho de edição de objetos por vezes é necessário alterar a visualização do objeto entre sem ou com preenchimento
+(Wireframe e Solid) e isso é feito no menu Display/Shade.
+
+### Tranlação e Escala
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/16_translacaoescala.png?raw=true "Translação e Escala")
+
+Quando selecionado o objeto é possível trabalhar com translação e escala nos itens circulados acima.
+
+### Teclas de atalho
+
+O software detecta as teclas de atalho a partir de onde se encontra o cursor do mouse
+e abaixo descreveremos algumas dessas combinações de tecla.
+
+- Edição de objetos: selecione o objeto e pressione a tecla TAB;
+
+- Para selecionar/remover múltiplos itens a tecla SHIFT deverá estar pressionada.
+
+- Para selecionar/remover todos os vértices, edges, etc de um objeto pressiona-se a tecla A.
+
+- Com o objeto selecionado e pressionando a tecla G (gravity) é possível movimentar o objeto sobre
+a área de trabalho (cena 3D) e confirmar a nova posição com o botão esquerdo do mouse.
+Também é possível determinar em que eixo deseja-se que seja feita essa movimentação e para isso
+basta pressionar as teclas X, Y ou Z após ter pressionado a tecla G. E logo após ter feito essa
+definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
+quanto o objeto deve ser deslocado.
+
+- Com o objeto selecionado e pressionando a tecla R (rotation) é possível rotacionar o objeto sobre
+a área de trabalho (cena 3D) e confirmar a nova posição com o botão esquerdo do mouse.
+Também é possível determinar em que eixo deseja-se que seja feita essa movimentação e para isso
+basta pressionar as teclas X, Y ou Z após ter pressionado a tecla R. E logo após ter feito essa
+definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
+quanto o objeto deve ser deslocado.
+
+- Com o objeto selecionado e pressionando a tecla S (scale) é possível alterar a escala do objeto sobre
+a área de trabalho (cena 3D) e confirmar a nova posição com o botão esquerdo do mouse.
+Também é possível determinar em que eixo deseja-se que seja feita essa movimentação e para isso
+basta pressionar as teclas X, Y ou Z após ter pressionado a tecla S. E logo após ter feito essa
+definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
+quanto o objeto deve ser deslocado.
