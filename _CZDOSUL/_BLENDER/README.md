@@ -13,7 +13,7 @@ A cena padrão é formada por um cubo, pela câmera e uma fonte de luz
 
 ## Estrutura básica do Blender
 
-![Alt text](https://github.com/_CZDOSUL/_BLENDER/_MEDIA/gamedev/blob/master/_MEDIA/01_menu_janelas.png?raw=true "Menu de janelas")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/01_menu_janelas.png?raw=true "Menu de janelas")
 
 O Blender tem um menu para cada janela e no primeiro ícone à esquerda
 pode escolher qual a janela queremos trabalhar no momento.
