@@ -60,7 +60,7 @@ Para poder visualizar tudo o que está acontecendo com o mouse e o teclado é po
 O script pode ser encontrado aqui:
 ![Screencast Keys (script)](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_EXTENSIONS/screencastkeys.py?raw=false "Screencast Keys")
 
-E também neste endereço é possível encontrar sua última versão feita para o Blendr 2.6.
+E também neste endereço é possível encontrar sua última versão feita para o Blender 2.6.
 [Screencast Keys versão antiga](https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Screencast_Key_Status_Tool/)<br/>
 
 Após a execução do script é possível encontrá-lo no menu de objetos.
@@ -157,11 +157,21 @@ Para selecionar/remover múltiplos itens a tecla SHIFT deverá estar pressionada
 Durante o trabalho de edição de objetos por vezes é necessário alterar a visualização do objeto entre sem ou com preenchimento
 (Wireframe e Solid) e isso é feito no menu Display/Shade.
 
-### Tranlação e Escala
+### Translação e Escala
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/16_translacaoescala.png?raw=true "Translação e Escala")
 
 Quando selecionado o objeto é possível trabalhar com translação e escala nos itens circulados acima.
+
+### Background Image
+
+Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
+e em seguida clicar em Add image.
+
+### Add Loops
+
+Para adicionar mais polígonos a seu objeto 3D é necessário ir em Mesh > Edges > Edges Loops.
+(após criado o 1º loop utiliza-se o botão Scroll do mouse para aumentar o número de polígonos).
 
 ### Teclas de atalho
 
@@ -194,3 +204,23 @@ Também é possível determinar em que eixo deseja-se que seja feita essa movime
 basta pressionar as teclas X, Y ou Z após ter pressionado a tecla S. E logo após ter feito essa
 definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
 quanto o objeto deve ser deslocado.
+
+- Para adicionar/remover propriedades do objeto(properties) pressiona-se a tecla N.
+
+- Para adicionar mais polígonos (edge loops) a seu objeto 3D pressiona-se Crtl + R
+(após criado o 1º loop utiliza-se o botão Scroll do mouse para aumentar o número de polígonos).
+
+- Para selecionar polígonos de todas as profundidades basta pressionar o botão B, clicar com
+o botão esquerdo do mouse a arrastá-lo até a seleção desejada, em seguida pressionar o botão
+G para poder com o mouse movimentar livremente a seleção, clicar com o botão esquerdo do mouse
+para confirmar o ponto desejado que deverá ficar os vértices selecionados e para finalizar pressionar
+o botão A para deselecionar todos os vértices do objeto.
+
+- Para aplicar uma escala em determinado eixo (x, y, z) pressione o botão S, deixe-o apertado
+e clicando, segurando e arrastando o mouse com o botão scroll também pressionado no
+eixo desejado do objeto é possível aplicar uma escala.
+
+- Para selecionar vértices conectados em loop deve-se sergurar a tecla Alt e pressionar o botão direito
+do mouse onde deseja que essa seleção seja feita. Para adicionar mais vértices conectados em loop 
+deve-se manter pressionadas as teclas Alt + Shif e pressionar o botão direito do mouse onde 
+deseja que essa seleção seja feita.
