@@ -11,6 +11,11 @@ A cena padrão é formada por um cubo, pela câmera e uma fonte de luz
 
 É basicamente é o contém a cena básica
 
+### Gizmo
+
+As setas que apontam para os eixos X, Y e Z em cadas objeto são chamadas de Gizmo e podem mover não só os objetos, mas
+também ser utilizao nas interações para com ele.
+
 ## Estrutura básica do Blender
 
 ### Menu de gerenciamento de janelas
@@ -163,6 +168,35 @@ Durante o trabalho de edição de objetos por vezes é necessário alterar a vis
 
 Quando selecionado o objeto é possível trabalhar com translação e escala nos itens circulados acima.
 
+### Exclusão de intervalo de vértices
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/17_exclusao.png?raw=true "Exclusão de Vértices em Intervalo")
+
+Quando selecionado dado intervalo de objetos, ao pressionar a tecla X um menu se abrirá com várias opções referente a ação Delete e já na 1ª opção
+"Vértices" sendo selecionada serão excluídos.
+
+### Espelhamento de objetos
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/18_espelhamento_01.png?raw=true "Espelhamento de Objetos")
+
+No menu mais à direita, onde podemos alterar os atributos de nossos objetos, existe uma opção representada por uma ferramenta, clicando nela e em
+seguida em Add Modifier escolhemos a opção Mirror.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/18_espelhamento_02.png?raw=true "Espelhamento de Objetos (escolha do eixo)")
+
+Nessa área o eixo (X, Y ou Z) utilizado para fazer o mirror (espelhamento) é baseado no pivô do objeto (indentificado no círculo vermelho à esquerda
+na imagem acima).
+
+Lembrando de que quando habilitado o Mirror, tudo o que é feito de um lado do objeto é replicado em seu lado simétrico, ou seu lado espelhado. Portanto
+para que seja possível editar o objeto normalmente sem que ele seja afetado pela edição de seu lado espelhado basta clicar no botão Apply.
+
+### Juntar Objetos (Object Join)
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/19_objectjoin.png?raw=true "Object Join")
+
+Quando existem mais de um objeto sendo trabalho no Blender é possível juntá-lo selecionando-os com a tecla SHIFT pressionada e em seguida
+ir no menu Object > Join (ou utilizar o atalho CRTL + J).
+
 ### Background Image
 
 Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
@@ -224,3 +258,19 @@ eixo desejado do objeto é possível aplicar uma escala.
 do mouse onde deseja que essa seleção seja feita. Para adicionar mais vértices conectados em loop 
 deve-se manter pressionadas as teclas Alt + Shif e pressionar o botão direito do mouse onde 
 deseja que essa seleção seja feita.
+
+- Para excluir um determinado intervalo de vértices, após selecionado dado intervalo de objetos, 
+deve-se pressionar a tecla X para que um menu se abra com várias opções referente a ação Delete 
+e já na 1ª opção "Vértices" sendo selecionada serão excluídos.
+
+- Para adicionar outro objeto preferencialmente devemes colocar a cena em Object Mode, em seguida
+seguir no menu Add > Mesh e o objeto de preferência.
+
+- Para utilizar uma extrusão (extrude) deve-se selecionar um grupo de vértices e pressionar a tecla E e 
+logo em seguida utilizar o mouse para a direção desejada.
+
+- Para realizar uma união entre dois ou mais objetos, com a tecla SHIFT pressionada deve-se em seguida
+ir no menu Object > Join (ou utilizar o atalho CRTL + J).
+
+- Para selecionar o um objeto após ter utilizado o comando Join pressione a tecla L e passe o mouse por
+cima de onde ele se encontra.

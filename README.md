@@ -45,6 +45,10 @@ threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
 ### Spritesheets
 
+### Modelagem Inorgânica
+
+É uma modelagem feita a partir de algo construído pelo homem e não pela natureza.
+
 ### admob by google 
 
 Ferramenta de ADS para as apps públicas na Play Store
