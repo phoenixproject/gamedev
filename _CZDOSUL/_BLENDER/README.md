@@ -197,6 +197,43 @@ para que seja possível editar o objeto normalmente sem que ele seja afetado pel
 Quando existem mais de um objeto sendo trabalho no Blender é possível juntá-lo selecionando-os com a tecla SHIFT pressionada e em seguida
 ir no menu Object > Join (ou utilizar o atalho CRTL + J).
 
+### UV Image Editor
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/20_uv_imageeditor.png?raw=true "UV Image Editor")
+
+Para escolher o UV Image Editor siga no Menu Principal > UV Image Editor.
+
+### Remove Doubles (removendo vértices duplicados)
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/21_removedoubles.png?raw=true "Remove Doubles (removendo vértices duplicados)")
+
+Para remover vértices duplicados selecione todos os vértices do objeto com a tecla A, em seguida pressione a tecla Espaço e digite Remove Doubles.
+
+### Projetar uma imagem UV 3D como é vista para uma 2D
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/22_projectfromview.png?raw=true "Projetar 3D em 2D (Project from view)")
+
+Para projetar uma imagem 3D como é vista na tela para uma 2D basta após selecionados os vértices que deseja que seja transformado em 2D
+no Image UV Editor ir em Mesh > UV Unwrap > Project from View. Nessa hora acontece um mapeamento e sempre que você alterar a visão do seu
+objeto 3D basta em seguida pressionar a tecla U e no menu que se abrirá selecionar a opção Project from View para que seu modelo UV mapeado
+também seja projetado como está no 3D. 
+Lembrando que para interagir com o objeto em UV as teclas G, R e S funcionam como no objeto comum.
+
+### Criar uma imagem do tipo UV Grid
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/23_imagem_uvgrid.png?raw=true "Imagem tipo UV Grid")
+
+Para criar uma imagem do tipo UV Grid clique no botão New logo abaixo da área de imagem da área UV 3D exibida na figura acima, e na caixa
+Generated Type clique em UV Grid.
+
+
+### Utilizando um tipo de material que não sofra influência da luz (Shadeless)
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/24_shadeless.png?raw=true "Shadeless")
+
+Para trabalhar um material em cima de um objeto para que ele não sofra influência da luz, após clicar na opção Material (circulado de vermelho) devemos
+marcar a opção Shadeless mais abaixo (com determinada área do objeto já pré selecionada).
+
 ### Background Image
 
 Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
@@ -250,6 +287,13 @@ G para poder com o mouse movimentar livremente a seleção, clicar com o botão 
 para confirmar o ponto desejado que deverá ficar os vértices selecionados e para finalizar pressionar
 o botão A para deselecionar todos os vértices do objeto.
 
+- Para deselecionar vértices devemos deixar pressionado o botão B e com o botão do meio do mouse
+arrastar pressionando na área selecionada que deseja deselecionar e em seguida soltar para que a 
+deseleção aconteça. Lembrando que para que essa deseleção aconteça com sucesso é importante que 
+ao fazer a marcação da área selecionada o "arraste" do mouse deve ser feito dentro da área que 
+os vértices estão contidos sem esbarrar com a área esterna (o que pode fazer com que a deseleção não
+ocorra como esperado).
+
 - Para aplicar uma escala em determinado eixo (x, y, z) pressione o botão S, deixe-o apertado
 e clicando, segurando e arrastando o mouse com o botão scroll também pressionado no
 eixo desejado do objeto é possível aplicar uma escala.
@@ -274,3 +318,5 @@ ir no menu Object > Join (ou utilizar o atalho CRTL + J).
 
 - Para selecionar o um objeto após ter utilizado o comando Join pressione a tecla L e passe o mouse por
 cima de onde ele se encontra.
+
+- Para alterar o tipo de visão de cada objeto pressiona-se Z.

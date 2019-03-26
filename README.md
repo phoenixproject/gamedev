@@ -49,6 +49,15 @@ threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
 É uma modelagem feita a partir de algo construído pelo homem e não pela natureza.
 
+### Mapeamento UV
+
+É praticamente a transferência que está no espaço 3D (virtual) e transforma para algo
+bidimensional que é uma imagem de computador. 
+
+### Texturização
+
+É basicamente a possibilidade de carregar uma imagem pra ser aplicada no modelo 3D.
+
 ### admob by google 
 
 Ferramenta de ADS para as apps públicas na Play Store
