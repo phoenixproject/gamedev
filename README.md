@@ -30,10 +30,33 @@ threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
 É uma imagem que tem todas as imagens (ou sprites) do game (lembra o Tile Map).
 
+### Game Character 3D Wireframe
+
+É um modelo de personagem 3d]
+
 ### Sprite
 
 É uma parte de um Spritesheet e geralmente é definido em pixel. Exemplo: 16 x 16, 
 12 x 12 pixels, etc.
+
+### Box Modeling
+
+Box Modeling é uma técnica de modelagem 3D em que uma forma primitiva 
+(como caixa, cilindro, esfera, etc.) é usada para fazer a forma básica do modelo final. 
+Esta forma básica é então usada para esculpir o modelo final.
+
+### Game Character 3D Wireframe
+
+É o modelo de game character 3D utilizado para referência.
+
+### Allquads
+
+Polígonos com faces de 4 vértices (aconselháveis para modelagem 3D).
+
+### Model Sheet
+
+Pode ser um estudo de personagem ou simplesmente um estudo, é um documento usado para ajudar 
+a padronizar a aparência, roupas, etc, de modo a enfatizar gestos e atitudes de um personagem animado. 
 
 ### Game Desing
 
