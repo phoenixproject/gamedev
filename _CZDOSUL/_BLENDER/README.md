@@ -234,6 +234,14 @@ Generated Type clique em UV Grid.
 Para trabalhar um material em cima de um objeto para que ele não sofra influência da luz, após clicar na opção Material (circulado de vermelho) devemos
 marcar a opção Shadeless mais abaixo (com determinada área do objeto já pré selecionada).
 
+### Juntando vértices manualmente
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/25_juntarvertices.png?raw=true "Juntando Vértices")
+
+Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão esquerdo pressionado. A cada vértice selecionado
+deve-se soltar o botão esquerdo para selecionar outro vértice. Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão
+criados novos vértices ligando os pontos selecionados.
+
 ### Background Image
 
 Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
@@ -318,5 +326,10 @@ ir no menu Object > Join (ou utilizar o atalho CRTL + J).
 
 - Para selecionar o um objeto após ter utilizado o comando Join pressione a tecla L e passe o mouse por
 cima de onde ele se encontra.
+
+Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
+esquerdo pressionado. A cada vértice selecionado deve-se soltar o botão esquerdo para selecionar outro vértice. 
+Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão criados novos vértices 
+ligando os pontos selecionados. 
 
 - Para alterar o tipo de visão de cada objeto pressiona-se Z.
