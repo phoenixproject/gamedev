@@ -11,6 +11,10 @@ A cena padrão é formada por um cubo, pela câmera e uma fonte de luz
 
 É basicamente é o contém a cena básica
 
+# LMB, RMB
+
+Left Mouse Button, Right Mouse Button
+
 ### Gizmo
 
 As setas que apontam para os eixos X, Y e Z em cadas objeto são chamadas de Gizmo e podem mover não só os objetos, mas
@@ -242,6 +246,16 @@ Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrast
 deve-se soltar o botão esquerdo para selecionar outro vértice. Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão
 criados novos vértices ligando os pontos selecionados.
 
+### Preenchendo faces com vértices pré selecionados (ou menu Mesh | Face | Make Edge/Face)
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/26_preencher_vertices_1.png?raw=true "Selecionando os Vértices")
+
+Para criar um nova face primeiro é necessário selecionar determinados vértices que estão a sua volta.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/26_preencher_vertices_2.png?raw=true "Criando uma nova face")
+
+E depois pressionar a tecla F.
+
 ### Background Image
 
 Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
@@ -327,15 +341,23 @@ ir no menu Object > Join (ou utilizar o atalho CRTL + J).
 - Para selecionar o um objeto após ter utilizado o comando Join pressione a tecla L e passe o mouse por
 cima de onde ele se encontra.
 
-Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
+- Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
 esquerdo pressionado. A cada vértice selecionado deve-se soltar o botão esquerdo para selecionar outro vértice. 
 Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão criados novos vértices 
 ligando os pontos selecionados. 
 
-Para caso o resultado do Mirror esteja errado, é possível que o pivô (centro de rotação) do
+- Para caso o resultado do Mirror esteja errado, é possível que o pivô (centro de rotação) do
 objeto esteja fora do (0, 0, 0). Para arrumar, no modo Object e com o cursor do mouse em
 cima da viewport: SHIFT + S | Cursor to Center (menu Object | Snap | Cursor to Center da
 viewport). Em seguida, SHIFT + CTRL + ALT + C | Originto 3D Cursor (ou menu Object |
 Transform | Originto 3D Cursor na viewport).
+
+- Para alinhar determinados vértices no eixo X = 0, alinhe os novos vértices em X=0 (
+aplique escala X=0 com a sequência S, X, 0, Enter, e depois defina X=0 na Properties da viewport
+
+- Para criar faces preenchidas selecione os que estão a seu redor e pressione a tecla F.
+
+- Para adicionar cortes as faces pressione a tecla K e com botão esquerdo do mouse vá selecionando onde
+eles serão fetos e para confirmar pressione a tecla Enter.
 
 - Para alterar o tipo de visão de cada objeto pressiona-se Z.
