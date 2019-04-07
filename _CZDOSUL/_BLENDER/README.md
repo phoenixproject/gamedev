@@ -252,7 +252,7 @@ criados novos vértices ligando os pontos selecionados.
 
 Para criar um nova face primeiro é necessário selecionar determinados vértices que estão a sua volta.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/26_preencher_vertices_2.png?raw=true "Criando uma nova face")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/27_preencher_vertices_2.png?raw=true "Criando uma nova face")
 
 E depois pressionar a tecla F.
 
