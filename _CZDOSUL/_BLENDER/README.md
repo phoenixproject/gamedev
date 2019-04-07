@@ -332,4 +332,10 @@ esquerdo pressionado. A cada vértice selecionado deve-se soltar o botão esquer
 Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão criados novos vértices 
 ligando os pontos selecionados. 
 
+Para caso o resultado do Mirror esteja errado, é possível que o pivô (centro de rotação) do
+objeto esteja fora do (0, 0, 0). Para arrumar, no modo Object e com o cursor do mouse em
+cima da viewport: SHIFT + S | Cursor to Center (menu Object | Snap | Cursor to Center da
+viewport). Em seguida, SHIFT + CTRL + ALT + C | Originto 3D Cursor (ou menu Object |
+Transform | Originto 3D Cursor na viewport).
+
 - Para alterar o tipo de visão de cada objeto pressiona-se Z.
