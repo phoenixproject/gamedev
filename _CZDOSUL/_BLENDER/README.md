@@ -256,6 +256,13 @@ Para criar um nova face primeiro é necessário selecionar determinados vértice
 
 E depois pressionar a tecla F.
 
+### Dissolve Edges (Removendo linhas entre vértices)
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/28_dissolve_edges.png?raw=true "Dissolve Edges")
+
+Para remover uma linha entre vértices selecione a edge (linha), pressione a tecla X (ou Delete) e no menu Delete, escolha a opção Dissolve Edges.
+Repare que na figura foram circulados 2 vértices que estão no meio da linha quase que imperceptíveis.
+
 ### Background Image
 
 Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
