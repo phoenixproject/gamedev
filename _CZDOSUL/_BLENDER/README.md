@@ -263,6 +263,12 @@ E depois pressionar a tecla F.
 Para remover uma linha entre vértices selecione a edge (linha), pressione a tecla X (ou Delete) e no menu Delete, escolha a opção Dissolve Edges.
 Repare que na figura foram circulados 2 vértices que estão no meio da linha quase que imperceptíveis.
 
+### Juntar Vértices 
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/29_juntar_vertices.png?raw=true "Juntar Vértices")
+
+Para juntar vértices selecione os que deverão ser juntados com as teclas Alt + M e no menu que se abrirá selecione o item At Center.
+
 ### Background Image
 
 Para adicionar uma imagem de background no painel Properties deve-se marcar a opção Background Images
@@ -352,6 +358,9 @@ cima de onde ele se encontra.
 esquerdo pressionado. A cada vértice selecionado deve-se soltar o botão esquerdo para selecionar outro vértice. 
 Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão criados novos vértices 
 ligando os pontos selecionados. 
+
+- Para deselecionar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
+do meio pressionado. A cada vértice selecionado deve-se soltar o botão do meio para deselecionar outro vértice. 
 
 - Para caso o resultado do Mirror esteja errado, é possível que o pivô (centro de rotação) do
 objeto esteja fora do (0, 0, 0). Para arrumar, no modo Object e com o cursor do mouse em
