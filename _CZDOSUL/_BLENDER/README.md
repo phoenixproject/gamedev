@@ -211,7 +211,8 @@ Para escolher o UV Image Editor siga no Menu Principal > UV Image Editor.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/21_removedoubles.png?raw=true "Remove Doubles (removendo vértices duplicados)")
 
-Para remover vértices duplicados selecione todos os vértices do objeto com a tecla A, em seguida pressione a tecla Espaço e digite Remove Doubles.
+Para remover vértices duplicados selecione todos os vértices do objeto com a tecla A, em seguida pressione a tecla Espaço e digite Remove Doubles ou apenas
+selecione os vérices, pressione a tecla W e no menu que se abrirá selecione Remove Doubles.
 
 ### Projetar uma imagem UV 3D como é vista para uma 2D
 
@@ -268,6 +269,17 @@ Repare que na figura foram circulados 2 vértices que estão no meio da linha qu
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/29_juntar_vertices.png?raw=true "Juntar Vértices")
 
 Para juntar vértices selecione os que deverão ser juntados com as teclas Alt + M e no menu que se abrirá selecione o item At Center.
+
+### Juntar Linhas (Bridge Edge Loops)
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/30_bridge_edge_loops_1.png?raw=true "Selecionar Linhas")
+
+Para juntar linhas selecione as que deverão ser juntadas a partir de seus vértices (usando a seleção de vértices normal com a tecla B e botão 
+esquerdo do mouse) e pressionando a tecla Espaço digite Bridge Edge Loops, selecione a opção e clique com o mouse.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/31_bridge_edge_loops_2.png?raw=true "Linhas Selecionadas formando Faces")
+
+Após o comando realizado a seleção ficará como a que está acima.
 
 ### Background Image
 
