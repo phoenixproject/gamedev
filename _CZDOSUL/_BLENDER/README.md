@@ -264,7 +264,7 @@ E depois pressionar a tecla F.
 Para remover uma linha entre vértices selecione a edge (linha), pressione a tecla X (ou Delete) e no menu Delete, escolha a opção Dissolve Edges.
 Repare que na figura foram circulados 2 vértices que estão no meio da linha quase que imperceptíveis.
 
-### Juntar Vértices 
+### Juntar Vértices (Merge - At Center)
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/29_juntar_vertices.png?raw=true "Juntar Vértices")
 
@@ -280,6 +280,16 @@ esquerdo do mouse) e pressionando a tecla Espaço digite Bridge Edge Loops, sele
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/31_bridge_edge_loops_2.png?raw=true "Linhas Selecionadas formando Faces")
 
 Após o comando realizado a seleção ficará como a que está acima.
+
+### Para duplicar objetos vá o menu Object > Duplicate Objects.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/32_duplicate_objects.png?raw=true "Duplicar Objetos")
+
+### Para duplicar vértices de um mesh selecione os vértices a serem duplicados, vá em Mesh > Add Duplicate
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/33_duplicate_mesh.png?raw=true "Add Duplicate")
+
+Ou pressine as teclas SHIFT + D após os vértices terem sido selecionados.
 
 ### Background Image
 
