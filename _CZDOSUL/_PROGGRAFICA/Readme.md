@@ -14,7 +14,7 @@
 ##### [What is Tessellation? Graphics Tech w/ Epic Games](http://www.youtube.com/watch?v=wg2lP6Xv6a4)<br/>
 ##### [Texture Maps Explained - PBR Workflow](http://www.youtube.com/watch?v=PjGCtnEDDeU)<br/>
 ##### [Graphics shaders](https://www.cs.vu.nl/~eliens/download/literatuur-shaders.pdf)<br/>
-##### [3d-game-shaders-for-beginners](Graphics shaders)<br/>
+##### [3d-game-shaders-for-beginners](https://github.com/lettier/3d-game-shaders-for-beginners)<br/>
 ##### [Shader](https://en.wikipedia.org/wiki/Shader)<br/>
 ##### [Game Graphics 101: Rendering 2D on GPU. Shaders](http://ithare.com/game-graphics-101-rendering-2d-on-gpu-shaders/)<br/>
 ##### [Guia de iniciantes para programação de shaders gráficos](https://gamedevelopment.tutsplus.com/pt/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)<br/>
