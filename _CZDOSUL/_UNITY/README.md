@@ -5,7 +5,7 @@ CST em Jogos Digitais - Unity
 
 ### Assets (Recursos)
 
-É tudo que você pode importar para o seu jogo (sons, imagens, etc). Quando se está programando games em Java esse
+É tudo que você pode importar para o seu jogo (sons, imagens, fases, etc). Quando se está programando games em Java esse
 diretório costuma ser chamado de res.
 
 ### Hierarchy 
@@ -19,6 +19,10 @@ Os objetos podem ser selecionados tanto clicando neles na cena quanto clicando e
 objetos vazios sem padrão.
 Tudo contido numa cena da Unity é objeto e todos os objetos estão sujeitos a serem manipulados
 nos sentidos X, Y, Z e terem suas posições e tamanhos(escala) alterados nesses eixos.
+
+### Objetos Primitivos
+
+Entre esses objetos podemos destacar o cubo, o cilindro, a esfera, etc.
 
 ### Objeto Câmera
 
@@ -45,12 +49,19 @@ Basicamente as texturas entram dentro desses Materiais que serão aplicados a ob
 Quando se obtém algum textura de algum lugar (Google por exemplo), basta importá-la
 para dentro de sua zona de Assets e arrastá-la para dentro da propriedade Albedo 
 de dentro do Material que você quer que obtenha esta textura.	
+Os materials são basicamente uma forma de se adicionar uma textura ou uma cor a seu objeto.
 
 ### Os 3 pilares das Unity são:
 
 Cenas > Objetos > Componentes. E eles praticamente seguem essa hieraquia de um estar
 dentro do outro. Componente estaria dentro de Objeto que por consequência está dentro
 da Cena.
+Para a Unity toda a vez em que você cria uma fase de um jogo na verdade você está criando
+uma Cena. Ou seja cada tela do jogo é uma Cena.
+
+### Aba Inpector
+
+Ela é responsável para exibir os atributos dos objetos.
 
 ### Componentes (encontrados na aba Inspector quando um objeto é selecionado)
 
@@ -68,7 +79,14 @@ entre eles, que seja sua altura por exemplo, ao invés de alterar um a um manual
 dentro da aba Hierarchy o objeto que deseja servir de modelo e o arrasta para dentro de um dos
 diretórios que estão dentro da pasta Assets na aba Project. Ao fazer isso ele se torna um Prefab
 e a partir disso ele poderá ser replicado em números infintos de objetos e qualquer alteração que 
-for feita em um será replicada para todos os outros.
+for feita em um será replicada para todos os outros. Em outras palavras também podemos chamá-lo de 
+container.
+
+### Box Collider (Collisor)
+
+O Box Collider assim como outros colisores podem ser aplicados a um prefab para criar uma estrutura
+de colisão no objeto. Após inserida essa propriedade é possível alterar o parâmetros de limites
+do colisor.
 
 ### Rigibody
 
@@ -76,6 +94,9 @@ Todos os objetos  na Unity são estáticos por si só. Eles não interagem uns c
 E para que essa interação aconteça ao selecionar um objeto, na aba Inspector adicionamos
 um componente de nome Rigibody. Esse componente é reponsável por dar vida ao objeto tornando-o
 interativo. E a partir desse momento o objeto começa reagir a física, começa a se movimentar, etc.
+Ele basicamente aplica os efeitos de físicas que temos na vida real para o objeto, fazendo inclusive
+que outros objetos passem a colidir (ter efeitos de colisão) com estes objetos que possuam a
+propriedade Rigibody.
 
 ### Colisor
 
