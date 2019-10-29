@@ -1,3 +1,5 @@
+###### [Sintaxe básica de escrita e formatação no GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
+
 # son
 School of Net
 
@@ -36,49 +38,49 @@ rastrear dentro do console da Unity o que está acontecendo no nosso jogo.
 
 ### Tipos de Váriaveis da Unity
 
-- GameObject : serve para guardar (todos os tipos de) objetos da Unity.
-- Rigidbody : serve (quando declarado no código) para capturar o componente
-Rigidbody do objeto a que pertence o script. 
-O componente Rigidbody do objeto é obtido a partir do momento em que a 
+- __GameObject__ : serve para guardar (todos os tipos de) objetos da Unity.
+- __Rigidbody__ : serve (quando declarado no código) para capturar o componente
+__Rigidbody__ do objeto a que pertence o script. 
+O componente __Rigidbody__ do objeto é obtido a partir do momento em que a 
 função GetComponent é chamada (como no código abaixo). Após isso
 será possível manipular esse componente do objeto em questão.
 
 ```csharp
-    Rigidbody rigidbody;
+    __Rigidbody__ __Rigidbody__;
     
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        __Rigidbody__ = GetComponent<__Rigidbody__>();
     }
 ```
 
 ### Movimentando um objeto com o função AddForce
 
-Após ter capturado o componente Rigidbody de um objeto é possível
+Após ter capturado o componente __Rigidbody__ de um objeto é possível
 movimentá-lo fisicamente com o método AddForce.
-Invocado pelo componente Rigidbody quando tratamos de ambiente 3d
+Invocado pelo componente __Rigidbody__ quando tratamos de ambiente 3d
 devemos informar três parâmetros para um novo objeto Vector3 (que é 
 utilizado como parâmetro de entrada da função AddForce.
 Estes três parâmetros são basicamente os eixos X, Y e Z correspondentes
-a posição do componente Transform pertencente ao objeto a que o script
+a posição do componente __Transform__ pertencente ao objeto a que o script
 se refere. No exemplo abaixo foi inserida uma variável de nome velocidade
 que multiplicará cada um do eixos individualamente.
 
 ```csharp
-    Rigidbody rigidbody;
+    __Rigidbody__ __Rigidbody__;
 	float velocidade = 10f;
     
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        __Rigidbody__ = GetComponent<__Rigidbody__>();
     }
 	
 	// Update is called once per frame
     void Start()
     {
-        rigidbody.AddForce(new Vector3(0,0,1) * velocidade);
+        __Rigidbody__.AddForce(new Vector3(0,0,1) * velocidade);
     }
 ```
 
@@ -128,4 +130,31 @@ vezes enquanto a pessoa pressiona o mouse apenas uma vez.
 Portanto parar corrigir a situação acima caso precise obter apenas o momento
 em que o mouse é clicado (e não que permanece) utiliza-se a função: Input.GetMouseButtonDown(0);
 
-### Movimentando
+### Rotacionando objetos (Rotate)
+
+O componente __Transform__ assim como o __Rigidbody__ permitem que seja possível
+rotacionar um objeto. 
+Uma observação é que quando o script está atrelado ao objeto não é 
+preciso chamar a função GetComponent pois __somente_ o componente __Transform__ é um componente
+fixo, ou seja, a grosso modo seria uma espécie de variável global do objeto (não necessariamente esta
+é a definição correta).
+Assim como é feita a movimentação do objeto com a função AddForce, para rotacionar objetos
+usando o componente __Transform__ também é necessário receber como atributo um objeto do tipo
+Vector3.
+
+```csharp
+    
+	float velocidadeRotacao = 4f;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+	
+	// Update is called once per frame
+    void Start()
+    {
+        transform.Rotate(new Vector3(1, 1, 1) * velocidadeRotacao);
+    }
+```
