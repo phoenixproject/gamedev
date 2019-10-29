@@ -3,6 +3,8 @@ CST em Jogos Digitais - Unity
 
 ## Estrutura básica da Unity
 
+Todo o sistema da Unity é baseado em componentes.
+
 ### Assets (Recursos)
 
 É tudo que você pode importar para o seu jogo (sons, imagens, fases, etc). Quando se está programando games em Java esse
@@ -86,17 +88,23 @@ container.
 
 O Box Collider assim como outros colisores podem ser aplicados a um prefab para criar uma estrutura
 de colisão no objeto. Após inserida essa propriedade é possível alterar o parâmetros de limites
-do colisor.
+do colisor. Em outra palavras tornamos o objeto sólido e a partir de agora
+outros objetos não conseguem passar entre ele. 
+Quando se adiciona um Box Collider a um determinado tipo de objeto (como um plano por exemplo)
+ele já fica exatamente no formato desse objeto.
+Vale lembrar que determinados tipos de objetos tem seus tipos de colisores como por exemplo
+o Sphere Collider exclusivo para a esfera.
 
 ### Rigibody
 
-Todos os objetos  na Unity são estáticos por si só. Eles não interagem uns com os outros.
+Todos os objetos na Unity são estáticos por si só. Eles não interagem uns com os outros.
 E para que essa interação aconteça ao selecionar um objeto, na aba Inspector adicionamos
 um componente de nome Rigibody. Esse componente é reponsável por dar vida ao objeto tornando-o
 interativo. E a partir desse momento o objeto começa reagir a física, começa a se movimentar, etc.
 Ele basicamente aplica os efeitos de físicas que temos na vida real para o objeto, fazendo inclusive
 que outros objetos passem a colidir (ter efeitos de colisão) com estes objetos que possuam a
-propriedade Rigibody.
+propriedade Rigibody. Em suma, Rigibody é um component que adiciona
+propriedades físicas ao objeto.
 
 ### Colisor
 
