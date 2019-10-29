@@ -158,3 +158,42 @@ Vector3.
         transform.Rotate(new Vector3(1, 1, 1) * velocidadeRotacao);
     }
 ```
+
+### Adicionando Tag ao objeto
+
+Quando uma __Tag__ é adicionada a um objeto entende-se que a mesma funciona como uma espécie de "id" para
+este objeto no qual será utilizado para identificá-la.
+Esta __Tag__ pode ser acessada pelo objeto pelo atributo **name** dentro da propriedade __Transform__ contida
+no objeto.
+
+### Destroy(GameObject gameObject) (método para destruir um objeto)
+
+A sintaxe é basicamente como está abaixo, a função Destroy remove o 
+objeto da memória do programa.
+
+```csharp
+    
+	// Instanciando um novo GameObject
+	GameObject gameObject = new GameObject();
+	
+	// Destruindo o objeto GameObject
+	Destroy(gameObject);
+```
+
+### Método OnCollisionEnter (Detectando colisões no objeto)
+
+Quando implementamos o método OnCollisionEnter o parâmetro recebido em sua assinatura
+remete ao objeto que foi colidido durante a execução do game.
+No exemplo abaixo a partir de uma comparação de nome de __Tag__ é chamada a função Destroy para que
+o objeto que foi colidido seja destruído com a função Destroy. 
+ 
+```csharp
+    
+	private void OnCollisionEnter(Collision objetocolidido)
+    {
+        if (objetocolidido.transform.CompareTag("Pontos"))
+        {
+            Destroy(objetocolidido.gameObject);
+        }
+    }
+```
