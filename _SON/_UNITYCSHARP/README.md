@@ -53,6 +53,35 @@ será possível manipular esse componente do objeto em questão.
     }
 ```
 
+### Movimentando um objeto com o função AddForce
+
+Após ter capturado o componente Rigidbody de um objeto é possível
+movimentá-lo fisicamente com o método AddForce.
+Invocado pelo componente Rigidbody quando tratamos de ambiente 3d
+devemos informar três parâmetros para um novo objeto Vector3 (que é 
+utilizado como parâmetro de entrada da função AddForce.
+Estes três parâmetros são basicamente os eixos X, Y e Z correspondentes
+a posição do componente Transform pertencente ao objeto a que o script
+se refere. No exemplo abaixo foi inserida uma variável de nome velocidade
+que multiplicará cada um do eixos individualamente.
+
+```csharp
+    Rigidbody rigidbody;
+	float velocidade = 10f;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        rigidbody = GetComponent<Rigidbody>();
+    }
+	
+	// Update is called once per frame
+    void Start()
+    {
+        rigidbody.AddForce(new Vector3(0,0,1) * velocidade);
+    }
+```
+
 ### Detectando o teclado do usuário
 
 Sempre que for necessário ser feita uma detecção de ações do teclado isso

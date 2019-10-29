@@ -16,28 +16,38 @@ public class Jogador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Parâmetros de Vector3(X,Y,Z)
+
         // Se foi pressionado a seta para cima
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            Debug.Log("Frente");
+            //Debug.Log("Frente");
+            // Para frente no eixo Z
+            rigidbody.AddForce(new Vector3(0, 0, 1) * velocidade);
         }
 
         // Se foi pressionado a seta para baixo
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            Debug.Log("Trás");
+            //Debug.Log("Trás");
+            // Para trás no eixo Z
+            rigidbody.AddForce(new Vector3(0, 0, -1) * velocidade);
         }
 
         // Se foi pressionado a seta para esquerda
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            Debug.Log("Esquerda");
+            //Debug.Log("Esquerda");
+            // Para esquerda no eixo X
+            rigidbody.AddForce(new Vector3(-1, 0, 0) * velocidade);
         }
 
         // Se foi pressionado a seta para direita
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            Debug.Log("Direita");
+            //Debug.Log("Direita");
+            // Para direita no eixo X
+            rigidbody.AddForce(new Vector3(1, 0, 0) * velocidade);
         }
     }
 }
