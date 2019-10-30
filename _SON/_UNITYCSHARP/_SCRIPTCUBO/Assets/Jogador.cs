@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
-    Rigidbody rigidbody;
+    Rigidbody rigidbodyJogador;
     float velocidade = 10f;
-
+    AudioSource audio;
+    
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        rigidbodyJogador = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,7 +25,7 @@ public class Jogador : MonoBehaviour
         {
             //Debug.Log("Frente");
             // Para frente no eixo Z
-            rigidbody.AddForce(new Vector3(0, 0, 1) * velocidade);
+            rigidbodyJogador.AddForce(new Vector3(0, 0, 1) * velocidade);
         }
 
         // Se foi pressionado a seta para baixo
@@ -31,7 +33,7 @@ public class Jogador : MonoBehaviour
         {
             //Debug.Log("Trás");
             // Para trás no eixo Z
-            rigidbody.AddForce(new Vector3(0, 0, -1) * velocidade);
+            rigidbodyJogador.AddForce(new Vector3(0, 0, -1) * velocidade);
         }
 
         // Se foi pressionado a seta para esquerda
@@ -39,7 +41,7 @@ public class Jogador : MonoBehaviour
         {
             //Debug.Log("Esquerda");
             // Para esquerda no eixo X
-            rigidbody.AddForce(new Vector3(-1, 0, 0) * velocidade);
+            rigidbodyJogador.AddForce(new Vector3(-1, 0, 0) * velocidade);
         }
 
         // Se foi pressionado a seta para direita
@@ -47,7 +49,21 @@ public class Jogador : MonoBehaviour
         {
             //Debug.Log("Direita");
             // Para direita no eixo X
-            rigidbody.AddForce(new Vector3(1, 0, 0) * velocidade);
+            rigidbodyJogador.AddForce(new Vector3(1, 0, 0) * velocidade);
+        }
+    }
+
+    private void OnCollisionEnter(Collision objetocolidido)
+    {
+        if (objetocolidido.transform.CompareTag("Pontos"))
+        {
+            Destroy(objetocolidido.gameObject);
+
+            GameObject pontos = GameObject.FindGameObjectWithTag("ObjetoDePontos");
+            pontos.GetComponent<Pontuador>().Pontuar();
+
+            audio.Play();
+            // Debug.Log(objetocolidido.transform.name);
         }
     }
 }

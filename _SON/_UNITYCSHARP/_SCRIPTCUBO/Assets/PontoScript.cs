@@ -19,12 +19,4 @@ public class PontoScript : MonoBehaviour
         //transform.Rotate(new Vector3(1, 1, 1) * velocidadeRotacao);    
         transform.Rotate(rotacao * velocidadeRotacao);
     }
-
-    private void OnCollisionEnter(Collision objetocolidido)
-    {
-        if (objetocolidido.transform.CompareTag("Pontos"))
-        {
-            Destroy(objetocolidido.gameObject);
-        }
-    }
 }

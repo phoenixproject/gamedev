@@ -162,7 +162,8 @@ Vector3.
 ### Adicionando Tag ao objeto
 
 Quando uma __Tag__ é adicionada a um objeto entende-se que a mesma funciona como uma espécie de "id" para
-este objeto no qual será utilizado para identificá-la.
+este objeto no qual será utilizado para identificá-la ou melhor dizendo é uma forma para organizar objetos
+em grupos.
 Esta __Tag__ pode ser acessada pelo objeto pelo atributo **name** dentro da propriedade __Transform__ contida
 no objeto.
 
@@ -197,3 +198,18 @@ o objeto que foi colidido seja destruído com a função Destroy.
         }
     }
 ```
+
+### Transformando objetos em Prefabs
+
+Para transformar um objeto num __Prefab__ basta arrastá-lo da área de __Hierarchy__ para dentro
+da área de __Assets__. A partir do momento que se torna um __Prefab__ o objeto pode ser espalhado
+pelo jogo como se fosse apenas um "clone" de seu original pois não importam quantas cópias desse
+__Prefab__ existirem todos terão o mesmo tipo de comportamento do objeto que deu origem. Inclusive
+se forem referenciados por __Tag__ fica mais simples para interagir com eles.
+
+### Acessando variáveis
+
+Quando deixamos as variáveis dentro dos scripts com o modificador de acesso **public**
+as mesmas passam a ser acessíveis e podem ser modificadas dentro da Unity.
+
+### Audio Source
