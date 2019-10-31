@@ -22,6 +22,10 @@ threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
 É basicamente desenhar na tela o gráfico do jogo ou mostrar os gráficos na tela.
 
+### Frame 
+
+É um intervalo de tempo entre 1 milisegundo até 6 milisegundos
+
 ### FPS (Frames por segundo)
 
 É o intervalo de frames exibidos na tela.

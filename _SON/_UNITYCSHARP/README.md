@@ -21,7 +21,14 @@ suas principais funções.
 ### Método Start
 
 Esse método executa apenas uma vez, ou seja, sempre que a aplicação feita
-na Unity inicia.
+na Unity inicia. Em outras palavras ela executa sempre que seu objeto é carregado
+na cena.
+
+### Método Awake
+
+Esse método executa apenas uma vez na inicialização assim como o método Start, porém 
+ele executa antes do Start e também executa mesmo o script de execução ter sido desabilitado
+dentro da Unity.
 
 ### Método Update
 
@@ -29,7 +36,38 @@ Este método executa a todo momento como se estivesse dentro de um loop.
 Conceitualmente um jogo roda em um loop infinito até que seja dado a ordem
 para que ele termine. Portanto este método segue essa mesma linha de raciocínio
 pois só finaliza quando o jogo é finalizado.
-O método Update executa a cada milisegundo.
+O método Update executa a cada milisegundo, em outras palavras ela executa a cada frame.
+Situações como detecção de tecla pressionada devem ser feitas nesse método porque
+não exigem tanto processamento já que o método tem um tempo de execução variável.
+
+### Método LateUpdate
+
+A diferença entre este método e o Update é que este sempre executa após do método Update.
+Códigos como os de câmera seguindo o jogador logo após a movimentação realizada dentro do
+método Update devem ser feitas dentro deste método.
+
+### Método FixedUpdate
+
+Este método executa do mesmo modo que o Update com a única diferença que enquanto o método
+Update com o passar do tempo vai variando o tempo de duração de sua execução, o FixedUpdate
+sempre executa com a mesma duração de tempo. 
+Efeitos de física, de renderização, movimentação de personagem, colisão, de iluminação 
+ou algum outro trabalho que requer muito processamento da Unity devem ser executados 
+dentro deste método.
+Segue um exemplo abaixo para ser visto no console.
+
+```csharp
+    // Update is called once per frame
+    void Update()
+    {
+        Debug.Log("Tempo do Update: " + Time.deltaTime);
+    }
+
+    void FixedUpdate()
+    {
+        Debug.Log("Tempo do Fixed Update: " + Time.deltaTime);
+    }
+```
 
 ### Método Debug
 
@@ -46,12 +84,12 @@ função GetComponent é chamada (como no código abaixo). Após isso
 será possível manipular esse componente do objeto em questão.
 
 ```csharp
-    __Rigidbody__ __Rigidbody__;
+    Rigidbody rigidbodyJogador;
     
     // Start is called before the first frame update
     void Start()
     {
-        __Rigidbody__ = GetComponent<__Rigidbody__>();
+        rigidbodyJogador = GetComponent<Rigidbody>();
     }
 ```
 
@@ -68,19 +106,19 @@ se refere. No exemplo abaixo foi inserida uma variável de nome velocidade
 que multiplicará cada um do eixos individualamente.
 
 ```csharp
-    __Rigidbody__ __Rigidbody__;
+    Rigidbody rigidbodyJogador;
 	float velocidade = 10f;
     
     // Start is called before the first frame update
     void Start()
     {
-        __Rigidbody__ = GetComponent<__Rigidbody__>();
+        rigidbodyJogador = GetComponent<Rigidbody>();
     }
 	
 	// Update is called once per frame
     void Start()
     {
-        __Rigidbody__.AddForce(new Vector3(0,0,1) * velocidade);
+        rigidbodyJogador.AddForce(new Vector3(0, 0, 1) * velocidade);
     }
 ```
 
@@ -211,5 +249,9 @@ se forem referenciados por __Tag__ fica mais simples para interagir com eles.
 
 Quando deixamos as variáveis dentro dos scripts com o modificador de acesso **public**
 as mesmas passam a ser acessíveis e podem ser modificadas dentro da Unity.
+
+### Time.deltaTime
+
+É o tempo entre a execução de uma função para outra. É um intervalo de tempo de execução.
 
 ### Audio Source
