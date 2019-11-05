@@ -250,6 +250,23 @@ se forem referenciados por __Tag__ fica mais simples para interagir com eles.
 Quando deixamos as variáveis dentro dos scripts com o modificador de acesso **public**
 as mesmas passam a ser acessíveis e podem ser modificadas dentro da Unity.
 
+### Adicionando Componentes a Objetos (AddComponent)
+
+Para adicionar componentes aos objetos dinanicamente é possível usando a função **AddComponent**.
+
+```csharp
+    
+	private void OnCollisionEnter(Collision objetocolidido)
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            gameObject.AddComponent<Rigidbody>();
+        }
+    }
+```
+
+### Seguindo um objeto com a câmera (Look at)
+
 ### Time.deltaTime
 
 É o tempo entre a execução de uma função para outra. É um intervalo de tempo de execução.
