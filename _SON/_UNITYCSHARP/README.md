@@ -205,6 +205,23 @@ em grupos.
 Esta __Tag__ pode ser acessada pelo objeto pelo atributo **name** dentro da propriedade __Transform__ contida
 no objeto.
 
+### Capturando o objeto pela Tag (FindWithTag)
+
+Para capturar um (uns) objeto (objetos) pela sua __Tag__ deve se utilizar a função FindWithTag.
+No exemplo abaixo o destruímos logo após o capturarmos.
+
+```csharp
+    GameObject CAP;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        CAP = GameObject.FindWithTag("Cap");
+        Destroy(CAP,5f);
+    }
+```
+
+
 ### Destroy(GameObject gameObject) (método para destruir um objeto)
 
 A sintaxe é basicamente como está abaixo, a função Destroy remove o 
@@ -215,8 +232,74 @@ objeto da memória do programa.
 	// Instanciando um novo GameObject
 	GameObject gameObject = new GameObject();
 	
-	// Destruindo o objeto GameObject
+	// Destruindo esse objeto GameObject 
 	Destroy(gameObject);
+```
+
+Destruindo um objeto instanciado após ter presisonado uma tecla.
+
+```csharp
+    public GameObject obj;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.D))
+        {
+            // Destruindo objeto
+            Destroy(obj);            
+        }
+    }
+```
+
+Destruindo um objeto instanciado após 5 segundos e ter presisonado uma tecla.
+
+```csharp
+    public GameObject obj;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.D))
+        {
+            // Destruindo objeto com intervalo de tempo (5 segundos)
+            Destroy(obj,5f);
+        }
+    }
+```
+
+Destruindo o próprio objeto relacionado ao script após ter presisonado uma tecla.
+
+```csharp
+    public GameObject obj;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.D))
+        {
+            // Auto destruindo o próprio objeto do script
+            Destroy(gameObject);
+        }
+    }
 ```
 
 ### Método OnCollisionEnter (Detectando colisões no objeto)
@@ -266,6 +349,35 @@ Para adicionar componentes aos objetos dinanicamente é possível usando a funç
 ```
 
 ### Seguindo um objeto com a câmera (Look at)
+
+### Interpolação Linear
+
+Interpolação linear é basicamente a alteração da intensidade da luz de forma gradativa.
+
+```csharp
+    
+    Light luz;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        luz = GetComponent<Light>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // A função Mathf.Lerp espera valores:
+        // inicial, final e de decrésimo
+        // No caso abaixo a intensidade atual da luz como valor inicial,
+        // o 0f (em float) é até onde esperamos que ela chegue e
+        // o valor 0.005f é alterado a cada milisegundo.
+        //luz.intensity = Mathf.Lerp(luz.intensity, 0f, 0.005f);
+        luz.intensity = Mathf.Lerp(luz.intensity, 0f, Time.deltaTime);
+    }
+```
+
+Isso pode ser usado para fazer entardecer ou anoitecer de um game.
 
 ### Time.deltaTime
 
