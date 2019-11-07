@@ -376,8 +376,179 @@ Interpolação linear é basicamente a alteração da intensidade da luz de form
         luz.intensity = Mathf.Lerp(luz.intensity, 0f, Time.deltaTime);
     }
 ```
+### Gerar objetos (Instatiate)
 
-Isso pode ser usado para fazer entardecer ou anoitecer de um game.
+A função deste método é basicamente fazer com que com que objetos
+possam ser instanciados em massa a partir de um modelo (um prefab por exemplo).
+No exemplo abaixo podemos vver que a função Instantiate é chamada utilizando
+o parâmetro **Vector3** que possui os parâmetros de localização tridimensional no
+cenário (eixos x, y e z) e que tem direta ligação com o componente __Transform__
+de cada objeto pois este componente é responsável para determinar a localização
+dos objetos.
+Adiante tem um valor no parâmetro da função chamado de **Quaternion.identity**
+que quer dizer que o objeto criado não irá ser rotacionado, ou seja, não irá
+ficar rodando entre si no mesmo mesmo eixo como é padrão da função __Vector3__
+caso esse parâmetro não seja adicionado.
+
+```csharp
+    public GameObject objeto;
+    float z = 1f;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Instantiate(objeto, new Vector3(0f, 0f, z), Quaternion.identity);
+            z += 1f;
+        }
+    }
+```
+
+Isso pode ser usado para fazer surgir vários itens ou personagens na tela.
+
+### Função para executar funçõe (Invoke e InvokeRepeating)
+
+A função **Invoke** pode ser chamada para invocar um método
+de forma tardia da forma abaixo.
+
+```csharp    
+    public GameObject objeto;
+    float z = 1f;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Invoke("GerarObjeto", 2f);
+        }
+    }
+```
+Ou também pode ser usada a função **InvokeRepeating**
+que permite além de invocar um método definir a partir
+de qual tempo (segundos no caso abaixo) deverá ser executado
+e o último parâmetro e quantas vezes ela deverá ser repetida.
+
+```csharp
+    public GameObject objeto;
+    float z = 1f;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        InvokeRepeating("GerarObjeto", 7f, 70f);
+    }
+
+    void GerarObjeto()
+    {
+        Instantiate(objeto, new Vector3(z, z, z), Quaternion.identity);
+        z += 1f;
+    }
+```
+
+### Criando menus interativos com Enum
+
+Enums são basicamente um array de valores pré determinados e imutáveis
+em que podemos consultar e a partir deles executar determinada ação.
+
+No exemplo abaixo um **Enum** é criado com os valores baixo, medio e alto
+e em seguida na condicional **if** esses valores são alterados a partir
+da escolha de determinado **Enum** em modo gráfico.
+
+```csharp
+    public enum Lumininosidade { baixo, medio, alto };
+    public Lumininosidade nivelDeIntensidade;
+    Light luz;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        luz = GetComponent<Light>();
+
+        if(nivelDeIntensidade == Lumininosidade.baixo)
+        {
+            // Debug.Log("Baixo");
+            luz.intensity = 0.2f;
+        }
+        else
+            if (nivelDeIntensidade == Lumininosidade.medio)
+            {
+                // Debug.Log("Médio");
+                luz.intensity = 0.7f;
+            }
+            else
+            {
+                // Debug.Log("Alto");
+                luz.intensity = 1.2f;
+            }
+    }
+```
+
+### Criando Rotinas
+
+As rotinas são representadas quando declaramos um método do tipo **IEnumerator**.
+A partir da criação do mesmo é definido na linha abaixo a partir de quando
+a ação dentro desse método deverá ser executada (no caso abaixo a adição
+do valor da variável após 2 segundos).
+
+```csharp
+	yield return new WaitForSeconds(2.0f);
+	variavelDeTeste = !variavelDeTeste;
+```
+
+A ação dentro desse método também pode ser executada antes do intervalo de
+2 segundos. Então seria executada e depois aguardado 2 segundos.
+
+```csharp	
+	variavelDeTeste = !variavelDeTeste;
+	yield return new WaitForSeconds(2.0f);
+```
+
+Para chamar a rotina (**Couroutine**) utilizamos a sintaxe abaixo.
+
+```csharp
+	StartCoroutine("RotinaDeTeste");
+```
+
+No fim a rotina completa ficará desta forma:
+
+```csharp
+    public bool variavelDeTeste;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        StartCoroutine("RotinaDeTeste");
+    }
+
+    IEnumerator RotinaDeTeste()
+    {
+        yield return new WaitForSeconds(2.0f);
+        variavelDeTeste = !variavelDeTeste;
+    }
+```
 
 ### Time.deltaTime
 
