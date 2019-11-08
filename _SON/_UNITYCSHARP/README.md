@@ -550,6 +550,32 @@ No fim a rotina completa ficará desta forma:
     }
 ```
 
+### Character Controller
+
+Componente responsável pela movimentação de um personagem.
+Usado também para movimentação em determinada direção como no 
+exemplo abaixo:
+
+```csharp
+    private CharacterController ControllerObjeto;
+    public float velocidade = 10.0f;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        ControllerObjeto = GetComponent<CharacterController>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Os parâmetros abaixo querem dizer:
+        // Uma casa da Unity (Vector3.forward) vezes a velocidade (10) por segundo (Time.deltaTime).
+        // Em outras palavras está se movimentando a 10 casas por segundo.
+        ControllerObjeto.Move(Vector3.forward * velocidade * Time.deltaTime);
+    }
+```
+
 ### Time.deltaTime
 
 É o tempo entre a execução de uma função para outra. É um intervalo de tempo de execução.
