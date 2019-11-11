@@ -57,16 +57,16 @@ dentro deste método.
 Segue um exemplo abaixo para ser visto no console.
 
 ```csharp
-    // Update is called once per frame
-    void Update()
-    {
-        Debug.Log("Tempo do Update: " + Time.deltaTime);
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		Debug.Log("Tempo do Update: " + Time.deltaTime);
+	}
 
-    void FixedUpdate()
-    {
-        Debug.Log("Tempo do Fixed Update: " + Time.deltaTime);
-    }
+	void FixedUpdate()
+	{
+		Debug.Log("Tempo do Fixed Update: " + Time.deltaTime);
+	}
 ```
 
 ### Método Debug
@@ -84,13 +84,13 @@ função GetComponent é chamada (como no código abaixo). Após isso
 será possível manipular esse componente do objeto em questão.
 
 ```csharp
-    Rigidbody rigidbodyJogador;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        rigidbodyJogador = GetComponent<Rigidbody>();
-    }
+	Rigidbody rigidbodyJogador;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		rigidbodyJogador = GetComponent<Rigidbody>();
+	}
 ```
 
 ### Movimentando um objeto com o função AddForce
@@ -106,20 +106,20 @@ se refere. No exemplo abaixo foi inserida uma variável de nome velocidade
 que multiplicará cada um do eixos individualamente.
 
 ```csharp
-    Rigidbody rigidbodyJogador;
+	Rigidbody rigidbodyJogador;
 	float velocidade = 10f;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        rigidbodyJogador = GetComponent<Rigidbody>();
-    }
-	
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		rigidbodyJogador = GetComponent<Rigidbody>();
+	}
+
 	// Update is called once per frame
-    void Start()
-    {
-        rigidbodyJogador.AddForce(new Vector3(0, 0, 1) * velocidade);
-    }
+	void Start()
+	{
+		rigidbodyJogador.AddForce(new Vector3(0, 0, 1) * velocidade);
+	}
 ```
 
 ### Detectando o teclado do usuário
@@ -130,7 +130,7 @@ deverá ser feito dentro do método update.
 ### Input
 
 Este método serve para detectar todos os tipos de entrada do usuário
-na Unity. Seja por toque na tela, clique de mouse, teclado do teclado
+na Unity. Seja por toque na tela, clique de mouse, teclado do teclado, joysticks
 e etc, qualquer forma de interação do usuário com o a Unity.
 
 #### Input.GetKey() 
@@ -180,21 +180,20 @@ Assim como é feita a movimentação do objeto com a função AddForce, para rot
 usando o componente __Transform__ também é necessário receber como atributo um objeto do tipo
 Vector3.
 
-```csharp
-    
+```csharp    
 	float velocidadeRotacao = 4f;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-	
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
 	// Update is called once per frame
-    void Start()
-    {
-        transform.Rotate(new Vector3(1, 1, 1) * velocidadeRotacao);
-    }
+	void Start()
+	{
+		transform.Rotate(new Vector3(1, 1, 1) * velocidadeRotacao);
+	}
 ```
 
 ### Adicionando Tag ao objeto
@@ -211,14 +210,14 @@ Para capturar um (uns) objeto (objetos) pela sua __Tag__ deve se utilizar a fun�
 No exemplo abaixo o destruímos logo após o capturarmos.
 
 ```csharp
-    GameObject CAP;
+	GameObject CAP;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        CAP = GameObject.FindWithTag("Cap");
-        Destroy(CAP,5f);
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		CAP = GameObject.FindWithTag("Cap");
+		Destroy(CAP,5f);
+	}
 ```
 
 
@@ -227,11 +226,10 @@ No exemplo abaixo o destruímos logo após o capturarmos.
 A sintaxe é basicamente como está abaixo, a função Destroy remove o 
 objeto da memória do programa.
 
-```csharp
-    
+```csharp    
 	// Instanciando um novo GameObject
 	GameObject gameObject = new GameObject();
-	
+
 	// Destruindo esse objeto GameObject 
 	Destroy(gameObject);
 ```
@@ -239,67 +237,67 @@ objeto da memória do programa.
 Destruindo um objeto instanciado após ter presisonado uma tecla.
 
 ```csharp
-    public GameObject obj;
+	public GameObject obj;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.D))
-        {
-            // Destruindo objeto
-            Destroy(obj);            
-        }
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		if (Input.GetKey(KeyCode.D))
+		{
+			// Destruindo objeto
+			Destroy(obj);            
+		}
+	}
 ```
 
 Destruindo um objeto instanciado após 5 segundos e ter presisonado uma tecla.
 
 ```csharp
-    public GameObject obj;
+	public GameObject obj;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.D))
-        {
-            // Destruindo objeto com intervalo de tempo (5 segundos)
-            Destroy(obj,5f);
-        }
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		if (Input.GetKey(KeyCode.D))
+		{
+			// Destruindo objeto com intervalo de tempo (5 segundos)
+			Destroy(obj,5f);
+		}
+	}
 ```
 
 Destruindo o próprio objeto relacionado ao script após ter presisonado uma tecla.
 
 ```csharp
-    public GameObject obj;
+	public GameObject obj;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.D))
-        {
-            // Auto destruindo o próprio objeto do script
-            Destroy(gameObject);
-        }
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		if (Input.GetKey(KeyCode.D))
+		{
+			// Auto destruindo o próprio objeto do script
+			Destroy(gameObject);
+		}
+	}
 ```
 
 ### Método OnCollisionEnter (Detectando colisões no objeto)
@@ -309,15 +307,14 @@ remete ao objeto que foi colidido durante a execução do game.
 No exemplo abaixo a partir de uma comparação de nome de __Tag__ é chamada a função Destroy para que
 o objeto que foi colidido seja destruído com a função Destroy. 
  
-```csharp
-    
+```csharp    
 	private void OnCollisionEnter(Collision objetocolidido)
-    {
-        if (objetocolidido.transform.CompareTag("Pontos"))
-        {
-            Destroy(objetocolidido.gameObject);
-        }
-    }
+	{
+		if (objetocolidido.transform.CompareTag("Pontos"))
+		{
+			Destroy(objetocolidido.gameObject);
+		}
+	}
 ```
 
 ### Transformando objetos em Prefabs
@@ -337,15 +334,14 @@ as mesmas passam a ser acessíveis e podem ser modificadas dentro da Unity.
 
 Para adicionar componentes aos objetos dinanicamente é possível usando a função **AddComponent**.
 
-```csharp
-    
+```csharp    
 	private void OnCollisionEnter(Collision objetocolidido)
-    {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            gameObject.AddComponent<Rigidbody>();
-        }
-    }
+	{
+		if (Input.GetKeyDown(KeyCode.G))
+		{
+			gameObject.AddComponent<Rigidbody>();
+		}
+	}
 ```
 
 ### Seguindo um objeto com a câmera (Look at)
@@ -354,27 +350,26 @@ Para adicionar componentes aos objetos dinanicamente é possível usando a funç
 
 Interpolação linear é basicamente a alteração da intensidade da luz de forma gradativa.
 
-```csharp
-    
-    Light luz;
+```csharp    
+	Light luz;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        luz = GetComponent<Light>();
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		luz = GetComponent<Light>();
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        // A função Mathf.Lerp espera valores:
-        // inicial, final e de decrésimo
-        // No caso abaixo a intensidade atual da luz como valor inicial,
-        // o 0f (em float) é até onde esperamos que ela chegue e
-        // o valor 0.005f é alterado a cada milisegundo.
-        //luz.intensity = Mathf.Lerp(luz.intensity, 0f, 0.005f);
-        luz.intensity = Mathf.Lerp(luz.intensity, 0f, Time.deltaTime);
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		// A função Mathf.Lerp espera valores:
+		// inicial, final e de decrésimo
+		// No caso abaixo a intensidade atual da luz como valor inicial,
+		// o 0f (em float) é até onde esperamos que ela chegue e
+		// o valor 0.005f é alterado a cada milisegundo.
+		//luz.intensity = Mathf.Lerp(luz.intensity, 0f, 0.005f);
+		luz.intensity = Mathf.Lerp(luz.intensity, 0f, Time.deltaTime);
+	}
 ```
 ### Gerar objetos (Instatiate)
 
@@ -391,23 +386,23 @@ ficar rodando entre si no mesmo mesmo eixo como é padrão da função __Vector3
 caso esse parâmetro não seja adicionado.
 
 ```csharp
-    public GameObject objeto;
-    float z = 1f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public GameObject objeto;
+	float z = 1f;
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Instantiate(objeto, new Vector3(0f, 0f, z), Quaternion.identity);
-            z += 1f;
-        }
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.W))
+		{
+			Instantiate(objeto, new Vector3(0f, 0f, z), Quaternion.identity);
+			z += 1f;
+		}
+	}
 ```
 
 Isso pode ser usado para fazer surgir vários itens ou personagens na tela.
@@ -418,22 +413,23 @@ A função **Invoke** pode ser chamada para invocar um método
 de forma tardia da forma abaixo.
 
 ```csharp    
-    public GameObject objeto;
-    float z = 1f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public GameObject objeto;	
+	float z = 1f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Invoke("GerarObjeto", 2f);
-        }
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.W))
+		{
+			Invoke("GerarObjeto", 2f);
+		}
+	}
 ```
 Ou também pode ser usada a função **InvokeRepeating**
 que permite além de invocar um método definir a partir
@@ -441,25 +437,26 @@ de qual tempo (segundos no caso abaixo) deverá ser executado
 e o último parâmetro e quantas vezes ela deverá ser repetida.
 
 ```csharp
-    public GameObject objeto;
-    float z = 1f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public GameObject objeto;
+	float z = 1f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        InvokeRepeating("GerarObjeto", 7f, 70f);
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
-    void GerarObjeto()
-    {
-        Instantiate(objeto, new Vector3(z, z, z), Quaternion.identity);
-        z += 1f;
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		InvokeRepeating("GerarObjeto", 7f, 70f);
+	}
+
+	void GerarObjeto()
+	{
+		Instantiate(objeto, new Vector3(z, z, z), Quaternion.identity);
+		z += 1f;
+	}
 ```
 
 ### Criando menus interativos com Enum
@@ -472,32 +469,32 @@ e em seguida na condicional **if** esses valores são alterados a partir
 da escolha de determinado **Enum** em modo gráfico.
 
 ```csharp
-    public enum Lumininosidade { baixo, medio, alto };
-    public Lumininosidade nivelDeIntensidade;
-    Light luz;
+	public enum Lumininosidade { baixo, medio, alto };
+	public Lumininosidade nivelDeIntensidade;
+	Light luz;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        luz = GetComponent<Light>();
+	// Start is called before the first frame update
+	void Start()
+	{
+		luz = GetComponent<Light>();
 
-        if(nivelDeIntensidade == Lumininosidade.baixo)
-        {
-            // Debug.Log("Baixo");
-            luz.intensity = 0.2f;
-        }
-        else
-            if (nivelDeIntensidade == Lumininosidade.medio)
-            {
-                // Debug.Log("Médio");
-                luz.intensity = 0.7f;
-            }
-            else
-            {
-                // Debug.Log("Alto");
-                luz.intensity = 1.2f;
-            }
-    }
+		if(nivelDeIntensidade == Lumininosidade.baixo)
+		{
+			// Debug.Log("Baixo");
+			luz.intensity = 0.2f;
+		}
+		else
+			if (nivelDeIntensidade == Lumininosidade.medio)
+			{
+				// Debug.Log("Médio");
+				luz.intensity = 0.7f;
+			}
+			else
+			{
+				// Debug.Log("Alto");
+				luz.intensity = 1.2f;
+			}
+	}
 ```
 
 ### Criando Rotinas
@@ -581,3 +578,11 @@ exemplo abaixo:
 É o tempo entre a execução de uma função para outra. É um intervalo de tempo de execução.
 
 ### Audio Source
+
+### Tipos de Toque no Android
+
+- Began
+- Move
+- Stationary
+- Ended
+- Cancelled
