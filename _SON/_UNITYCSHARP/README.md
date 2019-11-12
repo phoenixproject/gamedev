@@ -581,7 +581,7 @@ exemplo abaixo:
 
 ### Tipos de Toque no Android
 
-- Began
+- Began :
 - Move
 - Stationary
 - Ended
