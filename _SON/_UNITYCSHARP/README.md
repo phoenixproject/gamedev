@@ -586,3 +586,13 @@ exemplo abaixo:
 - Stationary
 - Ended
 - Cancelled
+
+### Considerações Úteis e Importantes
+
+- Toda a vez em que uma variável dentro de um script C# for declarada como pública automaticamente
+ela será exibida no componente __Script__ dentro da Unity e lá também pode ter seu valor alterado
+(além de dentro do script).
+- Toda a vez em que for declarado dentro do script algum componente que seja nativo da Unity (Rigidbody,
+Rigidbody2D, Transform, etc) para que determinado componente do objeto seja referenciado dentro do script
+é preciso além de deixá-lo como modificador **public** arrastar o componente desejado para dentro da variável
+escolhida no componente __Script__ na Unity (não no Visual Studio).

@@ -95,7 +95,7 @@ ele já fica exatamente no formato desse objeto.
 Vale lembrar que determinados tipos de objetos tem seus tipos de colisores como por exemplo
 o Sphere Collider exclusivo para a esfera.
 
-### Rigibody
+### Rigidbody
 
 Todos os objetos na Unity são estáticos por si só. Eles não interagem uns com os outros.
 E para que essa interação aconteça ao selecionar um objeto, na aba Inspector adicionamos
