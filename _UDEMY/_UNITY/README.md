@@ -39,3 +39,51 @@ Dentro do componente __Rigidbody__ __2D__ logo de início quando temos um __Game
 __Sprite__ adicionado é recomendável alterar o valor do atributo **Gravity** **Scale** para **0**
 porque como o componente contém toda a física do objeto ao pressionar o botão Play da Unity o mesmo
 já inicia caindo no cenário.
+
+### Criando objetos vazios
+
+Para criar objetos vazios clique com o botão direito dentro de sua __Sample__ __Scene__ e no menu
+que se abrirá escolhe **Create Empty**. Lembrando que um objeto (vazio ou não) por padrão sempre
+traz consigo o componente Transform que é responsável por representar sua localização e sua forma
+na cena. Esse componente pode ser alterado através de um script C# através das funções **Vector3**
+e **Vector2**.
+
+### Delimitando área de movimentação para um objeto 2D
+
+Toda a vez que precisamos acessar/capturar a posição de um objeto utilizamos o componente (já instanciado)
+transform e seu atributo position. A partir do momento me que a posição do objeto (transform.position) 
+recebe um novo obejto do tipo Vector3 o mesmo espera 3 parâmetros de posições espaciais de entrada porque 
+se trata de um componente que trabalha com posicionamento tridimensional (x, y e z). 
+Contudo para que nosso objeto trafegue no espaço 2D dentro de uma certa limitação de espaço utilizamos 
+a função Mathf.Clamp que estabelece restrição de movimento a partir de 3 parâmetros: a posição referencial 
+(de onde o objeto está), a posição limite em determinado eixo e outra posição em determinado eixo.
+
+No caso do código abaixo para cada parâmetro de entrada do objeto Vector3 (x, y e z) estabelecemos também um parâmetro
+a partir da restrição de cada um em seus eixos: x, y e z. No caso do eixo z (profundidade) como estamos 
+trabalhando especificamente com objetos 2D não há necessidade de restrição de movimento porque não se trabalha 
+com este eixo e aí o que vale é posição z natural do objeto transform.
+
+Lembrando que os objetos bottomLeftLimit e topRightLimit já tiveram seus valores iniciais no componente Transform
+alterados na Unity para poderem servir como limitadores nos parâmetros dos métodos abaixo ( _bottomLeftLimit_ teve
+seu componente __Transform__ alterado para que sua posição inicial permaneça no canto inferior esquerdo 
+da área delimitada pelo objeto **MainCamera**, bem como o _topRightLimit_ teve sua posição inicial alterada para
+permanecer no canto superior direito da área delimitada pelo objeto **MainCamera**.
+
+```csharp
+	public float moveSpeed;
+	public Rigidbody2D theRB;
+
+	public Transform bottomLeftLimit, topRightLimit;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
+	}
+```
