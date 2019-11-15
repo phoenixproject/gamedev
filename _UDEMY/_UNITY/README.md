@@ -87,3 +87,23 @@ permanecer no canto superior direito da área delimitada pelo objeto **MainCamer
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
 	}
 ```
+
+### Add Background 
+
+Ao arrastar um arquivo .png (por exemplo) para a cena podemos na Unity alinhá-lo em relação a outros objetos.
+
+Ao arrastarmos esse arquivo no componente chamado __Sprite__ __Renderer__, mais precisamento em _Additional_ _Settings_,
+podemos alterar a ordem em que os objetos ficam um por cima (ou por baixo) dos outros alterarando o atributo
+**Order in Layer**. Nesse caso se colocamos se colocamos o número 0 (por exemplo) neste componente deste objeto,
+podemos inserir o número 1 em outro __Sprite__ __Renderer__ de outro objeto para que ele se sobreponha a 
+ao objeto anterior ou -1 para que este fique abaixo do objeto anterior. Para que não tenha efeito todos os objetos
+deverão estar com o valor 0; 
+
+Outra opção existente e mais recomendada é utilizar-se do atributo **Sorting Layer** que permite que sejam 
+criados nomes para as layers e ordenados, sendo que quanto mais acima o layer estiver, mais por trás dos
+objetos da cena ele estará e quanto mais abaixo, mais acima estará dos objetos da cena. É preciso também
+após criados os layers, identificá-los nos objetos desejados.
+
+Os layers ficarão ordenados como na figura abaixo.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_shooting_layers.png?raw=true "Sorting Layer")
