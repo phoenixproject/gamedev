@@ -106,5 +106,4 @@ após criados os layers, identificá-los nos objetos desejados.
 
 Os layers ficarão ordenados como na figura abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_shooting_layers.png?raw=true "Sorting Layer")
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/01_menu_janelas.png?raw=true "Menu de janelas")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_shooting_layers.PNG?raw=true "Sorting Layer")
