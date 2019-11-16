@@ -596,3 +596,5 @@ ela será exibida no componente __Script__ dentro da Unity e lá também pode te
 Rigidbody2D, Transform, etc) para que determinado componente do objeto seja referenciado dentro do script
 é preciso além de deixá-lo como modificador **public** arrastar o componente desejado para dentro da variável
 escolhida no componente __Script__ na Unity (não no Visual Studio).
+- Quando criar um script e por algum motivo escrever seu nome de maneira incorreta não o corrija. Apague o 
+script, crie um novo com o nome correto e rea
