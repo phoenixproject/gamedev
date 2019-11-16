@@ -113,12 +113,12 @@ Os layers ficarão ordenados como na figura abaixo.
 - Para expandir uma área de background: arraste um bitmap (jpeg, png) para dentro da cena e se preferir arraste outros
 backgrounds em frente aos outros (duplicando o bitmap existente sempre que precisar colocar um mais a frente). Lembrando
 que quando for colocar o outro a sua frente uma regra básica para que dois bitmaps fiquem juntos é: 
- - Selecione o bitmap 2 (BG2) na aba __Hierarchy__;
- - Selecione a aba __Scene__;
- - Pressione a tecla **V** no teclado na borda superior à esquerda do bitmap 2 para selecioná-la (com a ferramenta 
- **Move Tool** selecionada);
- - Mantendo a tecla **V** pressionada arraste com o mouse para a esquerda em direção ao bitmap 1 (BG1) que o **Snap** entre
- as figuras será realizado como na figura abaixo.
+  - Selecione o bitmap 2 (BG2) na aba __Hierarchy__;
+  - Selecione a aba __Scene__;
+  - Pressione a tecla **V** no teclado na borda superior à esquerda do bitmap 2 para selecioná-la (com a ferramenta 
+  **Move Tool** selecionada);
+  - Mantendo a tecla **V** pressionada arraste com o mouse para a esquerda em direção ao bitmap 1 (BG1) que o **Snap** entre
+  as figuras será realizado como na figura abaixo.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/02_space_shooting_background_snap.png?raw=true "Background Snap")
 
