@@ -120,5 +120,5 @@ que quando for colocar o outro a sua frente uma regra básica para que dois bitm
  - Mantendo a tecla **V** pressionada arraste com o mouse para a esquerda em direção ao bitmap 1 (BG1) que o **Snap** entre
  as figuras será realizado como na figura abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_background_snap.png?raw=true "Background Snap")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_shooting_background_snap.png?raw=true "Background Snap")
 
