@@ -1,6 +1,6 @@
 ###### [Sintaxe básica de escrita e formatação no GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
 
-## Projeto Space Shoot - Projeto 2D
+## Projeto Space Shoot - Projeto 2D (Unity versão: 2019.2.11f1)
 
 ### Layout utilizado na Unity
 
@@ -108,7 +108,7 @@ Os layers ficarão ordenados como na figura abaixo.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_shooting_layers.PNG?raw=true "Sorting Layer")
 
-### Scrolling the Background / Bitmap Snap
+### Scrolling the Background / Bitmap Snap / Background Câmera / Background Holder
 
 - Para expandir uma área de background: arraste um bitmap (jpeg, png) para dentro da cena e se preferir arraste outros
 backgrounds em frente aos outros (duplicando o bitmap existente sempre que precisar colocar um mais a frente). Lembrando
@@ -120,5 +120,35 @@ que quando for colocar o outro a sua frente uma regra básica para que dois bitm
   - Mantendo a tecla **V** pressionada arraste com o mouse para a esquerda em direção ao bitmap 1 (BG1) que o **Snap** entre
   as figuras será realizado como na figura abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/02_space_shooting_background_snap.png?raw=true "Background Snap")
+  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/02_space_shooting_background_snap.png?raw=true "Background Snap")
 
+- É aconselhável alterar o background da câmera com a cor de fundo do background utilizado no fundo da cena
+no intuito de não causar uma impressão bruta na área em que os dois fazem divisa.
+- Para que os backgrounds não fiquem desorganizados na aba **Hierarchy** deve-se criar um objeto vazio (como será para suporte à backgrounds
+o chamaremos de _BG_ _Holder_) e em seu componente __Transform__ alterar todos os valores de x, y e z do atributo **Position** para 0 
+e arrastar os dois backgrounds ( _BG1_ e _BG2_) para dentro dele.
+- Notadamente podemos inserir vários backgrounds um atrás do outro, mas não é este o caso aqui. Nessa situação teremos
+apenas 2 backgrounds e a câmera irá percorrê-los até chegar ao final do segundo para aí então retornar ao início
+do 1º background e fazer isso sucessivamente dando o aspecto de continuidade. O procedimento começa na criação de um
+script C# e lá declarando duas variáveis públicas do tipo __Transform__ que representarão os 2 backgrounds. Em seguida devemos arrastar
+este script para dentro do objeto _BG_ _Holder_. Feito isso também devemos arrastar cada background contido dentro do objeto _BG_ _Holder_ 
+( _BG1_ e _BG2_) para dentro de cada variável pública que representa os objetos, respectivamente. O resumo fica descrito no script abaixo.
+
+```csharp
+	public float moveSpeed;
+	public Rigidbody2D theRB;
+
+	public Transform bottomLeftLimit, topRightLimit;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
+	}
+```

@@ -596,5 +596,10 @@ ela será exibida no componente __Script__ dentro da Unity e lá também pode te
 Rigidbody2D, Transform, etc) para que determinado componente do objeto seja referenciado dentro do script
 é preciso além de deixá-lo como modificador **public** arrastar o componente desejado para dentro da variável
 escolhida no componente __Script__ na Unity (não no Visual Studio).
-- Quando criar um script e por algum motivo escrever seu nome de maneira incorreta não o corrija. Apague o 
-script, crie um novo com o nome correto e rea
+- Se após ter criado um script precisar renomeá-lo após ter sido salvo, não faça isso. Apague o 
+script, crie um novo com o nome correto porque insconsistências podem acontecer na Unity. Isso também
+pode valer para a criação de objetos e componentes (não sei ao certo).
+- Para acessar variáveis do tipo private nos scripts é preciso ativar o modo **Debug** da Unity. Para isso
+Vá no canto superior direito da tela e logo abaixo de onde está ativado o modo para mudança de __Layout__
+e ao lado direito de onde está desenhado um cadeado, clique no simbolo da lista à sua direita e acesse o menu abaixo.
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_son_debug_mode.png?raw=true "Debug Mode")
