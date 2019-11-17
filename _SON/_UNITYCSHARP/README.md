@@ -602,4 +602,5 @@ pode valer para a criação de objetos e componentes (não sei ao certo).
 - Para acessar variáveis do tipo private nos scripts é preciso ativar o modo **Debug** da Unity. Para isso
 Vá no canto superior direito da tela e logo abaixo de onde está ativado o modo para mudança de __Layout__
 e ao lado direito de onde está desenhado um cadeado, clique no simbolo da lista à sua direita e acesse o menu abaixo.
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_son_debug_mode.png?raw=true "Debug Mode")
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_son_debug_mode.PNG?raw=true "Debug Mode")
