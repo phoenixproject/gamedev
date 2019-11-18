@@ -199,3 +199,10 @@ A ideia é movimentar objetos assim como os backgrounds pode ser aplicada de for
 ```
 
 Após adicionado o script ao objeto desejado basta alterar o valor da variável moveSpeed como desejado.
+
+### Making Solid Meteors
+
+Para adicionar objetos que apenas colidam com outros sprites (digo aqui sprites colidindo com sprites) devemos
+adicionar o componente __Box__ __Collider__ __2D__ em cada componente que deseja criar colisão. E para que 
+o objeto que colidiu não ficar girando é preciso ir até o atributo **Constraints** do componente __Rigidbody2D__
+e marcar o valor _Z_ do parâmetro **Freeze Rotation**.
