@@ -175,4 +175,27 @@ dar um efeito de parallax é só alterar (na Unity) o valor da variável scrollS
 
 ### Adding Depth & Moving Objects
 
-A ideia é movimentar objetos assim como os backgrounds
+A ideia é movimentar objetos assim como os backgrounds pode ser aplicada de forma similar a de cima usando o script abaixo.
+
+```csharp
+	public float moveSpeed;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+```
+
+Após adicionado o script ao objeto desejado basta alterar o valor da variável moveSpeed como desejado.
