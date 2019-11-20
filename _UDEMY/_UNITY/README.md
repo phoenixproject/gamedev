@@ -200,9 +200,130 @@ A ideia é movimentar objetos assim como os backgrounds pode ser aplicada de for
 
 Após adicionado o script ao objeto desejado basta alterar o valor da variável moveSpeed como desejado.
 
+Vale ressaltar que a função __OnBecameInvisible()_ permite que se insira algum tipo de código aí dentro
+que possa ser executado quando o objeto não mais está vísivel na tela.
+
 ### Making Solid Meteors
 
 Para adicionar objetos que apenas colidam com outros sprites (digo aqui sprites colidindo com sprites) devemos
 adicionar o componente __Box__ __Collider__ __2D__ em cada componente que deseja criar colisão. E para que 
 o objeto que colidiu não ficar girando é preciso ir até o atributo **Constraints** do componente __Rigidbody2D__
 e marcar o valor _Z_ do parâmetro **Freeze Rotation**.
+
+### Creating a Laser Shot / Firing Shots
+
+Para que um objeto cause uma destruição de outro objeto após uma colisão é preciso que o componente
+__Rigidbody2D__ (adicionado ao objeto) que vai destruir outro esteja com o atributo __Body__ __Type__ marcado como **Kinematic**.
+Bem como o componente __Box__ __Collider__ __2D__ também tenha sido adicionado com o atributo **Is** **Trigger** marcado.
+
+O script abaixo é utilizado no mesmo objeto
+
+```csharp
+	public float shotSpeed = 7f;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position += new Vector3(shotSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnTriggerEnter2D(Collider2D outroobjeto)
+	{
+		Destroy(this.gameObject);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(this.gameObject);
+	}
+```
+
+Feito isso podemos tornar este objeto um __Prefab__.
+Lembrando que toda a alteração feita no _prefab_ de um objeto ao selecionar o objeto
+que originou esse _prefab_, dentro da aba __Inspector__ pode ser acionada a opção **Override**
+para que as alterações feitas no _prefab_ possam ser implementadas também no objeto original,
+que inclusive pode ser excluído em seguida.
+
+Seguindo no menu __Edit_ e opção __Project__ __Settings__ > __Input__ > __Axes__ > __Fire1__, 
+alterar o valor do atributo **Positive** **Button** para **j**.
+
+Acrescentando os atributos _shotPoint_ e _shot_ e inserindo o tratamento para capturar o evento
+do botão qeu que simboliza a ação de atirar ( __Fire1__ ) e instanciando um novo objeto **shot**
+e o alocando nos eixo do objeto do tipo __Transform__, **shotPoint**.
+
+Tudo isso partindo do princípio de que dentro do objeto __Player__ contido em __Hierarchy__ foi
+criado um objeto vazio de nome __Fire__ __Point__ responsável para lançar o tiro (shot) da nave.
+
+```csharp
+	public float moveSpeed;
+	public Rigidbody2D theRB;
+
+	public Transform bottomLeftLimit, topRightLimit;
+
+	public Transform shotPoint { get; set; }
+	public GameObject shot { get; set; }
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		// A propriedade velocidade do componente Rigidbody 2D da Unity recebe a posição horizontal e vertical
+		// do objeto multiplicado pela velocidade declarada dentro do Visual Studio e inicializada do lado de fora
+		// na Unity.
+		theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * moveSpeed;
+
+		// Toda a vez que precisamos acessar/capturar a posição de um objeto utilizamos o componente (já instanciado)
+		// transform e seu atributo position.
+		// A partir do momento me que a posição do objeto (transform.position) recebe um novo obejto do tipo Vector3
+		// o mesmo espera 3 parâmetros de posições espaciais de entrada porque se trata de um componente que trabalha 
+		// com posicionamento tridimensional (x, y e z). Contudo para que nosso objeto trafegue no espaço 2D dentro de
+		// uma certa limitação de espaço utilizamos a função Mathf.Clamp que estabelece restrição de movimento a partir
+		// de 3 parâmetros: a posição referencial (de onde o objeto está), a posição limite em determinado eixo e outra
+		// posição em determinado eixo.
+		// No caso abaixo para cada parâmetro de entrada do objeto Vector3 (x, y e z) estabelecemos também um parâmetro
+		// a partir da restrição de cada um em seus eixos: x, y e z. No caso do eixo z (profundidade) como estamos 
+		// trabalhando especificamente com objetos 2D não há necessidade de restrição de movimento porque não se trabalha
+		// com este eixo e aí o que vale é posição z natural do objeto transform.
+		// Lembrando que os objetos bottomLeftLimit e topRightLimit já tiveram seus valores iniciais no componente Transform
+		// alterados na Unity para poderem servir como limitadores nos parâmetros dos métodos abaixo.
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
+
+		// Toda a vez em que for presisonado a tecla correspondente ao "Fire" (tiro) será instanciado um novo objeto
+        // do tipo GameObject e terá sua posição de acordo com o objeto do tipo Transform correspondente.
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(shot, shotPoint.position, shotPoint.rotation);
+        }
+	}
+```
+
+Após realizada a alteração no script acima deve-se arrastar o objeto __Fire__ __Point__ para dentro do atributo público **Shot Point** 
+e o __Prefab__ **PlayerShot** para dentro do atributo público **Shot**. Ambos contidos no script **PlayerController** anexado ao objeto
+__Player__ pertencente a aba __Hierarchy__. Deve ficar como na figura abaixo. 
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/03_space_shooting_firing_shots.png?raw=true "Firing Shots")
+
+Feito isso é possível pressionar o botão **Play**, movimentar a nave do jogador e ao apertar a tecla _J_ que o tiro é acionado. Ressaltando
+que para alterar a posição do shot é preciso alterar a posição do objeto __Fire__ __Point__ com a ferramenta **Move Tool**, já que _prefab_
+está associado a ele.
+
+Adiante entraremos novamente em __Project__ __Settings__ e retirar os atributos que envolvem tanto o objeto __Player__ quanto __Player__ __Shot__
+da secção __Phisics__ __2D__ como no quadro abaixo.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/04_space_shooting_phisics_2d.png?raw=true "Phisics 2D")
+
+Prosseguindo, vale lembrar que o componente __Sprite__ __Renderer__ tanto do _prefab_ __PlayerShot__ quando dos _space_ _objects_ possui um
+atributo **Sorting Layer** para que os mesmos sejam organizados.
+
+Lembrando também que para adicionar um áudio ao objeto a um __Prefab__ basta arrastá-lo até o mesmo.

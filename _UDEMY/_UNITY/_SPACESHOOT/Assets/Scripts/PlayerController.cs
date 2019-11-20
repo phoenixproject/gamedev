@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
 
     public Transform bottomLeftLimit, topRightLimit;
 
+    public Transform shotPoint;
+    public GameObject shot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,5 +41,12 @@ public class PlayerController : MonoBehaviour
         // Lembrando que os objetos bottomLeftLimit e topRightLimit já tiveram seus valores iniciais no componente Transform
         // alterados na Unity para poderem servir como limitadores nos parâmetros dos métodos abaixo.
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
+
+        // Toda a vez em que for presisonado a tecla correspondente ao "Fire" (tiro) será instanciado um novo objeto
+        // do tipo GameObject e terá sua posição de acordo com o objeto do tipo Transform correspondente.
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(shot, shotPoint.position, shotPoint.rotation);
+        }
     }
 }
