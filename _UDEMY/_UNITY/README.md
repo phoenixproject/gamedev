@@ -6,6 +6,7 @@
 
 Window > Layout > 2 by 3
 
+#### The Player & Backgrounds
 
 ### Aspecto pixelado
 
@@ -19,7 +20,7 @@ da área **Defaut** alteramos o valor **Max Size** para **64** e em
 ### Criando um objeto para receber um sprite
 
 Para criarmos um objeto que nos permita utilizá-lo na cena ( __Scene__ ) como
-sprite 2d devemos seguir no menu  __Game__ __Object__ > __2D__ __Object__ > __Sprite__ . 
+sprite 2d devemos seguir no menu  **Game Object** > **2D Object** > **Sprite** . 
 
 ### Rigidbody 2D
 
@@ -48,7 +49,7 @@ traz consigo o componente Transform que é responsável por representar sua loca
 na cena. Esse componente pode ser alterado através de um script C# através das funções **Vector3**
 e **Vector2**.
 
-### Delimitando área de movimentação para um objeto 2D
+### Delimitando área de movimentação para um objeto 2D (Keep the Player on Screen)
 
 Toda a vez que precisamos acessar/capturar a posição de um objeto utilizamos o componente (já instanciado)
 transform e seu atributo position. A partir do momento me que a posição do objeto (transform.position) 
@@ -209,6 +210,8 @@ Para adicionar objetos que apenas colidam com outros sprites (digo aqui sprites 
 adicionar o componente __Box__ __Collider__ __2D__ em cada componente que deseja criar colisão. E para que 
 o objeto que colidiu não ficar girando é preciso ir até o atributo **Constraints** do componente __Rigidbody2D__
 e marcar o valor _Z_ do parâmetro **Freeze Rotation**.
+
+#### Shots and Explosions
 
 ### Creating a Laser Shot / Firing Shots 
 
@@ -470,3 +473,70 @@ script do tiro a condição para que a destruição desse objecto aconteça.
 		Destroy(this.gameObject);
 	}
 ```
+
+### Particle Explosion Effect
+
+Para criarmos efeitos de explosão devemos seguir em __GameObject__ > __Effects__ > __Particle__ __System__. Em seguida
+ao deixar selecionado o objeto que foi criado seguimos para a aba __Inspector__ e dentro do componente __Particle__ __System__
+alteraremos os valores nos seguintes atributos abaixo. Mas antes dentro de __Transform__ alteraremos o valor do atributo __Rotation__
+em _x_ para 0;
+
+- **Shape** > *Shape* > Circle;
+- **Emission** > *Rate over Time* > 0;
+- **Emission** > *Bursts* > *Clicar no sinal de + para adicionar um valor padrão*;
+- **Duration** > *2.00*;
+- **Start Lifetime** > _1.5_;
+- **Start Speed** > 2;
+- **Renderer** > _Material_ > Sprites-Default;
+- **Renderer** > *Sorting Layer ID* > Shots;
+- **Renderer** > *Order Layer* > -2;
+- **Start Size** > Random Between Two Constants, 0.1, 0.2;
+- **Start Color** > Random Between Two Colors, *Clicar nos campos para preencher as duas cores*; 
+- **Size over Lifetime** > *Clicar para deixar marcado*;
+- **Size over Lifetime** > *Size* > *Clicar para escolher a reta tombada para a esquerda no gráfico Particle System Curves*;
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/09_space_shooting_size_over_lifetime_png?raw=true "Size over Lifetime")
+- **Looping** > *Desmarcar* (pode pressionar Play no painel Particle Effect para testar o efeito);
+
+- Agora clique em **Add Component**, adicinoar o script __Destroy__ __Over__ __Time__ e marcar sua proprieda pública como _1.75_;
+- Insira um __GameObject__ chamado _objectExplosion_ no script __PlayerShot__ e o instancie onde o objeto da tag __Space Object__ é destruído
+como no script abaixo:
+
+```csharp
+	public float shotSpeed = 7f;
+	public GameObject impactEffect;
+
+	public GameObject objectExplosion;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position += new Vector3(shotSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Instantiate(impactEffect, transform.position, transform.rotation);
+
+		if(other.tag == "Space Object")
+		{
+			Instantiate(objectExplosion, other.transform.position, other.transform.rotation);
+			Destroy(other.gameObject);
+		}
+
+		Destroy(this.gameObject);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(this.gameObject);
+	}
+```
+
+- E por fim abra o __Prefab__ e no atributo *Object Explosion* do script __PlayerShot__ arraste o __Prefab__ *Particle System* (aproveite e
+renomeie-o para *Object Explosion Effect*);
