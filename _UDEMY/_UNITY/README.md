@@ -540,3 +540,7 @@ como no script abaixo:
 
 - E por fim abra o __Prefab__ e no atributo *Object Explosion* do script __PlayerShot__ arraste o __Prefab__ *Particle System* (aproveite e
 renomeie-o para *Object Explosion Effect*);
+
+### Health
+
+### Player Health System
