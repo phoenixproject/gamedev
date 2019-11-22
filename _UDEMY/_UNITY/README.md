@@ -210,7 +210,7 @@ adicionar o componente __Box__ __Collider__ __2D__ em cada componente que deseja
 o objeto que colidiu não ficar girando é preciso ir até o atributo **Constraints** do componente __Rigidbody2D__
 e marcar o valor _Z_ do parâmetro **Freeze Rotation**.
 
-### Creating a Laser Shot / Firing Shots
+### Creating a Laser Shot / Firing Shots 
 
 Para que um objeto cause uma destruição de outro objeto após uma colisão é preciso que o componente
 __Rigidbody2D__ (adicionado ao objeto) que vai destruir outro esteja com o atributo __Body__ __Type__ marcado como **Kinematic**.
@@ -319,7 +319,7 @@ que para alterar a posição do shot é preciso alterar a posição do objeto __
 está associado a ele.
 
 Adiante entraremos novamente em __Project__ __Settings__ e retirar os atributos que envolvem tanto o objeto __Player__ quanto __Player__ __Shot__
-da secção __Phisics__ __2D__ como no quadro abaixo.
+da secção __Phisics__ __2D__ como no quadro abaixo porque estes _layers_ não devem interagir com os outros nessa secção.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/04_space_shooting_phisics_2d.png?raw=true "Phisics 2D")
 
@@ -327,3 +327,112 @@ Prosseguindo, vale lembrar que o componente __Sprite__ __Renderer__ tanto do _pr
 atributo **Sorting Layer** para que os mesmos sejam organizados.
 
 Lembrando também que para adicionar um áudio ao objeto a um __Prefab__ basta arrastá-lo até o mesmo.
+
+### Auto Firing
+
+Para que o tiro da nave seja sempre disparado enquanto pressionado o botão de tiro é preciso entender que existe
+uma diferença entre os métodos **Input.GetButtonDown** e **Input.GetButton** porque o primeiro executa apenas uma vez
+apenas quando a tecla é pressionada e o segundo quando a tecla mantém-se pressionada.
+
+É importante que exista uma variável que guarde o intervalo de tempo entre um tiro e outro ( _timeBetweenShots_) e 
+que seja pública para que também possamos alterar seu valor dentro da Unity. Também é necessário que haja uma
+variável _shotCounter_ 
+
+```csharp
+	public float timeBetweenShots = .1f;
+    private float shotCounter;
+```
+
+Dentro do método __Update__ toda a vez em que for mantida pressionada a tecla correspondente ao "Fire" o 
+tiro é instanciado enquanto a ação for verdadeira.
+
+```csharp	
+	if (Input.GetButton("Fire1"))
+	{
+		shotCounter -= Time.deltaTime;
+		if(shotCounter <= 0)
+		{
+			Instantiate(shot, shotPoint.position, shotPoint.rotation);
+			shotCounter = timeBetweenShots;
+		}
+	}
+```
+
+### Shot Impact Effects 
+
+Para exibir efeitos é preciso fazer animações e estas depedem criarmos uma animação. Para isso
+seguidos no Menu __Windows__ > __Animation__ > __Animation__ e em seguida na janela de animação
+que se abrirá a arrastamos sua aba para junto das outras que já existem.
+Em seguida expandimos algum __**Sprite 2D**__ em **Sprite Mode** do tipo _Multiple_ que o botão
+**Create** na aba __Animation__ se abrirá. Logo após clique no botão **Create** para criar uma
+nova animação e depois arraste para a linha do tempo os sprites que desejar como na figura abaixo.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/05_space_shooting_animation.png?raw=true "Animation")
+
+Adicione o keyframe no instante 1:30 como abaixo:
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/06_space_shooting_animation_keyframe.png?raw=true "Animation Keyframe")
+
+E no instante 0:30 desligar o Sprite Renderer.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/07_space_shooting_animation_sprite_renderer_off.png?raw=true "Animation Sprite Renderer Off")
+
+E por fim transformar essa animação em um __Prefab__, criar o script abaixo (de nome **DestroyOverTime**) e associar a esta animação e realizar um _Override_ no mesmo.
+
+```csharp
+	public float lifetime;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		lifetime -= Time.deltaTime;
+		
+		if(lifetime <= 0)
+		{
+			Destroy(gameObject,lifetime);
+		}
+	}
+```
+
+Abrir o script **PlayerShot**, adicionar o objeto **impactEffect** do tipo __GameObject__, acrescentar um Instantiate
+do mesmo dentro do método __OnTriggerEnter2D__, abrir o __Prefab__ _impact effects_, adicionar a propriedade _Shots_
+ao atributo **Sorting Layer** e alterar o valor de **Order in Layer** para _-1_ de seu componente __Sprite__ __Renderer__.
+
+```csharp
+	public float shotSpeed = 7f;
+	public GameObject impactEffect;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position += new Vector3(shotSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Instantiate(impactEffect, transform.position, transform.rotation);
+		Destroy(this.gameObject);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(this.gameObject);
+	}
+```
+
+Em seguida abrir o __Prefab__ **PlayerShot** e no atributo **Impact Effect** do componente que carrega o script **Player Shot** adicionar
+o __Prefab__ **impact effect** como feito abaixo.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/08_space_shooting_impact_effects_on_player_shot.png?raw=true "Impact Effects on Player Shot")

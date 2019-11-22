@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     public Transform shotPoint;
     public GameObject shot;
 
+    public float timeBetweenShots = .1f;
+    private float shotCounter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +50,18 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(shot, shotPoint.position, shotPoint.rotation);
+        }
+
+        // Toda a vez em que for mantida pressionada a tecla correspondente ao "Fire" o 
+        // tiro é instanciado enquanto a ação for verdadeira.
+        if (Input.GetButton("Fire1"))
+        {
+            shotCounter -= Time.deltaTime;
+            if(shotCounter <= 0)
+            {
+                Instantiate(shot, shotPoint.position, shotPoint.rotation);
+                shotCounter = timeBetweenShots;
+            }
         }
     }
 }

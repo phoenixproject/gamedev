@@ -774,8 +774,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1991645601
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5d27820867a79274ca21a6294ee712d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1045,6 +1045,7 @@ MonoBehaviour:
   topRightLimit: {fileID: 598176865}
   shotPoint: {fileID: 2023184981}
   shot: {fileID: 7733918317190768877, guid: 87c7c53b0708e2249b2d5030e1911a46, type: 3}
+  timeBetweenShots: 2
 --- !u!61 &1714046186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1254,7 +1255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023184981}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
