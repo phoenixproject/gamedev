@@ -391,12 +391,7 @@ E por fim transformar essa animação em um __Prefab__, criar o script abaixo (d
 	// Update is called once per frame
 	void Update()
 	{
-		lifetime -= Time.deltaTime;
-		
-		if(lifetime <= 0)
-		{
-			Destroy(gameObject,lifetime);
-		}
+		Destroy(gameObject, lifetime);
 	}
 ```
 
@@ -436,3 +431,42 @@ Em seguida abrir o __Prefab__ **PlayerShot** e no atributo **Impact Effect** do 
 o __Prefab__ **impact effect** como feito abaixo.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/08_space_shooting_impact_effects_on_player_shot.png?raw=true "Impact Effects on Player Shot")
+
+### Destroying Meteors
+
+Para destruir um objeto a partir do tiro criado basta construir uma tag (no nosso caso foi _Space_ _Object_ ) e em seguida colocar no 
+script do tiro a condição para que a destruição desse objecto aconteça.
+
+```csharp
+	public float shotSpeed = 7f;
+	public GameObject impactEffect;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position += new Vector3(shotSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Instantiate(impactEffect, transform.position, transform.rotation);
+
+		if(other.tag == "Space Object")
+		{
+			Destroy(other.gameObject);
+		}
+
+		Destroy(this.gameObject);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(this.gameObject);
+	}
+```
