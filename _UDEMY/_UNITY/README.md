@@ -494,7 +494,7 @@ em _x_ para 0;
 - **Start Color** > Random Between Two Colors, *Clicar nos campos para preencher as duas cores*; 
 - **Size over Lifetime** > *Clicar para deixar marcado*;
 - **Size over Lifetime** > *Size* > *Clicar para escolher a reta tombada para a esquerda no gráfico Particle System Curves*;
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/09_space_shooting_size_over_lifetime_png?raw=true "Size over Lifetime")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/09_space_shooting_size_over_lifetime.png?raw=true "Size over Lifetime")
 - **Looping** > *Desmarcar* (pode pressionar Play no painel Particle Effect para testar o efeito);
 
 - Agora clique em **Add Component**, adicinoar o script __Destroy__ __Over__ __Time__ e marcar sua proprieda pública como _1.75_;
