@@ -548,10 +548,19 @@ renomeie-o para *Object Explosion Effect*);
 Para iniciarmos o processo de gerenciar o sangue, life, vidas do player é preciso criar um script **Health Manager**.
 
 ```csharp
+// Utilizado dessa forma para implementação 
+	// do padrão de projeto Singleton
+	public static HealthManager instance;
+
 	public int currentHealth;
 	public int maxHealth;
 
 	public GameObject deathEffect;
+
+	private void Awake()
+	{
+		instance = this;
+	}
 
 	// Start is called before the first frame update
 	void Start()
@@ -587,6 +596,58 @@ atributo público **Max Health** ter seu valor alterado para 3.
 Para o objeto __meteoro__ contido em __Hierarchy__ adicionamos a este o script **HurtPlayer**.
 
 ```csharp
+	// Start is called before the first frame update
+	void Start()
+	{
+		
+	}
 
+	// Update is called once per frame
+	void Update()
+	{
+		
+	}
+
+	private void OnCollisionEnter2D(Collision2D other)
+	{
+		if(other.gameObject.tag == "Player")
+		{
+			HealthManager.instance.HurtPlayer();
+		}
+	}
 ```
+
+### Making Enemies
+
+- Primeiro devemos ter o sprite 2d que irá fazer o papel do inimigo;
+- Acrescente um script chamado de **EnemyController** e acrescente o código abaixo;
+```csharp
+	public float moveSpeed;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+```
+- Adicione o script acima ao objeto referente ao inimigo (**EnemyGreen** no caso);
+- Altere o atributo **Move Speed** do script para valor 3;
+- Adicione um componente do tipo __Box__ __Collider2D__ ao objeto **EnemyGreen** e clique
+em _Edit Collider_ para diminuir a área de colisão do inimigo;
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/10_space_shooting_making_enemies.png?raw=true "Making Enemies")
+- Crie uma __Tag__ e um __Layer__ com o nome _Enemy_ e adicione ambos ao objeto;
+- Arraste o script **HurtPlayer** para dentro do objeto **EnemyGreen**.
+
+### Enemy Moviment
 

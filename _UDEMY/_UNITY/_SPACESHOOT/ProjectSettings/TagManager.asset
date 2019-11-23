@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Space Object
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - 
   - Player
   - PlayerShot
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -47,6 +48,9 @@ TagManager:
     locked: 0
   - name: Space Objects
     uniqueID: 2303321695
+    locked: 0
+  - name: Enemies
+    uniqueID: 1549130241
     locked: 0
   - name: Shots
     uniqueID: 2869303577
