@@ -651,3 +651,29 @@ em _Edit Collider_ para diminuir a área de colisão do inimigo;
 
 ### Enemy Moviment
 
+- Faça as alteração no código do script **EnemyController** como se segue.
+```csharp
+	public float moveSpeed;
+
+	public Vector2 startDirection;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		// transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
+		transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+```
+- Altere na Unity o atributo público **startDirection** dentro do componente script **EnemyController** no objeto **EnemyGreen** 
+de _X_ para _-1_ e _Y_ para _0.25_.
