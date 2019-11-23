@@ -649,7 +649,7 @@ em _Edit Collider_ para diminuir a área de colisão do inimigo;
 - Crie uma __Tag__ e um __Layer__ com o nome _Enemy_ e adicione ambos ao objeto;
 - Arraste o script **HurtPlayer** para dentro do objeto **EnemyGreen**.
 
-### Enemy Moviment
+### Enemy Movement
 
 - Faça as alteração no código do script **EnemyController** como se segue.
 ```csharp
@@ -677,3 +677,54 @@ em _Edit Collider_ para diminuir a área de colisão do inimigo;
 ```
 - Altere na Unity o atributo público **startDirection** dentro do componente script **EnemyController** no objeto **EnemyGreen** 
 de _X_ para _-1_ e _Y_ para _0.25_.
+
+### Better Movement
+
+Para melhorar os movimentos do inimigo no script **EnemyController** devem constar as alterações do código abaixo.
+
+```csharp
+	public float moveSpeed;
+
+	public Vector2 startDirection;
+
+	public bool shouldChangeDirection;
+	public float changeDirectionXPoint;
+	public Vector2 changedDirection;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		// transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
+		
+		if (!shouldChangeDirection)
+		{
+			transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+		}
+		else
+		{
+			if(transform.position.x > changeDirectionXPoint)
+			{
+				transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+			}
+			else
+			{
+				transform.position += new Vector3(changedDirection.x * moveSpeed * Time.deltaTime, changedDirection.y * moveSpeed * Time.deltaTime, 0f);
+			}
+		}
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+```
+
+Algumas variável foram acrescentadas e a rotina de atualização modificada. Para tanto na Unity devemos alterar os atributos
+públicos contidos no componente que carrega o script **EnemyController** para deixar _marcado_ **Should Change Direction**
+e em **Change Direction** para _-0.75_ em _X_ e _-0.5_ em _Y_.
