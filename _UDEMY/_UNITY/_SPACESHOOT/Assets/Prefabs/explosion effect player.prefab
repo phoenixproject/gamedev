@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7462063791272624530}
   - component: {fileID: 7462063791272624529}
   - component: {fileID: 7462063791272624528}
-  - component: {fileID: 1828361576}
+  - component: {fileID: 4460706240327778690}
   m_Layer: 0
   m_Name: explosion effect player
   m_TagString: Untagged
@@ -68,9 +68,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1425663719
+  m_SortingLayer: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d72b454108ff6f5448808e91b2bb1162, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,7 +101,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1828361576
+--- !u!114 &4460706240327778690
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7462063791272624543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08fecf2099e600843875fd741834eb69, type: 3}
+  m_Script: {fileID: 11500000, guid: 37a32d72c0a123c4c8e1aef68a2ba1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 0
+  lifetime: 0.75

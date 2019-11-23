@@ -544,3 +544,49 @@ renomeie-o para *Object Explosion Effect*);
 ### Health
 
 ### Player Health System
+
+Para iniciarmos o processo de gerenciar o sangue, life, vidas do player é preciso criar um script **Health Manager**.
+
+```csharp
+	public int currentHealth;
+	public int maxHealth;
+
+	public GameObject deathEffect;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		currentHealth = maxHealth;
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+
+	}
+
+	public void HurtPlayer()
+	{
+		currentHealth--;
+
+		if (currentHealth <= 0)
+		{
+			Instantiate(deathEffect, transform.position, transform.rotation);
+			gameObject.SetActive(false);
+		}
+	}
+```
+
+No script acima o **gameObject** não está sendo destruído, mas sim ocultado. E para interagir com os 
+asteróides do game deveremos criar um novo script chamado **HurtPlayer** como o que está abaixo. 
+
+Lembrando que o objeto __Player__ contido em __Hierarchy__ deve a partir de agora ter sua **Tag** identificada
+como _Player_ e o script acima (**Health Manager**) deve também ser adicionado a este objeto, bem como seu
+atributo público **Max Health** ter seu valor alterado para 3.
+
+Para o objeto __meteoro__ contido em __Hierarchy__ adicionamos a este o script **HurtPlayer**.
+
+```csharp
+
+```
+
