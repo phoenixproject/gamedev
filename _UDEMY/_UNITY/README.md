@@ -728,3 +728,47 @@ Para melhorar os movimentos do inimigo no script **EnemyController** devem const
 Algumas variável foram acrescentadas e a rotina de atualização modificada. Para tanto na Unity devemos alterar os atributos
 públicos contidos no componente que carrega o script **EnemyController** para deixar _marcado_ **Should Change Direction**
 e em **Change Direction** para _-0.75_ em _X_ e _-0.5_ em _Y_.
+
+### Creating Enemy Shot
+
+- Para criar um tiro feito pelo inimigo é preciso obter um sprite 2d para representá-lo. Feito isso adicione um componente do
+tipo **BoxCollider2d** a ele e marque seu atributo _Is_ _Trigger_, crie um script chamado **EnemyShot** e adicione o código abaixo.
+
+```csharp
+	public float shotSpeed = 7f;
+	public GameObject impactEffect;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		transform.position += new Vector3(shotSpeed * Time.deltaTime, 0f, 0f);
+	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		Instantiate(impactEffect, transform.position, transform.rotation);
+
+		if (other.tag == "Player")
+		{
+			HealthManager.instance.HurtPlayer();
+		}
+
+		Destroy(this.gameObject);
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(this.gameObject);
+	}
+```
+- Em seguida adicione esse script ao objeto inimigo (**EnemyShoot**) e arraste a animação **impact effect**
+para dentro do atributo público do script chamado **Impact Effect**.
+
+- E para finalizar crie um diretório chamado **Enemies** dentro de __Prefab__ e arraster os dois objetos inimigos
+lá pra dentro (o sprite do tiro (**EnemyShot**) e o sprite da nave inimiga (**EnemyGree**) e exclusa o objeto __EnemyShot__.
