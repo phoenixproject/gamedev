@@ -1495,12 +1495,12 @@ PrefabInstance:
     - target: {fileID: 6032416185627311168, guid: f94dfed22e6f1c548829c2448ae01333,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.09
+      value: 8.73
       objectReference: {fileID: 0}
     - target: {fileID: 6032416185627311168, guid: f94dfed22e6f1c548829c2448ae01333,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 6032416185627311168, guid: f94dfed22e6f1c548829c2448ae01333,
         type: 3}
@@ -1546,6 +1546,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032416185627311171, guid: f94dfed22e6f1c548829c2448ae01333,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032416185627311171, guid: f94dfed22e6f1c548829c2448ae01333,
+        type: 3}
+      propertyPath: canShoot
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f94dfed22e6f1c548829c2448ae01333, type: 3}

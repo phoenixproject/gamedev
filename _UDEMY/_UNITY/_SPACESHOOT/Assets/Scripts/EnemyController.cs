@@ -12,10 +12,18 @@ public class EnemyController : MonoBehaviour
     public float changeDirectionXPoint;
     public Vector2 changedDirection;
 
+    public GameObject shotToFire;
+    public Transform firePoint;
+    public float timeBetweenShots;
+    private float shotCounter;
+
+    public bool canShoot;
+    private bool allowShooting;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        shotCounter = timeBetweenShots;
     }
 
     // Update is called once per frame
@@ -38,10 +46,28 @@ public class EnemyController : MonoBehaviour
                 transform.position += new Vector3(changedDirection.x * moveSpeed * Time.deltaTime, changedDirection.y * moveSpeed * Time.deltaTime, 0f);
             }
         }
+
+        if (allowShooting)
+        {
+            shotCounter -= Time.deltaTime;
+            if (shotCounter <= 0)
+            {
+                shotCounter = timeBetweenShots;
+                Instantiate(shotToFire, firePoint.position, firePoint.rotation);
+            }
+        }
     }
 
     private void OnBecameInvisible()
     {
         Destroy(gameObject);
+    }
+
+    private void OnBecameVisible()
+    {
+        if (canShoot)
+        {
+            allowShooting = true;
+        }
     }
 }

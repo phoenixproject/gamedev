@@ -772,3 +772,143 @@ para dentro do atributo público do script chamado **Impact Effect**.
 
 - E para finalizar crie um diretório chamado **Enemies** dentro de __Prefab__ e arraster os dois objetos inimigos
 lá pra dentro (o sprite do tiro (**EnemyShot**) e o sprite da nave inimiga (**EnemyGree**) e exclusa o objeto __EnemyShot__.
+
+### Making Enemies Fire
+
+Para fazer com que os inimigos também possam atirar sigamos as orientações abaixo.
+
+- Abra o script **EnemyController** e faça as seguintes alterações:
+
+```csharp
+	public float moveSpeed;
+
+	public Vector2 startDirection;
+
+	public bool shouldChangeDirection;
+	public float changeDirectionXPoint;
+	public Vector2 changedDirection;
+
+	public GameObject shotToFire;
+	public Transform firePoint;
+	public float timeBetweenShots;
+	private float shotCounter;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		shotCounter = timeBetweenShots;
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		// transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
+		
+		if (!shouldChangeDirection)
+		{
+			transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+		}
+		else
+		{
+			if(transform.position.x > changeDirectionXPoint)
+			{
+				transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+			}
+			else
+			{
+				transform.position += new Vector3(changedDirection.x * moveSpeed * Time.deltaTime, changedDirection.y * moveSpeed * Time.deltaTime, 0f);
+			}
+		}
+
+		shotCounter -= Time.deltaTime;
+		if(shotCounter <= 0)
+		{
+			shotCounter = timeBetweenShots;
+			Instantiate(shotToFire, firePoint.position, firePoint.rotation);
+		}
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+```
+
+- Dentro do objeto **Enemy Green** no atributo público __Shot__ __To__ __Fire__ do componente que comporta o script **EnemyController**
+arraste o __Prefab__ **EnemyShoot** para dentro dele e em __Time__ __Between__ __Shots__ deixe marcado com _0.5_;
+- Clique com o botão direito em cima do objeto **Enemy Green** e no menu que se abrirá escolha criar um objeto vazio com o nome 
+de **Fire Point** e arraste-o para o atributo público __Fire__ __Point__ contido no mesmo componente que comporta script acima.
+Por fim dê um _Override_ no objeto **Enemy Green** para suas alterações sejam inclusas no seu __Prefab__.
+- Em seguida arraste o __Prefab__ **Enemy Shoot** para dentro da aba __Hierarchy__, adicione um áudio ao mesmo ( _Enemy_ _Laser_ ), 
+realize um Override no objeto da aba __Hierarchy__ e exclua-o.
+
+- Em seguida modificaremos mais uma vez o script **EnemyController** como abaixo acrescentando novas variáveis e novas condicionantes.
+```csharp
+	public float moveSpeed;
+
+	public Vector2 startDirection;
+
+	public bool shouldChangeDirection;
+	public float changeDirectionXPoint;
+	public Vector2 changedDirection;
+
+	public GameObject shotToFire;
+	public Transform firePoint;
+	public float timeBetweenShots;
+	private float shotCounter;
+
+	public bool canShoot;
+	private bool allowShooting;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		shotCounter = timeBetweenShots;
+	}
+
+	// Update is called once per frame
+	void Update()
+	{
+		// transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0f, 0f);
+		
+		if (!shouldChangeDirection)
+		{
+			transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+		}
+		else
+		{
+			if(transform.position.x > changeDirectionXPoint)
+			{
+				transform.position += new Vector3(startDirection.x * moveSpeed * Time.deltaTime, startDirection.y * moveSpeed * Time.deltaTime, 0f);
+			}
+			else
+			{
+				transform.position += new Vector3(changedDirection.x * moveSpeed * Time.deltaTime, changedDirection.y * moveSpeed * Time.deltaTime, 0f);
+			}
+		}
+
+		if (allowShooting)
+		{
+			shotCounter -= Time.deltaTime;
+			if (shotCounter <= 0)
+			{
+				shotCounter = timeBetweenShots;
+				Instantiate(shotToFire, firePoint.position, firePoint.rotation);
+			}
+		}
+	}
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+
+	private void OnBecameVisible()
+	{
+		if (canShoot)
+		{
+			allowShooting = true;
+		}
+	}
+```
+
