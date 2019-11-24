@@ -322,9 +322,9 @@ que para alterar a posição do shot é preciso alterar a posição do objeto __
 está associado a ele.
 
 Adiante entraremos novamente em __Project__ __Settings__ e retirar os atributos que envolvem tanto o objeto __Player__ quanto __Player__ __Shot__
-da secção __Phisics__ __2D__ como no quadro abaixo porque estes _layers_ não devem interagir com os outros nessa secção.
+da secção __Physics__ __2D__ como no quadro abaixo porque estes _layers_ não devem interagir com os outros nessa secção.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/04_space_shooting_phisics_2d.png?raw=true "Phisics 2D")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/04_space_shooting_phisics_2d.png?raw=true "Physics 2D")
 
 Prosseguindo, vale lembrar que o componente __Sprite__ __Renderer__ tanto do _prefab_ __PlayerShot__ quando dos _space_ _objects_ possui um
 atributo **Sorting Layer** para que os mesmos sejam organizados.
@@ -911,4 +911,14 @@ realize um Override no objeto da aba __Hierarchy__ e exclua-o.
 		}
 	}
 ```
+- Agora, no componente script dentro de **Enemy Controller** do objeto **Enemy Green** marcaremos a variável que agora está pública, _Can_ _Shoot_;
+
+- Prosseguimos no __Prefab__ **EnemyShot**, criamos um layer chamado __EnemyShot__, o ordenamos logo abaixo do layer _Enemy_;
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/10_space_shooting_making_enemies.png?raw=true "Enemy Shot")
+
+- Adiante entraremos novamente em __Project__ __Settings__ e retirar os atributos que envolvem tanto o objeto __Enemy__ quanto __Enemy__ __Shot__
+da secção __Physics__ __2D__ como no quadro abaixo porque estes _layers_ não devem interagir com os outros nessa secção. Isso faz com que 
+o tiro da nave do player não interaja com o tiro da da nave inimiga. ;
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/12_space_shooting_phisics_2d.png?raw=true "Physics 2D")
 
