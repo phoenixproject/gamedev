@@ -923,4 +923,5 @@ o tiro da nave do player não interaja com o tiro da da nave inimiga, assim como
 
   ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/12_space_shooting_phisics_2d.png?raw=true "Physics 2D") 
 
-*** Giving Enemies Health
+### Giving Enemies Health
+

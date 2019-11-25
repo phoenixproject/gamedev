@@ -37,10 +37,10 @@ public class GameManager : MonoBehaviour
         
 
         highScore = PlayerPrefs.GetInt("HighScore");
-        UIManager.instance.hiScoreText.text = "Hi-Score: " + highScore;
+        UIManager.instance.hiScoreText.text = "Recorde: " + highScore;
 
         currentScore = PlayerPrefs.GetInt("CurrentScore");
-        UIManager.instance.scoreText.text = "Score: " + currentScore;
+        UIManager.instance.scoreText.text = "Pontos: " + currentScore;
 
         canPause = true;
     }
@@ -94,12 +94,12 @@ public class GameManager : MonoBehaviour
     {
         currentScore += scoreToAdd;
         levelScore += scoreToAdd;
-        UIManager.instance.scoreText.text = "Score: " + currentScore;
+        UIManager.instance.scoreText.text = "Pontos: " + currentScore;
 
         if(currentScore > highScore)
         {
             highScore = currentScore;
-            UIManager.instance.hiScoreText.text = "Hi-Score: " + highScore;
+            UIManager.instance.hiScoreText.text = "Recorde: " + highScore;
             //PlayerPrefs.SetInt("HighScore", highScore);
         }
     }
@@ -115,13 +115,13 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(.5f);
 
-        UIManager.instance.endLevelScore.text = "Level Score: " + levelScore;
+        UIManager.instance.endLevelScore.text = "Pontos na Fase: " + levelScore;
         UIManager.instance.endLevelScore.gameObject.SetActive(true);
 
         yield return new WaitForSeconds(.5f);
 
         PlayerPrefs.SetInt("CurrentScore", currentScore);
-        UIManager.instance.endCurrentScore.text = "Total Score: " + currentScore;
+        UIManager.instance.endCurrentScore.text = "Total de Pontos: " + currentScore;
         UIManager.instance.endCurrentScore.gameObject.SetActive(true);
 
         if(currentScore == highScore)

@@ -693,6 +693,76 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2879692704131555670, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Pontos: 99999999999'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703009263801, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Recorde: 99999999999'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703190086776, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Pontos na Fase: 0000000000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703402263261, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Total de Pontos: 0000000000'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070155729409247029, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Hater Ocean
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703136396229, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Novo Recorde!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703092410796, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Fase Completa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703349955628, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Pause!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703944766596, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Fim do Jogo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703034390675, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Menu Principal
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703790273899, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Continuar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692704511932159, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Reiniciar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692704597130539, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Menu Principal
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692704750610169, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Reiniciar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b60506e6f4d9ed4a9559a6b02fa1968, type: 3}
 --- !u!1001 &3524503647233787371

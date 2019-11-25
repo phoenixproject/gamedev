@@ -722,7 +722,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Final Score: 0000000'
+  m_Text: "Pontua\xE7\xE3o Final: 0000000"
 --- !u!114 &626667610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: press any key to return to the main menu
+  m_Text: Pressione uma tecla para retornar ao Menu Principal
 --- !u!114 &1186545677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1095,7 +1095,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: you saved the universe from the evil space monsters!
+  m_Text: "Voc\xEA salvou os oceanos da Terra de perversos seres espaciais!"
 --- !u!114 &1710411218
 MonoBehaviour:
   m_ObjectHideFlags: 0
