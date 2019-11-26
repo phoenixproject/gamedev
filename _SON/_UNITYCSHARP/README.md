@@ -587,6 +587,10 @@ exemplo abaixo:
 - Ended
 - Cancelled
 
+### Toque Began
+
+
+
 ### Considerações Úteis e Importantes
 
 - Toda a vez em que uma variável dentro de um script C# for declarada como pública automaticamente
@@ -604,3 +608,4 @@ Vá no canto superior direito da tela e logo abaixo de onde está ativado o modo
 e ao lado direito de onde está desenhado um cadeado, clique no simbolo da lista à sua direita e acesse o menu abaixo.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_son_debug_mode.PNG?raw=true "Debug Mode")
+
