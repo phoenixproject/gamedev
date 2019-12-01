@@ -609,3 +609,8 @@ e ao lado direito de onde está desenhado um cadeado, clique no simbolo da lista
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_son_debug_mode.PNG?raw=true "Debug Mode")
 
+### Exportar apk on Android
+
+Esta configuração é para quem já possui o Android Studio e seu Android SDK configurado em seu computador indo no caminho
+__Unity__ > __Preferences__ > __External__ __Tools__ e use como está                                      na configuração abaixo.
+

@@ -250,8 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b78420be48e0ad4898d1cef89ff9946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossName: SquidTron 2000
-  currentHealth: 10
+  bossName: Destruidor Verde Mal
+  currentHealth: 100
   phases:
   - phaseShots:
     - theShot: {fileID: 4289549017067082095, guid: 0f56114193ea09b4683f3f111d8c3483,

@@ -736,7 +736,12 @@ PrefabInstance:
     - target: {fileID: 2879692703944766596, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
         type: 3}
       propertyPath: m_Text
-      value: Fim do Jogo
+      value: "Voc\xEA falhou!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879692703944766596, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 167
       objectReference: {fileID: 0}
     - target: {fileID: 2879692703034390675, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
         type: 3}

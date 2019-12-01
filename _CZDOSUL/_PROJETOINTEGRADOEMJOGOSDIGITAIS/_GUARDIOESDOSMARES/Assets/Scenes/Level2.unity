@@ -1508,18 +1508,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d47085a7dc61871458cf5cbbc44887fa, type: 3}
-    m_FontSize: 207
+    m_FontSize: 167
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 213
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fim do Jogo
+  m_Text: "Voc\xEA falhou!"
 --- !u!222 &624140133
 CanvasRenderer:
   m_ObjectHideFlags: 0

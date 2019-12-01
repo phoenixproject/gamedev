@@ -978,6 +978,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Total de Pontos: 0000000000'
       objectReference: {fileID: 0}
+    - target: {fileID: 5070155729409247029, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
+        type: 3}
+      propertyPath: m_Text
+      value: Grande Monstro Verde Mal
+      objectReference: {fileID: 0}
     - target: {fileID: 2879692703136396229, guid: 4b60506e6f4d9ed4a9559a6b02fa1968,
         type: 3}
       propertyPath: m_Text
