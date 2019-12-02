@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
@@ -61,47 +60,9 @@ public class PlayerController : MonoBehaviour
 
             transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
 
-            if (Input.GetButtonDown("Fire1"))
-            {
-                if (!doubleShotActive)
-                {
-                    Instantiate(shot, shotPoint.position, shotPoint.rotation);
-                }
-                else
-                {
-                    Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
-                    Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
-                }
+            canons();
 
-                shotCounter = timeBetweenShots;
-            }
-
-            if (Input.GetButton("Fire1"))
-            {
-                shotCounter -= Time.deltaTime;
-                if (shotCounter <= 0)
-                {
-                    if (!doubleShotActive)
-                    {
-                        Instantiate(shot, shotPoint.position, shotPoint.rotation);
-                    }
-                    else
-                    {
-                        Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
-                        Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
-                    }
-                    shotCounter = timeBetweenShots;
-                }
-            }
-
-            if (boostCounter > 0)
-            {
-                boostCounter -= Time.deltaTime;
-                if (boostCounter <= 0)
-                {
-                    moveSpeed = normalSpeed;
-                }
-            }
+            fBoostCounter();
         }
         else
         {
@@ -111,47 +72,53 @@ public class PlayerController : MonoBehaviour
 
     void HandleTouch()
     {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began)
-            {
-                theRB.velocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * moveSpeed;
+        Touch touch = Input.GetTouch(0);
 
-                transform.position = new Vector3(
-                    Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x),
-                    Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y),
-                    transform.position.z
+        theRB.velocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * moveSpeed;
 
-                    );
+        Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0.0f));
 
-                if (touch.position.x < Screen.width / 2 && transform.position.x > -3.75f)
-                    transform.position = new Vector2(transform.position.x - 0.4f, transform.position.y);
+        if (touch.position.x < Screen.width / 2 && transform.position.x > -3.5f)
+            transform.position = Vector3.Lerp(transform.position, new Vector3(touchPosition.x, touchPosition.y, 0.0f), Time.deltaTime * 1.0f);
 
-                if (touch.position.x > Screen.width / 2 && transform.position.x < 3.75f)
-                    transform.position = new Vector2(transform.position.x + 0.4f, transform.position.y);
+        if (touch.position.x > Screen.width / 2 && transform.position.x < 3.5f)
+            transform.position = Vector3.Lerp(transform.position, new Vector3(touchPosition.x, touchPosition.y, 0.0f), Time.deltaTime * 1.0f);
 
-                if (touch.position.y < Screen.height / 2 && transform.position.y > -3.75f)
-                    transform.position = new Vector2(transform.position.x, transform.position.y - 0.4f);
+        if (touch.position.y < Screen.height / 2 && transform.position.y > -3.5f)
+            transform.position = Vector3.Lerp(transform.position, new Vector3(touchPosition.x, touchPosition.y, 0.0f), Time.deltaTime * 1.0f);
 
-                if (touch.position.y > Screen.height / 2 && transform.position.y < 3.75f)
-                    transform.position = new Vector2(transform.position.x, transform.position.y + 0.4f);
+        if (touch.position.y > Screen.height / 2 && transform.position.y < 3.5f)
+            transform.position = Vector3.Lerp(transform.position, new Vector3(touchPosition.x, touchPosition.y, 0.0f), Time.deltaTime * 1.0f);
 
-                if (boostCounter > 0)
-                {
-                    boostCounter -= Time.deltaTime;
-                    if (boostCounter <= 0)
-                    {
-                        moveSpeed = normalSpeed;
-                    }
-                }
-            }
-        }
+        fBoostCounter();
 
         if (Input.touchCount > 1)
         {
-            if (Input.GetButtonDown("Fire1"))
+            canons();
+        }
+    }
+
+    void canons()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            if (!doubleShotActive)
+            {
+                Instantiate(shot, shotPoint.position, shotPoint.rotation);
+            }
+            else
+            {
+                Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
+                Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
+            }
+            shotCounter = timeBetweenShots;
+        }
+
+        if (Input.GetButton("Fire1"))
+        {
+            shotCounter -= Time.deltaTime;
+            if (shotCounter <= 0)
             {
                 if (!doubleShotActive)
                 {
@@ -162,31 +129,21 @@ public class PlayerController : MonoBehaviour
                     Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
                     Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
                 }
-
                 shotCounter = timeBetweenShots;
             }
-
-            if (Input.GetButton("Fire1"))
+        }
+    }
+    void fBoostCounter()
+    {
+        if (boostCounter > 0)
+        {
+            boostCounter -= Time.deltaTime;
+            if (boostCounter <= 0)
             {
-                shotCounter -= Time.deltaTime;
-                if (shotCounter <= 0)
-                {
-                    if (!doubleShotActive)
-                    {
-                        Instantiate(shot, shotPoint.position, shotPoint.rotation);
-                    }
-                    else
-                    {
-                        Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
-                        Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
-                    }
-                    shotCounter = timeBetweenShots;
-                }
+                moveSpeed = normalSpeed;
             }
         }
-
     }
-
     public void ActivateSpeedBoost()
     {
         boostCounter = boostLength;
