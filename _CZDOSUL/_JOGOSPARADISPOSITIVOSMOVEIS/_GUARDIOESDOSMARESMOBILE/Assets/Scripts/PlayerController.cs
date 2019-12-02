@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     public bool stopMovement;
 
-    
+
     private void Awake()
     {
         instance = this;
@@ -43,34 +43,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchSupported && Application.platform != RuntimePlatform.WebGLPlayer)
         {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began)
-            {
-                theRB.velocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * moveSpeed;
-
-                transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y), transform.position.z);
-
-                if (touch.position.x < Screen.width / 2 && transform.position.x > -1.75f)
-                    transform.position = new Vector2(transform.position.x - 1.75f, transform.position.y);
-
-                if (touch.position.x > Screen.width / 2 && transform.position.x < 1.75f)
-                    transform.position = new Vector2(transform.position.x + 1.75f, transform.position.y);
-
-                if (boostCounter > 0)
-                {
-                    boostCounter -= Time.deltaTime;
-                    if (boostCounter <= 0)
-                    {
-                        moveSpeed = normalSpeed;
-                    }
-                }
-            }
+            HandleTouch();
         }
+        else
+        {
+            HandleMouse();
+        }
+    }
 
-        /*if (!stopMovement)
+    void HandleMouse()
+    {
+        if (!stopMovement)
         {
             theRB.velocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * moveSpeed;
 
@@ -117,10 +102,89 @@ public class PlayerController : MonoBehaviour
                     moveSpeed = normalSpeed;
                 }
             }
-        } else
+        }
+        else
         {
             theRB.velocity = Vector2.zero;
-        }*/
+        }
+    }
+
+    void HandleTouch()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began)
+            {
+                theRB.velocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * moveSpeed;
+
+                transform.position = new Vector3(
+                    Mathf.Clamp(transform.position.x, bottomLeftLimit.position.x, topRightLimit.position.x),
+                    Mathf.Clamp(transform.position.y, bottomLeftLimit.position.y, topRightLimit.position.y),
+                    transform.position.z
+
+                    );
+
+                if (touch.position.x < Screen.width / 2 && transform.position.x > -3.75f)
+                    transform.position = new Vector2(transform.position.x - 0.4f, transform.position.y);
+
+                if (touch.position.x > Screen.width / 2 && transform.position.x < 3.75f)
+                    transform.position = new Vector2(transform.position.x + 0.4f, transform.position.y);
+
+                if (touch.position.y < Screen.height / 2 && transform.position.y > -3.75f)
+                    transform.position = new Vector2(transform.position.x, transform.position.y - 0.4f);
+
+                if (touch.position.y > Screen.height / 2 && transform.position.y < 3.75f)
+                    transform.position = new Vector2(transform.position.x, transform.position.y + 0.4f);
+
+                if (boostCounter > 0)
+                {
+                    boostCounter -= Time.deltaTime;
+                    if (boostCounter <= 0)
+                    {
+                        moveSpeed = normalSpeed;
+                    }
+                }
+            }
+        }
+
+        if (Input.touchCount > 1)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                if (!doubleShotActive)
+                {
+                    Instantiate(shot, shotPoint.position, shotPoint.rotation);
+                }
+                else
+                {
+                    Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
+                    Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
+                }
+
+                shotCounter = timeBetweenShots;
+            }
+
+            if (Input.GetButton("Fire1"))
+            {
+                shotCounter -= Time.deltaTime;
+                if (shotCounter <= 0)
+                {
+                    if (!doubleShotActive)
+                    {
+                        Instantiate(shot, shotPoint.position, shotPoint.rotation);
+                    }
+                    else
+                    {
+                        Instantiate(shot, shotPoint.position + new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
+                        Instantiate(shot, shotPoint.position - new Vector3(0f, doubleShotOffset, 0f), shotPoint.rotation);
+                    }
+                    shotCounter = timeBetweenShots;
+                }
+            }
+        }
+
     }
 
     public void ActivateSpeedBoost()
@@ -128,5 +192,4 @@ public class PlayerController : MonoBehaviour
         boostCounter = boostLength;
         moveSpeed = boostSpeed;
     }
-
 }
