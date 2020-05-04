@@ -10,7 +10,11 @@ School of Net
 # udemy
 Curso(s) de Desenvolvimento de Games
 
-##### Dicionário Conceitual de Termos Básicos ou Conceitos Técnicos para Desenvolvedores de Games:
+# ifes
+
+Instituto Federal do Espírito Santo
+
+## Dicionário Conceitual de Termos Básicos ou Conceitos Técnicos para Desenvolvedores de Games:
 
 ### Game Loop
 
@@ -22,9 +26,82 @@ threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
 É basicamente desenhar na tela o gráfico do jogo ou mostrar os gráficos na tela.
 
+### Frame 
+
+É um intervalo de tempo entre 1 milisegundo até 6 milisegundos
+
 ### FPS (Frames por segundo)
 
 É o intervalo de frames exibidos na tela.
+
+### Spritesheet
+
+É uma imagem que tem todas as imagens (ou sprites) do game (lembra o Tile Map).
+
+### Game Character 3D Wireframe
+
+É um modelo de personagem 3d]
+
+### Sprite
+
+É uma parte de um Spritesheet e geralmente é definido em pixel. Exemplo: 16 x 16, 
+12 x 12 pixels, etc.
+
+### Box Modeling
+
+Box Modeling é uma técnica de modelagem 3D em que uma forma primitiva 
+(como caixa, cilindro, esfera, etc.) é usada para fazer a forma básica do modelo final. 
+Esta forma básica é então usada para esculpir o modelo final.
+
+### Game Character 3D Wireframe
+
+É o modelo de game character 3D utilizado para referência.
+
+### Allquads
+
+Polígonos com faces de 4 vértices (aconselháveis para modelagem 3D).
+
+### Model Sheet
+
+Pode ser um estudo de personagem ou simplesmente um estudo, é um documento usado para ajudar 
+a padronizar a aparência, roupas, etc, de modo a enfatizar gestos e atitudes de um personagem animado. 
+
+### Game Desing
+
+### Tile Map ou Tilemap
+
+### Tile Set ou Tileset
+
+### GDD
+
+### Spritesheets
+
+### Modelagem Inorgânica
+
+É uma modelagem feita a partir de algo construído pelo homem e não pela natureza.
+
+### Mapeamento UV
+
+É praticamente a transferência que está no espaço 3D (virtual) e transforma para algo
+bidimensional que é uma imagem de computador. 
+
+### Texturização
+
+É basicamente a possibilidade de carregar uma imagem pra ser aplicada no modelo 3D.
+
+### admob by google 
+
+Ferramenta de ADS para as apps públicas na Play Store
+ 
+### Model sheet (frontal, lateral) 
+ 
+Modelo para blueprint frontal e lateral
+
+### UV Wrapping (blueprint)
+
+### Paint.net
+
+## Ferramentas do Java utilizas em desenvolvimento de Apps e Games
 
 ### Runnable
 
@@ -34,118 +111,8 @@ Interface padrão do Java que implementa o uso de threads.
 
 Método do Java para seja executado de forma sincronizado.
 
-### Spritesheet
+### Postmortem Game
 
-É uma imagem que tem todas as imagens (ou sprites) do game (lembra o Tile Map).
+#### Fontes para Modelagem
+##### [Mixamo](https://www.mixamo.com/#/)<br/>
 
-### Sprite
-
-É uma parte de um Spritesheet e geralmente é definido em pixel. Exemplo: 16 x 16, 
-12 x 12 pixels, etc.
-
-### Game Desing
-
-### Tile Map
-
-### Tile Set
-
-### GDD
-
-## Estrutura básica de Unity
-
-### Assets (Recursos)
-
-É tudo que você pode importar para o seu jogo (sons, imagens, etc). Quando se está programando games em Java esse
-diretório costuma ser chamado de res.
-
-### Hierarchy 
-
-É a área que exibe todos os objetos contidos na cena. 
-Os objetos podem ser selecionados tanto clicando neles na cena quanto clicando em projects.
-
-### Game Object
-
-É o menu que dá a opção de criação de vários tipos de objetos. Desde luz até objetos 3d, inclusive
-objetos vazios sem padrão.
-Tudo contido numa cena da Unity é objeto e todos os objetos estão sujeitos a serem manipulados
-nos sentidos X, Y, Z e terem suas posições e tamanhos(escala) alterados nesses eixos.
-
-### Objeto Câmera
-
-É responsável por mostrar a cena que está acontecendo. Ele é responsável por pegar tudo o 
-que está de frente da tela e mostrar para a cara do jogador.
-E as linhas que saem de frente dela é a área que delimita esse campo de visão. 
-
-### Lights (Iluminação)
-
-A Direction Light funciona como se fosse um sol apontado para a face do jogador.
-A Direction Light é mais usada quando você quer criar um jogo de mundo aberto.
-A Point Light funciona mais como a luz de sua casa, sua sala de estar, seu quarto.
-A SpotLight (holofote) funciona para quando se quer criar um farol de carro, lanterna, etc.
-
-### Para aproximar-se de um objeto
-
-Selecione este objeto e pressione f. A partir daí o foco será sempre sobre ele.
-
-### Material
-
-Quando você cria um Material ele te dá opções de alterar sua cor e textura, dureza,
-se ele é metálico e aplicá-lo sobre um objeto.
-Basicamente as texturas entram dentro desses Materiais que serão aplicados a objetos.
-Quando se obtém algum textura de algum lugar (Google por exemplo), basta importá-la
-para dentro de sua zona de Assets e arrastá-la para dentro da propriedade Albedo 
-de dentro do Material que você quer que obtenha esta textura.	
-
-### Os 3 pilares das Unity são:
-
-Cenas > Objetos > Componentes. E eles praticamente seguem essa hieraquia de um estar
-dentro do outro. Componente estaria dentro de Objeto que por consequência está dentro
-da Cena.
-
-### Componentes (encontrados na aba Inspector quando um objeto é selecionado)
-
-Todo o objeto é formados por componentes. Componentes esses que são responsáveis pelo comportamento
-dos objetos. Quando selecionado o objeto estes componentes podem ser visualizados, alterados
-seus comportamentos, inseridos novos componentes, inativados ou excluídos.
-Os componentes são praticamente os atributos do objetos, mas que além de serem simples atributos
-também possuem comportamentos distintos e isso quer dizer que teríamos a relação entre Objeto e 
-Componentes é como um objeto que possui vários objetos atrelados a ele como atributos.
-
-### Prefab
-
-Quando você precisa criar vários objetos iguais e necessita de alterar em seguida algum comportamento
-entre eles, que seja sua altura por exemplo, ao invés de alterar um a um manualmente, seleciona-se 
-dentro da aba Hierarchy o objeto que deseja servir de modelo e o arrasta para dentro de um dos
-diretórios que estão dentro da pasta Assets na aba Project. Ao fazer isso ele se torna um Prefab
-e a partir disso ele poderá ser replicado em números infintos de objetos e qualquer alteração que 
-for feita em um será replicada para todos os outros.
-
-### Rigibody
-
-Todos os objetos  na Unity são estáticos por si só. Eles não interagem uns com os outros.
-E para que essa interação aconteça ao selecionar um objeto, na aba Inspector adicionamos
-um componente de nome Rigibody. Esse componente é reponsável por dar vida ao objeto tornando-o
-interativo. E a partir desse momento o objeto começa reagir a física, começa a se movimentar, etc.
-
-### Colisor
-
-Cada objeto tem uma propriedade (componente) que diz respeito a um colisor. E o nome colisor
-diz respeito a uma propriedade que identifica e trata a colisão entre um objeto e outro.
-Por exemplo: se entre dois objetos que irão se colidir (um chão e uma esfera) um deles tiver desmarcado
-o seu componente de colisão na aba Inpector (desmarcado diga-se inativo), eles não irão colidir
-um com o outro e irão passar por dentro um do outro. Lembrando que para que isso aconteça basta
-que entre eles apenas um esteja com seu componente de colisão desmarcado.
-Cada objeto tem seu tipo de componente que trata a colisão. Uma superfície plana por exemplo
-tem um componente chamado Mesh Collider, já uma esfera tem um Sphere Collider, mas todos 
-tratam a mesma coisa.
-Outra coisa a respeito é quando você adiciona um objeto externo a Unity que não tem colisor
-em seus componentes, basta ao adicionar um novo componente a ele (na aba Inspector) procurar
-pelo termo collider.
-
-### Texturas
-
- - Metal texture
- 
-##### Ferramentas (tools)
-
-### Paint.net
