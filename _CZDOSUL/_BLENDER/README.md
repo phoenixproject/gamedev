@@ -91,7 +91,7 @@ visto na cena 3D.
 No Blender a seleção de objetos é feita com o botão direito do mouse, diferente do que fazem
 outros apps de modelagem.
 
-### Modo de visualizações da Cena e Atalhos
+### (Blender 2.7) Modo de visualizações da Cena e Atalhos
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/07_modosdevisualizacao.png?raw=true "Modos de Visualização")
 
@@ -301,101 +301,113 @@ e em seguida clicar em Add image.
 Para adicionar mais polígonos a seu objeto 3D é necessário ir em Mesh > Edges > Edges Loops.
 (após criado o 1º loop utiliza-se o botão Scroll do mouse para aumentar o número de polígonos).
 
+### (Blender 2.8) Modo de visualizações da Cena e Atalhos 
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_8/01_modosdevisualizacao_b28.png?raw=true "Modos de Visualização no Blender 2.8")
+
+No menu View é exibido qual o modo de visualização (User Perpective, etc).
+
+No menu View -> Viewpoint é possível escolher quais modos de visualização podem ser utilizados (Cameras, Left, Right, Back,
+Front, Bottom, Camera). Também é possível alterar estes modos de visualização pelo teclado númérico ou com
+as teclas dele sendo utilizadas em conjunto com a tecla Crtl).
+
+Ainda no menu View existe um item em que permite visualizar a cena por Perpectiva ou Orthogonal.
+
 ### Teclas de atalho
 
 O software detecta as teclas de atalho a partir de onde se encontra o cursor do mouse
 e abaixo descreveremos algumas dessas combinações de tecla.
 
-- Edição de objetos: selecione o objeto e pressione a tecla TAB;
+- (Blender 2.7) Edição de objetos: selecione o objeto e pressione a tecla TAB;
 
-- Para selecionar/remover múltiplos itens a tecla SHIFT deverá estar pressionada.
+- (Blender 2.7) Para selecionar/remover múltiplos itens a tecla SHIFT deverá estar pressionada.
 
-- Para selecionar/remover todos os vértices, edges, etc de um objeto pressiona-se a tecla A.
+- (Blender 2.7) Para selecionar/remover todos os vértices, edges, etc de um objeto pressiona-se a tecla A.
 
-- Com o objeto selecionado e pressionando a tecla G (gravity) é possível movimentar o objeto sobre
+- (Blender 2.7) Com o objeto selecionado e pressionando a tecla G (gravity) é possível movimentar o objeto sobre
 a área de trabalho (cena 3D) e confirmar a nova posição com o botão esquerdo do mouse.
 Também é possível determinar em que eixo deseja-se que seja feita essa movimentação e para isso
 basta pressionar as teclas X, Y ou Z após ter pressionado a tecla G. E logo após ter feito essa
 definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
 quanto o objeto deve ser deslocado.
 
-- Com o objeto selecionado e pressionando a tecla R (rotation) é possível rotacionar o objeto sobre
+- (Blender 2.7) Com o objeto selecionado e pressionando a tecla R (rotation) é possível rotacionar o objeto sobre
 a área de trabalho (cena 3D) e confirmar a nova posição com o botão esquerdo do mouse.
 Também é possível determinar em que eixo deseja-se que seja feita essa movimentação e para isso
 basta pressionar as teclas X, Y ou Z após ter pressionado a tecla R. E logo após ter feito essa
 definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
 quanto o objeto deve ser deslocado.
 
-- Com o objeto selecionado e pressionando a tecla S (scale) é possível alterar a escala do objeto sobre
+- (Blender 2.7) Com o objeto selecionado e pressionando a tecla S (scale) é possível alterar a escala do objeto sobre
 a área de trabalho (cena 3D) e confirmar a nova posição com o botão esquerdo do mouse.
 Também é possível determinar em que eixo deseja-se que seja feita essa movimentação e para isso
 basta pressionar as teclas X, Y ou Z após ter pressionado a tecla S. E logo após ter feito essa
 definição de andar pelos eixos também é possível digitar um valor númerico específico definindo
 quanto o objeto deve ser deslocado.
 
-- Para adicionar/remover propriedades do objeto(properties) pressiona-se a tecla N.
+- (Blender 2.7) Para adicionar/remover propriedades do objeto(properties) pressiona-se a tecla N.
 
-- Para adicionar mais polígonos (edge loops) a seu objeto 3D pressiona-se Crtl + R
+- (Blender 2.7) Para adicionar mais polígonos (edge loops) a seu objeto 3D pressiona-se Crtl + R
 (após criado o 1º loop utiliza-se o botão Scroll do mouse para aumentar o número de polígonos).
 
-- Para selecionar polígonos de todas as profundidades basta pressionar o botão B, clicar com
+- (Blender 2.7) Para selecionar polígonos de todas as profundidades basta pressionar o botão B, clicar com
 o botão esquerdo do mouse a arrastá-lo até a seleção desejada, em seguida pressionar o botão
 G para poder com o mouse movimentar livremente a seleção, clicar com o botão esquerdo do mouse
 para confirmar o ponto desejado que deverá ficar os vértices selecionados e para finalizar pressionar
 o botão A para deselecionar todos os vértices do objeto.
 
-- Para deselecionar vértices devemos deixar pressionado o botão B e com o botão do meio do mouse
+- (Blender 2.7) Para deselecionar vértices devemos deixar pressionado o botão B e com o botão do meio do mouse
 arrastar pressionando na área selecionada que deseja deselecionar e em seguida soltar para que a 
 deseleção aconteça. Lembrando que para que essa deseleção aconteça com sucesso é importante que 
 ao fazer a marcação da área selecionada o "arraste" do mouse deve ser feito dentro da área que 
 os vértices estão contidos sem esbarrar com a área esterna (o que pode fazer com que a deseleção não
 ocorra como esperado).
 
-- Para aplicar uma escala em determinado eixo (x, y, z) pressione o botão S, deixe-o apertado
+- (Blender 2.7) Para aplicar uma escala em determinado eixo (x, y, z) pressione o botão S, deixe-o apertado
 e clicando, segurando e arrastando o mouse com o botão scroll também pressionado no
 eixo desejado do objeto é possível aplicar uma escala.
 
-- Para selecionar vértices conectados em loop deve-se sergurar a tecla Alt e pressionar o botão direito
+- (Blender 2.7) Para selecionar vértices conectados em loop deve-se sergurar a tecla Alt e pressionar o botão direito
 do mouse onde deseja que essa seleção seja feita. Para adicionar mais vértices conectados em loop 
 deve-se manter pressionadas as teclas Alt + Shif e pressionar o botão direito do mouse onde 
 deseja que essa seleção seja feita.
 
-- Para excluir um determinado intervalo de vértices, após selecionado dado intervalo de objetos, 
+- (Blender 2.7) Para excluir um determinado intervalo de vértices, após selecionado dado intervalo de objetos, 
 deve-se pressionar a tecla X para que um menu se abra com várias opções referente a ação Delete 
 e já na 1ª opção "Vértices" sendo selecionada serão excluídos.
 
-- Para adicionar outro objeto preferencialmente devemes colocar a cena em Object Mode, em seguida
+- (Blender 2.7) Para adicionar outro objeto preferencialmente devemes colocar a cena em Object Mode, em seguida
 seguir no menu Add > Mesh e o objeto de preferência.
 
-- Para utilizar uma extrusão (extrude) deve-se selecionar um grupo de vértices e pressionar a tecla E e 
+- (Blender 2.7) Para utilizar uma extrusão (extrude) deve-se selecionar um grupo de vértices e pressionar a tecla E e 
 logo em seguida utilizar o mouse para a direção desejada.
 
-- Para realizar uma união entre dois ou mais objetos, com a tecla SHIFT pressionada deve-se em seguida
+- (Blender 2.7) Para realizar uma união entre dois ou mais objetos, com a tecla SHIFT pressionada deve-se em seguida
 ir no menu Object > Join (ou utilizar o atalho CRTL + J).
 
-- Para selecionar o um objeto após ter utilizado o comando Join pressione a tecla L e passe o mouse por
+- (Blender 2.7) Para selecionar o um objeto após ter utilizado o comando Join pressione a tecla L e passe o mouse por
 cima de onde ele se encontra.
 
-- Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
+- (Blender 2.7) Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
 esquerdo pressionado. A cada vértice selecionado deve-se soltar o botão esquerdo para selecionar outro vértice. 
 Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão criados novos vértices 
 ligando os pontos selecionados. 
 
-- Para deselecionar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
+- (Blender 2.7) Para deselecionar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão 
 do meio pressionado. A cada vértice selecionado deve-se soltar o botão do meio para deselecionar outro vértice. 
 
-- Para caso o resultado do Mirror esteja errado, é possível que o pivô (centro de rotação) do
+- (Blender 2.7) Para caso o resultado do Mirror esteja errado, é possível que o pivô (centro de rotação) do
 objeto esteja fora do (0, 0, 0). Para arrumar, no modo Object e com o cursor do mouse em
 cima da viewport: SHIFT + S | Cursor to Center (menu Object | Snap | Cursor to Center da
 viewport). Em seguida, SHIFT + CTRL + ALT + C | Originto 3D Cursor (ou menu Object |
 Transform | Originto 3D Cursor na viewport).
 
-- Para alinhar determinados vértices no eixo X = 0, alinhe os novos vértices em X=0 (
+- (Blender 2.7) Para alinhar determinados vértices no eixo X = 0, alinhe os novos vértices em X=0 (
 aplique escala X=0 com a sequência S, X, 0, Enter, e depois defina X=0 na Properties da viewport
 
-- Para criar faces preenchidas selecione os que estão a seu redor e pressione a tecla F.
+- (Blender 2.7) Para criar faces preenchidas selecione os que estão a seu redor e pressione a tecla F.
 
-- Para adicionar cortes as faces pressione a tecla K e com botão esquerdo do mouse vá selecionando onde
+- (Blender 2.7) Para adicionar cortes as faces pressione a tecla K e com botão esquerdo do mouse vá selecionando onde
 eles serão fetos e para confirmar pressione a tecla Enter.
 
-- Para alterar o tipo de visão de cada objeto pressiona-se Z.
+- (Blender 2.7) Para alterar o tipo de visão de cada objeto pressiona-se Z.
