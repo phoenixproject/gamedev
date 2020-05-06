@@ -1,6 +1,8 @@
 # czdosul
 CST em Jogos Digitais - Modelagem Digital (aplicada no Blender)
 
+##### [CONSULTAR ANTES: Os novos atalhos no Blender 2.8 [POR]](https://www.graphicsandprogramming.net/por/tutorial/blender/interface/os-novos-atalhos-no-blender-2-8)<br/>
+
 ## Definições sobre a interface do Blender
 
 ### Cena básica ou cena padrão da abertura do Blender
