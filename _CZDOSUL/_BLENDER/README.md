@@ -3,6 +3,12 @@ CST em Jogos Digitais - Modelagem Digital (aplicada no Blender)
 
 ##### [CONSULTAR ANTES: Os novos atalhos no Blender 2.8 [POR]](https://www.graphicsandprogramming.net/por/tutorial/blender/interface/os-novos-atalhos-no-blender-2-8)<br/>
 
+##### [Smoth Shading no Blender 2.8 [POR]](https://blender.stackexchange.com/questions/100221/2-8-smooth-shading-in-edit-mode)<br/>
+
+##### [See Dimensions no Blender 2.8 [POR]](https://blender.stackexchange.com/questions/135215/where-did-object-dimensions-go-in-2-8)<br/>
+
+##### [Architectural modeling no Blender 2.8 [POR]](https://www.blender3darchitect.com/modeling-for-architecture/architectural-modeling-how-to-display-lengths-in-blender-2-8/)<br/>
+
 ## Definições sobre a interface do Blender
 
 ### Cena básica ou cena padrão da abertura do Blender
@@ -319,6 +325,8 @@ Ainda no menu View existe um item em que permite visualizar a cena por Perpectiv
 
 O software detecta as teclas de atalho a partir de onde se encontra o cursor do mouse
 e abaixo descreveremos algumas dessas combinações de tecla.
+
+- (Blender 2.8) Para esconder e exibir no modo Modeling a barra de ferramentas lateral pressione a tecla N;
 
 - (Blender 2.7) Edição de objetos: selecione o objeto e pressione a tecla TAB;
 
