@@ -1,0 +1,1658 @@
+﻿Log file open, 05/09/20 23:13:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: TesteAmbienteCameras
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.226002
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz, GPU: Intel(R) HD Graphics Family
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.10-02.13.44:915][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:916][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.10-02.13.44:916][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.10-02.13.44:917][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:917][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:924][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:924][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.10-02.13.44:924][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.10-02.13.44:925][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.10-02.13.44:926][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.10-02.13.44:927][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.10-02.13.44:928][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.10-02.13.44:929][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:930][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.10-02.13.44:930][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.10-02.13.44:930][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.10-02.13.44:930][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.10-02.13.44:930][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.10-02.13.44:938][  0]LogHAL: Display: Platform has ~ 12 GB [12784701440 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.10-02.13.44:938][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.10-02.13.44:938][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.10-02.13.44:938][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.10-02.13.44:938][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.10-02.13.44:938][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.10-02.13.44:939][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.10-02.13.44:940][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.10-02.13.44:941][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:941][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.10-02.13.44:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.10-02.13.44:943][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.10-02.13.44:944][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.10-02.13.44:944][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.10-02.13.44:944][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Config/Windows/Engine.ini]
+[2020.05.10-02.13.44:944][  0]LogInit: Computer: DARKNOTE
+[2020.05.10-02.13.44:944][  0]LogInit: User: pchan
+[2020.05.10-02.13.44:944][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.05.10-02.13.44:944][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.10-02.13.44:945][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2020.05.10-02.13.44:945][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.10-02.13.44:945][  0]LogMemory: Process Physical Memory: 104.20 MB used, 104.20 MB peak
+[2020.05.10-02.13.44:945][  0]LogMemory: Process Virtual Memory: 99.50 MB used, 99.50 MB peak
+[2020.05.10-02.13.44:945][  0]LogMemory: Physical Memory: 4218.37 MB used,  7974.07 MB free, 12192.44 MB total
+[2020.05.10-02.13.44:945][  0]LogMemory: Virtual Memory: 5117.41 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.05.10-02.13.44:951][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.10-02.13.44:994][  0]LogInit: Using OS detected language (pt-BR).
+[2020.05.10-02.13.44:994][  0]LogInit: Using OS detected locale (pt-BR).
+[2020.05.10-02.13.45:090][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pt/Editor.locres' could not be opened for reading!
+[2020.05.10-02.13.45:091][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pt/EditorTutorials.locres' could not be opened for reading!
+[2020.05.10-02.13.45:091][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pt/Keywords.locres' could not be opened for reading!
+[2020.05.10-02.13.45:091][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pt/Category.locres' could not be opened for reading!
+[2020.05.10-02.13.45:091][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pt/ToolTips.locres' could not be opened for reading!
+[2020.05.10-02.13.45:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pt/PropertyNames.locres' could not be opened for reading!
+[2020.05.10-02.13.45:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pt/Engine.locres' could not be opened for reading!
+[2020.05.10-02.13.45:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/pt/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.05.10-02.13.45:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/pt/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.05.10-02.13.45:093][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/pt/OnlineSubsystem.locres' could not be opened for reading!
+[2020.05.10-02.13.45:093][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/pt/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.05.10-02.13.45:144][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.10-02.13.45:209][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.10-02.13.45:209][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.10-02.13.45:727][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.10-02.13.45:727][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.10-02.13.45:727][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.10-02.13.45:727][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.10-02.13.45:848][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2020.05.10-02.13.45:848][  0]LogD3D11RHI:       2020/0/6096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.05.10-02.13.45:864][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2020.05.10-02.13.45:864][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.05.10-02.13.45:874][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.10-02.13.45:874][  0]LogD3D11RHI:       0/0/6096 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.10-02.13.45:874][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.10-02.13.45:944][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.10-02.13.45:944][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.10-02.13.45:945][  0]LogWindows: EnumDisplayDevices:
+[2020.05.10-02.13.45:945][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2020.05.10-02.13.45:946][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.05.10-02.13.45:948][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.05.10-02.13.45:949][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.05.10-02.13.45:949][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2020.05.10-02.13.45:949][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.05.10-02.13.45:949][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.05.10-02.13.45:949][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2020.05.10-02.13.45:992][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.10-02.13.45:992][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.10-02.13.46:017][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.10-02.13.46:991][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.10-02.13.47:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.10-02.13.47:080][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.10-02.13.47:080][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.10-02.13.47:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.10-02.13.47:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.10-02.13.47:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.10-02.13.47:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.10-02.13.47:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.10-02.13.47:175][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.10-02.13.47:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.10-02.13.47:202][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.10-02.13.47:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.10-02.13.47:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.10-02.13.47:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.10-02.13.47:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.10-02.13.47:290][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.10-02.13.47:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.10-02.13.47:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.10-02.13.47:341][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.10-02.13.47:342][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.10-02.13.47:349][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.10-02.13.47:410][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Intermediate/Shaders/WorkingDirectory/11892/).
+[2020.05.10-02.13.47:410][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pchan/AppData/Local/Temp/UnrealShaderWorkingDir/7C0997674FC899311855B6A1CBA8F080/'.
+[2020.05.10-02.13.47:411][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.10-02.13.47:411][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.10-02.13.47:412][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.10-02.13.49:134][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.10-02.13.49:237][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/pchan/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.10-02.13.49:238][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pchan/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.10-02.13.49:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.10-02.13.49:238][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.10-02.13.49:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.10-02.13.49:238][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.10-02.13.49:259][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.10-02.13.49:260][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.10-02.13.49:260][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.10-02.13.49:262][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pchan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.10-02.13.49:262][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.10-02.13.49:262][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.10-02.13.49:325][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.10-02.13.49:330][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.10-02.13.49:331][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.10-02.13.49:528][  0]LogAssetRegistry: FAssetRegistry took 0.0062 seconds to start up
+[2020.05.10-02.13.50:484][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.10-02.13.51:167][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.10-02.13.51:167][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.10-02.13.51:167][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.10-02.13.51:167][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.10-02.13.51:167][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.10-02.13.51:252][  0]LogNetVersion: TesteAmbienteCameras 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2220764498)
+[2020.05.10-02.13.55:101][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.244350 seconds
+[2020.05.10-02.13.55:120][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.10-02.13.55:120][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.10-02.13.55:120][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.10-02.13.56:201][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.10-02.13.56:208][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.10-02.13.56:361][  0]SourceControl: Controle de origem desativado
+[2020.05.10-02.13.56:361][  0]SourceControl: Controle de origem desativado
+[2020.05.10-02.13.56:363][  0]SourceControl: Controle de origem desativado
+[2020.05.10-02.13.56:366][  0]SourceControl: Controle de origem desativado
+[2020.05.10-02.13.56:368][  0]SourceControl: Controle de origem desativado
+[2020.05.10-02.13.56:593][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.10-02.13.56:623][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.10-02.13.56:624][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.10-02.13.56:878][  0]LogOcInput: OculusInput pre-init called
+[2020.05.10-02.13.56:896][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.10-02.13.56:896][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.10-02.13.57:071][  0]LogEngine: Initializing Engine...
+[2020.05.10-02.13.57:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.10-02.13.57:079][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.10-02.13.58:203][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.10-02.13.58:220][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-02.13.58:252][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-02.13.58:252][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-02.13.58:253][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-02.13.58:253][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-02.13.58:286][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-02.13.58:286][  0]LogAudioMixer: Display: Name: Fones de ouvido / Alto falantes (Realtek High Definition Audio)
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-02.13.58:287][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-02.13.58:603][  0]LogAudioMixer: Display: Using Audio Device Fones de ouvido / Alto falantes (Realtek High Definition Audio)
+[2020.05.10-02.13.58:612][  0]LogInit: FAudioDevice initialized.
+[2020.05.10-02.13.58:612][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.10-02.13.58:760][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/pchan/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.10-02.13.58:761][  0]LogInit: Texture streaming: Enabled
+[2020.05.10-02.13.58:784][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.10-02.13.58:784][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.10-02.13.58:793][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.10-02.13.58:879][  0]LogInit: Transaction tracking system initialized
+[2020.05.10-02.13.58:899][  0]BlueprintLog: New page: Carregar Editor
+[2020.05.10-02.13.58:955][  0]LocalizationService: Localization service is disabled
+[2020.05.10-02.13.59:729][  0]LogFileCache: Scanning file cache for directory 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/' took 0.01s
+[2020.05.10-02.13.59:729][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.10-02.13.59:729][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.10-02.14.01:421][  0]SourceControl: Controle de origem desativado
+[2020.05.10-02.14.01:656][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.10-02.15.41:735][  0]LogSlate: Window 'Restaurar Pacotes' being destroyed
+[2020.05.10-02.15.41:737][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.10-02.15.41:771][  0]LightingResults: New page: Compilação de Iluminação
+[2020.05.10-02.15.41:773][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.15.41:773][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.15.41:773][  0]MapCheck: New page: Verificação de Mapa
+[2020.05.10-02.15.41:773][  0]LightingResults: New page: Compilação de Iluminação
+[2020.05.10-02.15.41:861][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2020.05.10-02.15.41:971][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:971][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:972][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:972][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:975][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:975][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:975][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:975][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:976][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:976][  0]LoadErrors: Falha ao carregar /Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose.remy_original_pose Referenciado por CharacterMesh0
+[2020.05.10-02.15.41:977][  0]LogLinker: Warning: While loading 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose': Can't find file.
+[2020.05.10-02.15.41:977][  0]LoadErrors: Falha ao carregar /Game/ThirdPersonBP/Blueprints/person/remy/remy_original_pose.remy_original_pose Referenciado por CharacterMesh0
+[2020.05.10-02.15.42:628][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.10-02.15.42:714][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.10-02.15.42:769][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2020.05.10-02.15.42:770][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.10-02.15.42:770][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,22ms to complete.
+[2020.05.10-02.15.42:770][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.000
+[2020.05.10-02.15.42:799][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.10-02.15.42:954][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.15.42:973][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.15.42:989][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.15.43:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.15.43:025][  0]LogCollectionManager: Loaded 0 collections in 0.002973 seconds
+[2020.05.10-02.15.43:063][  0]LogFileCache: Scanning file cache for directory 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/Collections/' took 0.00s
+[2020.05.10-02.15.43:063][  0]LogFileCache: Scanning file cache for directory 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/Developers/pchan/Collections/' took 0.00s
+[2020.05.10-02.15.43:063][  0]LogFileCache: Scanning file cache for directory 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/Collections/' took 0.00s
+[2020.05.10-02.15.43:063][  0]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 3015 classes and 717 folders.
+[2020.05.10-02.15.43:069][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.10-02.15.43:493][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.05.10-02.15.43:539][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.05.10-02.15.43:726][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.10-02.15.43:743][  0]LogSlate: Took 0.006467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.10-02.15.43:853][  0]LogRenderer: Reallocating scene render targets to support 820x376 Format 10 NumSamples 1 (Frame:1).
+[2020.05.10-02.15.44:065][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.05.10-02.15.44:065][  0]LogLoad: (Engine Initialization) Total time: 123.78 seconds
+[2020.05.10-02.15.44:065][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.10-02.15.44:140][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.10-02.15.44:373][  0]LogSlate: Took 0.005333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.10-02.15.44:778][  6]LogAssetRegistry: Asset discovery search completed in 115.2518 seconds
+[2020.05.10-02.15.44:787][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2020.05.10-02.18.17:630][157]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.10-02.18.18:157][157]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/remy_t_pose.fbx)
+[2020.05.10-02.18.18:398][157]LogFbx: Loading FBX Scene from D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/remy_t_pose.fbx
+[2020.05.10-02.18.19:245][157]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.10-02.19.12:669][157]LogSlate: Window 'Opções de Importação FBX' being destroyed
+[2020.05.10-02.19.12:754][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyes : The relative matrices do not match
+[2020.05.10-02.19.12:756][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyelashes : The relative matrices do not match
+[2020.05.10-02.19.12:757][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Body : The relative matrices do not match
+[2020.05.10-02.19.12:758][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Hair : The relative matrices do not match
+[2020.05.10-02.19.12:760][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Bottoms : The relative matrices do not match
+[2020.05.10-02.19.12:761][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Tops : The relative matrices do not match
+[2020.05.10-02.19.12:763][157]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Shoes : The relative matrices do not match
+[2020.05.10-02.19.12:763][157]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.05.10-02.19.12:766][157]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Eyes
+[2020.05.10-02.19.12:766][157]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.05.10-02.19.13:032][157]LogMaterial: Display: Material /Game/Character/Remy/Bodymat.Bodymat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.19.13:043][157]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
+[2020.05.10-02.19.13:183][157]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2020.05.10-02.19.13:183][157]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.05.10-02.19.13:183][157]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.05.10-02.19.13:240][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Diffuse': Can't find file.
+[2020.05.10-02.19.13:242][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Diffuse': Can't find file.
+[2020.05.10-02.19.13:723][157]LogTexture: Display: Building textures: Remy_Body_Diffuse (AutoDXT, 2048X2048)
+[2020.05.10-02.19.23:773][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Specular': Can't find file.
+[2020.05.10-02.19.23:773][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Specular': Can't find file.
+[2020.05.10-02.19.24:111][157]LogTexture: Display: Building textures: Remy_Body_Specular (AutoDXT, 2048X2048)
+[2020.05.10-02.19.27:164][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Gloss': Can't find file.
+[2020.05.10-02.19.27:165][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Gloss': Can't find file.
+[2020.05.10-02.19.27:476][157]LogTexture: Display: Building textures: Remy_Body_Gloss (AutoDXT, 2048X2048)
+[2020.05.10-02.19.31:372][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Normal': Can't find file.
+[2020.05.10-02.19.31:372][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Normal': Can't find file.
+[2020.05.10-02.19.31:876][157]LogTexture: Display: Building textures: Remy_Body_Normal (BC5, 2048X2048)
+[2020.05.10-02.19.33:497][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Opacity': Can't find file.
+[2020.05.10-02.19.33:498][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Body_Opacity': Can't find file.
+[2020.05.10-02.19.33:682][157]LogTexture: Display: Building textures: Remy_Body_Opacity (AutoDXT, 2048X2048)
+[2020.05.10-02.19.35:074][157]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
+[2020.05.10-02.19.35:425][157]LogFbx: Triangulating skeletal mesh Eyes
+[2020.05.10-02.19.35:739][157]LogFbx: Triangulating skeletal mesh Eyelashes
+[2020.05.10-02.19.35:762][157]LogFbx: Triangulating skeletal mesh Body
+[2020.05.10-02.19.38:437][157]LogMaterial: Display: Material /Game/Character/Remy/Hairmat.Hairmat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.19.38:456][157]LogMaterial: Display: Missing cached shader map for material Hairmat, compiling. 
+[2020.05.10-02.19.38:600][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Diffuse': Can't find file.
+[2020.05.10-02.19.38:600][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Diffuse': Can't find file.
+[2020.05.10-02.19.38:683][157]LogTexture: Display: Building textures: Remy_Hair_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.19.40:074][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Specular': Can't find file.
+[2020.05.10-02.19.40:074][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Specular': Can't find file.
+[2020.05.10-02.19.40:096][157]LogTexture: Display: Building textures: Remy_Hair_Specular (AutoDXT, 512X512)
+[2020.05.10-02.19.40:398][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Gloss': Can't find file.
+[2020.05.10-02.19.40:399][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Gloss': Can't find file.
+[2020.05.10-02.19.40:416][157]LogTexture: Display: Building textures: Remy_Hair_Gloss (AutoDXT, 512X512)
+[2020.05.10-02.19.40:698][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Normal': Can't find file.
+[2020.05.10-02.19.40:699][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Normal': Can't find file.
+[2020.05.10-02.19.40:721][157]LogTexture: Display: Building textures: Remy_Hair_Normal (BC5, 512X512)
+[2020.05.10-02.19.40:827][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Opacity': Can't find file.
+[2020.05.10-02.19.40:827][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Hair_Opacity': Can't find file.
+[2020.05.10-02.19.40:944][157]LogTexture: Display: Building textures: Remy_Hair_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.19.42:517][157]LogMaterial: Display: Missing cached shader map for material Hairmat, compiling. 
+[2020.05.10-02.19.42:698][157]LogFbx: Triangulating skeletal mesh Hair
+[2020.05.10-02.19.43:379][157]LogMaterial: Display: Material /Game/Character/Remy/Bottommat.Bottommat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.19.43:401][157]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
+[2020.05.10-02.19.43:513][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Diffuse': Can't find file.
+[2020.05.10-02.19.43:513][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Diffuse': Can't find file.
+[2020.05.10-02.19.43:615][157]LogTexture: Display: Building textures: Remy_Bottom_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.19.46:848][157]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 213
+[2020.05.10-02.19.46:868][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Specular': Can't find file.
+[2020.05.10-02.19.46:869][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Specular': Can't find file.
+[2020.05.10-02.19.46:935][157]LogTexture: Display: Building textures: Remy_Bottom_Specular (AutoDXT, 1024X1024)
+[2020.05.10-02.19.47:370][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Gloss': Can't find file.
+[2020.05.10-02.19.47:371][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Gloss': Can't find file.
+[2020.05.10-02.19.47:472][157]LogTexture: Display: Building textures: Remy_Bottom_Gloss (AutoDXT, 1024X1024)
+[2020.05.10-02.19.49:357][157]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 203
+[2020.05.10-02.19.49:370][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Normal': Can't find file.
+[2020.05.10-02.19.49:371][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Normal': Can't find file.
+[2020.05.10-02.19.49:521][157]LogTexture: Display: Building textures: Remy_Bottom_Normal (BC5, 1024X1024)
+[2020.05.10-02.19.49:961][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Opacity': Can't find file.
+[2020.05.10-02.19.49:961][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Bottom_Opacity': Can't find file.
+[2020.05.10-02.19.50:059][157]LogTexture: Display: Building textures: Remy_Bottom_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.19.50:387][157]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 193
+[2020.05.10-02.19.50:481][157]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
+[2020.05.10-02.19.50:672][157]LogFbx: Triangulating skeletal mesh Bottoms
+[2020.05.10-02.19.51:254][157]LogMaterial: Display: Material /Game/Character/Remy/Topmat.Topmat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.19.51:274][157]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
+[2020.05.10-02.19.51:383][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Diffuse': Can't find file.
+[2020.05.10-02.19.51:384][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Diffuse': Can't find file.
+[2020.05.10-02.19.51:498][157]LogTexture: Display: Building textures: Remy_Top_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.19.53:707][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Specular': Can't find file.
+[2020.05.10-02.19.53:708][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Specular': Can't find file.
+[2020.05.10-02.19.53:769][157]LogTexture: Display: Building textures: Remy_Top_Specular (AutoDXT, 1024X1024)
+[2020.05.10-02.19.54:023][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Gloss': Can't find file.
+[2020.05.10-02.19.54:023][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Gloss': Can't find file.
+[2020.05.10-02.19.54:133][157]LogTexture: Display: Building textures: Remy_Top_Gloss (AutoDXT, 1024X1024)
+[2020.05.10-02.19.55:013][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Normal': Can't find file.
+[2020.05.10-02.19.55:013][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Normal': Can't find file.
+[2020.05.10-02.19.55:164][157]LogTexture: Display: Building textures: Remy_Top_Normal (BC5, 1024X1024)
+[2020.05.10-02.19.55:554][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Opacity': Can't find file.
+[2020.05.10-02.19.55:554][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Top_Opacity': Can't find file.
+[2020.05.10-02.19.55:597][157]LogTexture: Display: Building textures: Remy_Top_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.19.55:959][157]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
+[2020.05.10-02.19.56:141][157]LogFbx: Triangulating skeletal mesh Tops
+[2020.05.10-02.19.56:719][157]LogMaterial: Display: Material /Game/Character/Remy/Shoesmat.Shoesmat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.19.56:736][157]LogMaterial: Display: Missing cached shader map for material Shoesmat, compiling. 
+[2020.05.10-02.19.56:837][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Diffuse': Can't find file.
+[2020.05.10-02.19.56:838][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Diffuse': Can't find file.
+[2020.05.10-02.19.56:946][157]LogTexture: Display: Building textures: Remy_Shoes_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.19.59:093][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Specular': Can't find file.
+[2020.05.10-02.19.59:093][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Specular': Can't find file.
+[2020.05.10-02.19.59:161][157]LogTexture: Display: Building textures: Remy_Shoes_Specular (AutoDXT, 1024X1024)
+[2020.05.10-02.19.59:540][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Gloss': Can't find file.
+[2020.05.10-02.19.59:540][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Gloss': Can't find file.
+[2020.05.10-02.19.59:623][157]LogTexture: Display: Building textures: Remy_Shoes_Gloss (AutoDXT, 1024X1024)
+[2020.05.10-02.20.00:412][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Normal': Can't find file.
+[2020.05.10-02.20.00:413][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Normal': Can't find file.
+[2020.05.10-02.20.00:565][157]LogTexture: Display: Building textures: Remy_Shoes_Normal (BC5, 1024X1024)
+[2020.05.10-02.20.01:025][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Opacity': Can't find file.
+[2020.05.10-02.20.01:025][157]LogLinker: Failed to load '/Game/Character/Remy/Remy_Shoes_Opacity': Can't find file.
+[2020.05.10-02.20.01:089][157]LogTexture: Display: Building textures: Remy_Shoes_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.20.01:443][157]LogMaterial: Display: Missing cached shader map for material Shoesmat, compiling. 
+[2020.05.10-02.20.01:622][157]LogFbx: Triangulating skeletal mesh Shoes
+[2020.05.10-02.20.02:611][157]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2020.05.10-02.20.02:625][157]LogLODUtilities: Warning: Warning skeletal mesh influence count of 9 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.000000
+[2020.05.10-02.20.07:160][157]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.20.07:161][157]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.20.07:163][157]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.20.07:164][157]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.20.07:165][157]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.20.07:173][157]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.20.07:173][157]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.20.07:173][157]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.20.07:173][157]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.20.07:173][157]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.20.07:463][157]LogSkeletalMesh: Building Skeletal Mesh remy_t_pose...
+[2020.05.10-02.20.11:320][157]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 405
+[2020.05.10-02.20.11:320][157]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.20.11:321][157]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.20.11:324][157]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.20.11:325][157]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.20.11:326][157]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.20.11:334][157]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.20.11:334][157]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.20.11:334][157]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.20.11:334][157]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.20.11:334][157]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.20.11:633][157]LogSkeletalMesh: Built Skeletal Mesh [4.17s] /Game/Character/Remy/remy_t_pose.remy_t_pose
+[2020.05.10-02.20.11:732][157]LogLinker: Failed to load '/Game/Character/Remy/remy_t_pose_Skeleton': Can't find file.
+[2020.05.10-02.20.11:732][157]LogLinker: Failed to load '/Game/Character/Remy/remy_t_pose_Skeleton': Can't find file.
+[2020.05.10-02.20.11:735][157]LogLinker: Failed to load '/Game/Character/Remy/remy_t_pose_PhysicsAsset': Can't find file.
+[2020.05.10-02.20.11:736][157]LogLinker: Failed to load '/Game/Character/Remy/remy_t_pose_PhysicsAsset': Can't find file.
+[2020.05.10-02.20.11:778][157]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.20.11:779][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.20.12:014][157]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.05.10-02.20.12:014][157]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.05.10-02.20.20:835][288]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 395
+[2020.05.10-02.20.24:207][336]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 385
+[2020.05.10-02.20.28:224][408]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 375
+[2020.05.10-02.20.44:245][661]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 365
+[2020.05.10-02.20.44:811][671]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 355
+[2020.05.10-02.20.47:644][711]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 345
+[2020.05.10-02.21.03:738][ 15]LogSlate: Window 'Registro de Mensagem' being destroyed
+[2020.05.10-02.21.03:751][ 15]LogSlate: Window 'Registro de Mensagem' being destroyed
+[2020.05.10-02.21.11:723][134]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 335
+[2020.05.10-02.21.16:647][215]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 325
+[2020.05.10-02.21.18:811][245]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 315
+[2020.05.10-02.21.37:304][543]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 305
+[2020.05.10-02.21.37:889][553]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 295
+[2020.05.10-02.21.40:706][586]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 285
+[2020.05.10-02.22.17:889][821]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 275
+[2020.05.10-02.22.40:601][480]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 265
+[2020.05.10-02.22.41:423][491]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 255
+[2020.05.10-02.23.01:202][736]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 245
+[2020.05.10-02.23.01:758][743]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 235
+[2020.05.10-02.23.17:319][925]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 225
+[2020.05.10-02.23.28:788][ 68]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 215
+[2020.05.10-02.23.44:340][258]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 205
+[2020.05.10-02.23.55:628][358]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 195
+[2020.05.10-02.24.05:573][443]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 185
+[2020.05.10-02.24.10:600][489]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 175
+[2020.05.10-02.24.27:664][635]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 165
+[2020.05.10-02.24.32:188][677]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 155
+[2020.05.10-02.24.39:234][738]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 145
+[2020.05.10-02.25.01:812][933]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 135
+[2020.05.10-02.25.03:132][946]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 125
+[2020.05.10-02.25.10:672][ 10]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 115
+[2020.05.10-02.25.34:288][224]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 105
+[2020.05.10-02.25.36:868][248]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 95
+[2020.05.10-02.25.37:529][253]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 85
+[2020.05.10-02.26.04:030][488]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 75
+[2020.05.10-02.26.05:314][499]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 65
+[2020.05.10-02.26.06:330][509]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 55
+[2020.05.10-02.27.20:840][216]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 45
+[2020.05.10-02.27.21:466][223]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 35
+[2020.05.10-02.27.25:170][256]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2020.05.10-02.27.48:042][457]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.10-02.28.01:491][553]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.10-02.28.03:985][656]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.10-02.28.15:858][731]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.10-02.28.24:151][874]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.10-02.28.34:898][179]LogSavePackage: Moving 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/remy_t_poseB1C2954B491CAB1769241DA190F8619D.tmp' to 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/Character/Remy/remy_t_pose.uasset'
+[2020.05.10-02.28.35:011][179]AssetCheck: New page: Asset Save: remy_t_pose
+[2020.05.10-02.28.35:012][179]LogContentValidation: Display: Validating SkeletalMesh /Game/Character/Remy/remy_t_pose.remy_t_pose
+[2020.05.10-02.28.52:388][117]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2020.05.10-02.28.52:935][117]LogSavePackage: Moving 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/ThirdPersonExampleMap74F9C0654CE48E612049ACAAE5742D92.tmp' to 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.10-02.28.53:914][117]LogSavePackage: Moving 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Saved/ThirdPersonExampleMap_BuiltData37EF836048FB79D2A6B7F183D20DE803.tmp' to 'D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/_PROJINTERDISCIPLINARANIMACAO/_UNREAL/testeambientecameras/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.10-02.28.53:946][117]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-02.28.53:946][117]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.10-02.28.53:947][117]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.10-02.29.05:851][342]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/_ANIMACAO/Idle.fbx)
+[2020.05.10-02.29.06:111][342]LogFbx: Loading FBX Scene from D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/_ANIMACAO/Idle.fbx
+[2020.05.10-02.29.07:437][342]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.10-02.29.19:406][342]LogSlate: Window 'Opções de Importação FBX' being destroyed
+[2020.05.10-02.29.19:459][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyes : The relative matrices do not match
+[2020.05.10-02.29.19:461][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyelashes : The relative matrices do not match
+[2020.05.10-02.29.19:463][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Body : The relative matrices do not match
+[2020.05.10-02.29.19:466][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Hair : The relative matrices do not match
+[2020.05.10-02.29.19:468][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Bottoms : The relative matrices do not match
+[2020.05.10-02.29.19:470][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Tops : The relative matrices do not match
+[2020.05.10-02.29.19:474][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Shoes : The relative matrices do not match
+[2020.05.10-02.29.19:474][342]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.05.10-02.29.19:481][342]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Eyes
+[2020.05.10-02.29.19:481][342]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.05.10-02.29.19:488][342]LogMaterial: Display: Material /Game/Character/Remy/Animacao/Bodymat.Bodymat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.29.19:503][342]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
+[2020.05.10-02.29.19:574][342]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2020.05.10-02.29.19:574][342]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.05.10-02.29.19:574][342]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.05.10-02.29.19:631][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Diffuse': Can't find file.
+[2020.05.10-02.29.19:632][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Diffuse': Can't find file.
+[2020.05.10-02.29.20:157][342]LogTexture: Display: Building textures: Remy_Body_Diffuse (AutoDXT, 2048X2048)
+[2020.05.10-02.29.30:815][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Specular': Can't find file.
+[2020.05.10-02.29.30:816][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Specular': Can't find file.
+[2020.05.10-02.29.31:095][342]LogTexture: Display: Building textures: Remy_Body_Specular (AutoDXT, 2048X2048)
+[2020.05.10-02.29.33:996][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Gloss': Can't find file.
+[2020.05.10-02.29.34:002][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Gloss': Can't find file.
+[2020.05.10-02.29.34:337][342]LogTexture: Display: Building textures: Remy_Body_Gloss (AutoDXT, 2048X2048)
+[2020.05.10-02.29.38:271][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Normal': Can't find file.
+[2020.05.10-02.29.38:271][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Normal': Can't find file.
+[2020.05.10-02.29.38:760][342]LogTexture: Display: Building textures: Remy_Body_Normal (BC5, 2048X2048)
+[2020.05.10-02.29.40:345][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Opacity': Can't find file.
+[2020.05.10-02.29.40:345][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Body_Opacity': Can't find file.
+[2020.05.10-02.29.40:515][342]LogTexture: Display: Building textures: Remy_Body_Opacity (AutoDXT, 2048X2048)
+[2020.05.10-02.29.41:860][342]LogMaterial: Display: Missing cached shader map for material Bodymat, compiling. 
+[2020.05.10-02.29.42:030][342]LogFbx: Triangulating skeletal mesh Eyes
+[2020.05.10-02.29.42:313][342]LogFbx: Triangulating skeletal mesh Eyelashes
+[2020.05.10-02.29.42:336][342]LogFbx: Triangulating skeletal mesh Body
+[2020.05.10-02.29.44:918][342]LogMaterial: Display: Material /Game/Character/Remy/Animacao/Hairmat.Hairmat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.29.44:938][342]LogMaterial: Display: Missing cached shader map for material Hairmat, compiling. 
+[2020.05.10-02.29.45:034][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Diffuse': Can't find file.
+[2020.05.10-02.29.45:034][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Diffuse': Can't find file.
+[2020.05.10-02.29.45:110][342]LogTexture: Display: Building textures: Remy_Hair_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.29.46:420][342]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 126
+[2020.05.10-02.29.46:434][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Specular': Can't find file.
+[2020.05.10-02.29.46:434][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Specular': Can't find file.
+[2020.05.10-02.29.46:453][342]LogTexture: Display: Building textures: Remy_Hair_Specular (AutoDXT, 512X512)
+[2020.05.10-02.29.46:726][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Gloss': Can't find file.
+[2020.05.10-02.29.46:727][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Gloss': Can't find file.
+[2020.05.10-02.29.46:749][342]LogTexture: Display: Building textures: Remy_Hair_Gloss (AutoDXT, 512X512)
+[2020.05.10-02.29.47:048][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Normal': Can't find file.
+[2020.05.10-02.29.47:049][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Normal': Can't find file.
+[2020.05.10-02.29.47:073][342]LogTexture: Display: Building textures: Remy_Hair_Normal (BC5, 512X512)
+[2020.05.10-02.29.47:195][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Opacity': Can't find file.
+[2020.05.10-02.29.47:195][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Hair_Opacity': Can't find file.
+[2020.05.10-02.29.47:304][342]LogTexture: Display: Building textures: Remy_Hair_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.29.48:816][342]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 116
+[2020.05.10-02.29.48:896][342]LogMaterial: Display: Missing cached shader map for material Hairmat, compiling. 
+[2020.05.10-02.29.49:068][342]LogFbx: Triangulating skeletal mesh Hair
+[2020.05.10-02.29.49:707][342]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 154
+[2020.05.10-02.29.49:708][342]LogMaterial: Display: Material /Game/Character/Remy/Animacao/Bottommat.Bottommat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.29.49:728][342]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
+[2020.05.10-02.29.49:821][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Diffuse': Can't find file.
+[2020.05.10-02.29.49:822][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Diffuse': Can't find file.
+[2020.05.10-02.29.49:923][342]LogTexture: Display: Building textures: Remy_Bottom_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.29.53:240][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Specular': Can't find file.
+[2020.05.10-02.29.53:241][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Specular': Can't find file.
+[2020.05.10-02.29.53:313][342]LogTexture: Display: Building textures: Remy_Bottom_Specular (AutoDXT, 1024X1024)
+[2020.05.10-02.29.53:713][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Gloss': Can't find file.
+[2020.05.10-02.29.53:714][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Gloss': Can't find file.
+[2020.05.10-02.29.53:797][342]LogTexture: Display: Building textures: Remy_Bottom_Gloss (AutoDXT, 1024X1024)
+[2020.05.10-02.29.55:704][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Normal': Can't find file.
+[2020.05.10-02.29.55:705][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Normal': Can't find file.
+[2020.05.10-02.29.55:854][342]LogTexture: Display: Building textures: Remy_Bottom_Normal (BC5, 1024X1024)
+[2020.05.10-02.29.56:307][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Opacity': Can't find file.
+[2020.05.10-02.29.56:307][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Bottom_Opacity': Can't find file.
+[2020.05.10-02.29.56:359][342]LogTexture: Display: Building textures: Remy_Bottom_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.29.56:729][342]LogMaterial: Display: Missing cached shader map for material Bottommat, compiling. 
+[2020.05.10-02.29.56:897][342]LogFbx: Triangulating skeletal mesh Bottoms
+[2020.05.10-02.29.57:443][342]LogMaterial: Display: Material /Game/Character/Remy/Animacao/Topmat.Topmat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.29.57:463][342]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
+[2020.05.10-02.29.57:555][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Diffuse': Can't find file.
+[2020.05.10-02.29.57:556][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Diffuse': Can't find file.
+[2020.05.10-02.29.57:653][342]LogTexture: Display: Building textures: Remy_Top_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.29.59:825][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Specular': Can't find file.
+[2020.05.10-02.29.59:826][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Specular': Can't find file.
+[2020.05.10-02.29.59:893][342]LogTexture: Display: Building textures: Remy_Top_Specular (AutoDXT, 1024X1024)
+[2020.05.10-02.30.00:179][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Gloss': Can't find file.
+[2020.05.10-02.30.00:179][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Gloss': Can't find file.
+[2020.05.10-02.30.00:277][342]LogTexture: Display: Building textures: Remy_Top_Gloss (AutoDXT, 1024X1024)
+[2020.05.10-02.30.01:131][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Normal': Can't find file.
+[2020.05.10-02.30.01:131][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Normal': Can't find file.
+[2020.05.10-02.30.01:285][342]LogTexture: Display: Building textures: Remy_Top_Normal (BC5, 1024X1024)
+[2020.05.10-02.30.01:666][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Opacity': Can't find file.
+[2020.05.10-02.30.01:667][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Top_Opacity': Can't find file.
+[2020.05.10-02.30.01:719][342]LogTexture: Display: Building textures: Remy_Top_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.30.02:088][342]LogMaterial: Display: Missing cached shader map for material Topmat, compiling. 
+[2020.05.10-02.30.02:270][342]LogFbx: Triangulating skeletal mesh Tops
+[2020.05.10-02.30.02:816][342]LogMaterial: Display: Material /Game/Character/Remy/Animacao/Shoesmat.Shoesmat needed to have new flag set bUsedWithSkeletalMesh !
+[2020.05.10-02.30.02:839][342]LogMaterial: Display: Missing cached shader map for material Shoesmat, compiling. 
+[2020.05.10-02.30.02:936][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Diffuse': Can't find file.
+[2020.05.10-02.30.02:936][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Diffuse': Can't find file.
+[2020.05.10-02.30.03:052][342]LogTexture: Display: Building textures: Remy_Shoes_Diffuse (AutoDXT, 1024X1024)
+[2020.05.10-02.30.05:164][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Specular': Can't find file.
+[2020.05.10-02.30.05:164][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Specular': Can't find file.
+[2020.05.10-02.30.05:233][342]LogTexture: Display: Building textures: Remy_Shoes_Specular (AutoDXT, 1024X1024)
+[2020.05.10-02.30.05:631][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Gloss': Can't find file.
+[2020.05.10-02.30.05:632][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Gloss': Can't find file.
+[2020.05.10-02.30.05:715][342]LogTexture: Display: Building textures: Remy_Shoes_Gloss (AutoDXT, 1024X1024)
+[2020.05.10-02.30.06:601][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Normal': Can't find file.
+[2020.05.10-02.30.06:601][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Normal': Can't find file.
+[2020.05.10-02.30.06:758][342]LogTexture: Display: Building textures: Remy_Shoes_Normal (BC5, 1024X1024)
+[2020.05.10-02.30.07:214][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Opacity': Can't find file.
+[2020.05.10-02.30.07:215][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Remy_Shoes_Opacity': Can't find file.
+[2020.05.10-02.30.07:256][342]LogTexture: Display: Building textures: Remy_Shoes_Opacity (AutoDXT, 1024X1024)
+[2020.05.10-02.30.07:632][342]LogMaterial: Display: Missing cached shader map for material Shoesmat, compiling. 
+[2020.05.10-02.30.07:807][342]LogFbx: Triangulating skeletal mesh Shoes
+[2020.05.10-02.30.08:760][342]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2020.05.10-02.30.08:774][342]LogLODUtilities: Warning: Warning skeletal mesh influence count of 9 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.000000
+[2020.05.10-02.30.12:730][342]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 405
+[2020.05.10-02.30.13:241][342]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.30.13:243][342]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.30.13:244][342]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.30.13:244][342]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.30.13:246][342]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.30.13:254][342]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.30.13:254][342]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.30.13:254][342]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.30.13:254][342]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.30.13:254][342]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.30.13:471][342]LogSkeletalMesh: Building Skeletal Mesh Idle...
+[2020.05.10-02.30.17:531][342]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.30.17:532][342]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.30.17:533][342]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.30.17:533][342]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.30.17:534][342]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.30.17:544][342]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.30.17:544][342]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.30.17:544][342]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.30.17:544][342]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.30.17:544][342]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.30.17:879][342]LogSkeletalMesh: Built Skeletal Mesh [4.41s] /Game/Character/Remy/Animacao/Idle.Idle
+[2020.05.10-02.30.17:981][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Idle_PhysicsAsset': Can't find file.
+[2020.05.10-02.30.17:982][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Idle_PhysicsAsset': Can't find file.
+[2020.05.10-02.30.18:024][342]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.30.18:024][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.30.18:049][342]LogFbx: SortedLinks :(0) Hips
+[2020.05.10-02.30.18:049][342]LogFbx: SortedLinks :(1) Spine
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(2) Spine1
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(3) Spine2
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(4) Neck
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(5) Head
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(7) RightEye
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(8) LeftEye
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(9) LeftShoulder
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(10) LeftArm
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(11) LeftForeArm
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(12) LeftHand
+[2020.05.10-02.30.18:050][342]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2020.05.10-02.30.18:051][342]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2020.05.10-02.30.18:051][342]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2020.05.10-02.30.18:051][342]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2020.05.10-02.30.18:051][342]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2020.05.10-02.30.18:051][342]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2020.05.10-02.30.18:051][342]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2020.05.10-02.30.18:052][342]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2020.05.10-02.30.18:052][342]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2020.05.10-02.30.18:052][342]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2020.05.10-02.30.18:052][342]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2020.05.10-02.30.18:052][342]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2020.05.10-02.30.18:052][342]LogFbx: SortedLinks :(25) LeftHandRing1
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(26) LeftHandRing2
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(27) LeftHandRing3
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(28) LeftHandRing4
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(33) RightShoulder
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(34) RightArm
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(35) RightForeArm
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(36) RightHand
+[2020.05.10-02.30.18:053][342]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(41) RightHandThumb1
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(42) RightHandThumb2
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(43) RightHandThumb3
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(44) RightHandThumb4
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(45) RightHandIndex1
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(46) RightHandIndex2
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(47) RightHandIndex3
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(48) RightHandIndex4
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(49) RightHandRing1
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(50) RightHandRing2
+[2020.05.10-02.30.18:054][342]LogFbx: SortedLinks :(51) RightHandRing3
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(52) RightHandRing4
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(53) RightHandPinky1
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(54) RightHandPinky2
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(55) RightHandPinky3
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(56) RightHandPinky4
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(57) LeftUpLeg
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(58) LeftLeg
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(59) LeftFoot
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(60) LeftToeBase
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(61) LeftToe_End
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(62) RightUpLeg
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(63) RightLeg
+[2020.05.10-02.30.18:055][342]LogFbx: SortedLinks :(64) RightFoot
+[2020.05.10-02.30.18:056][342]LogFbx: SortedLinks :(65) RightToeBase
+[2020.05.10-02.30.18:056][342]LogFbx: SortedLinks :(66) RightToe_End
+[2020.05.10-02.30.18:059][342]LogFbx: Parsing AnimStack mixamo.com
+[2020.05.10-02.30.18:060][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Idle_Anim': Can't find file.
+[2020.05.10-02.30.18:060][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Idle_Anim': Can't find file.
+[2020.05.10-02.30.18:061][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:061][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:061][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:061][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:062][342]LogFbx: Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:063][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:064][342]LogFbx: Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:065][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:066][342]LogFbx: Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:067][342]LogFbx: Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:068][342]LogFbx: Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:069][342]LogFbx: Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:070][342]LogFbx: Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:070][342]LogFbx: Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:070][342]LogFbx: Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.18:070][342]LogFbx: Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.19:548][342]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Remy/Animacao/Idle_Anim.Idle_Anim
+[2020.05.10-02.30.19:549][342]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Remy/Animacao/Idle_Anim.Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.05.10-02.30.19:805][342]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.05.10-02.30.19:805][342]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.05.10-02.30.20:513][342]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/_ANIMACAO/Jumping.fbx)
+[2020.05.10-02.30.20:845][342]LogFbx: Loading FBX Scene from D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/_ANIMACAO/Jumping.fbx
+[2020.05.10-02.30.22:600][342]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 395
+[2020.05.10-02.30.22:600][342]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.10-02.30.22:644][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyes : The relative matrices do not match
+[2020.05.10-02.30.22:647][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyelashes : The relative matrices do not match
+[2020.05.10-02.30.22:650][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Body : The relative matrices do not match
+[2020.05.10-02.30.22:653][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Hair : The relative matrices do not match
+[2020.05.10-02.30.22:657][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Bottoms : The relative matrices do not match
+[2020.05.10-02.30.22:659][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Tops : The relative matrices do not match
+[2020.05.10-02.30.22:662][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Shoes : The relative matrices do not match
+[2020.05.10-02.30.22:662][342]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.05.10-02.30.22:667][342]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Eyes
+[2020.05.10-02.30.22:667][342]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.05.10-02.30.22:677][342]LogFbx: Triangulating skeletal mesh Eyes
+[2020.05.10-02.30.22:958][342]LogFbx: Triangulating skeletal mesh Eyelashes
+[2020.05.10-02.30.22:978][342]LogFbx: Triangulating skeletal mesh Body
+[2020.05.10-02.30.25:586][342]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 385
+[2020.05.10-02.30.25:586][342]LogFbx: Triangulating skeletal mesh Hair
+[2020.05.10-02.30.26:265][342]LogFbx: Triangulating skeletal mesh Bottoms
+[2020.05.10-02.30.26:800][342]LogFbx: Triangulating skeletal mesh Tops
+[2020.05.10-02.30.27:382][342]LogFbx: Triangulating skeletal mesh Shoes
+[2020.05.10-02.30.28:345][342]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2020.05.10-02.30.28:356][342]LogLODUtilities: Warning: Warning skeletal mesh influence count of 9 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.000000
+[2020.05.10-02.30.32:203][342]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 375
+[2020.05.10-02.30.32:789][342]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.30.32:790][342]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.30.32:793][342]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.30.32:794][342]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.30.32:795][342]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.30.32:801][342]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.30.32:801][342]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.30.32:802][342]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.30.32:802][342]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.30.32:802][342]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.30.33:054][342]LogSkeletalMesh: Building Skeletal Mesh Jumping...
+[2020.05.10-02.30.37:022][342]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.30.37:023][342]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.30.37:024][342]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.30.37:025][342]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.30.37:026][342]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.30.37:033][342]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.30.37:033][342]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.30.37:033][342]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.30.37:034][342]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.30.37:034][342]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.30.37:359][342]LogSkeletalMesh: Built Skeletal Mesh [4.31s] /Game/Character/Remy/Animacao/Jumping.Jumping
+[2020.05.10-02.30.37:456][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Jumping_PhysicsAsset': Can't find file.
+[2020.05.10-02.30.37:457][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Jumping_PhysicsAsset': Can't find file.
+[2020.05.10-02.30.37:481][342]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.30.37:481][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.30.37:500][342]LogFbx: SortedLinks :(0) Hips
+[2020.05.10-02.30.37:500][342]LogFbx: SortedLinks :(1) Spine
+[2020.05.10-02.30.37:500][342]LogFbx: SortedLinks :(2) Spine1
+[2020.05.10-02.30.37:500][342]LogFbx: SortedLinks :(3) Spine2
+[2020.05.10-02.30.37:500][342]LogFbx: SortedLinks :(4) Neck
+[2020.05.10-02.30.37:500][342]LogFbx: SortedLinks :(5) Head
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(7) RightEye
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(8) LeftEye
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(9) LeftShoulder
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(10) LeftArm
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(11) LeftForeArm
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(12) LeftHand
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(25) LeftHandRing1
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(26) LeftHandRing2
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(27) LeftHandRing3
+[2020.05.10-02.30.37:501][342]LogFbx: SortedLinks :(28) LeftHandRing4
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(33) RightShoulder
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(34) RightArm
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(35) RightForeArm
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(36) RightHand
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(41) RightHandThumb1
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(42) RightHandThumb2
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(43) RightHandThumb3
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(44) RightHandThumb4
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(45) RightHandIndex1
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(46) RightHandIndex2
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(47) RightHandIndex3
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(48) RightHandIndex4
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(49) RightHandRing1
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(50) RightHandRing2
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(51) RightHandRing3
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(52) RightHandRing4
+[2020.05.10-02.30.37:502][342]LogFbx: SortedLinks :(53) RightHandPinky1
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(54) RightHandPinky2
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(55) RightHandPinky3
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(56) RightHandPinky4
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(57) LeftUpLeg
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(58) LeftLeg
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(59) LeftFoot
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(60) LeftToeBase
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(61) LeftToe_End
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(62) RightUpLeg
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(63) RightLeg
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(64) RightFoot
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(65) RightToeBase
+[2020.05.10-02.30.37:503][342]LogFbx: SortedLinks :(66) RightToe_End
+[2020.05.10-02.30.37:508][342]LogFbx: Parsing AnimStack mixamo.com
+[2020.05.10-02.30.37:508][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Jumping_Anim': Can't find file.
+[2020.05.10-02.30.37:509][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Jumping_Anim': Can't find file.
+[2020.05.10-02.30.37:509][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:509][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:509][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:510][342]LogFbx: Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:511][342]LogFbx: Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:512][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:513][342]LogFbx: Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:514][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:515][342]LogFbx: Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:516][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.37:517][342]LogFbx: Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.39:248][342]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Remy/Animacao/Jumping_Anim.Jumping_Anim
+[2020.05.10-02.30.39:248][342]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Remy/Animacao/Jumping_Anim.Jumping_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.05.10-02.30.39:475][342]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.05.10-02.30.39:475][342]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.05.10-02.30.40:032][342]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/_ANIMACAO/Running.fbx)
+[2020.05.10-02.30.40:386][342]LogFbx: Loading FBX Scene from D:/_SISTEMAS/_GAMEDEV/_CZDOSUL/__UTIL/_PERSONAGENS_FBX/remy/_ANIMACAO/Running.fbx
+[2020.05.10-02.30.42:121][342]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.10-02.30.42:164][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyes : The relative matrices do not match
+[2020.05.10-02.30.42:168][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Eyelashes : The relative matrices do not match
+[2020.05.10-02.30.42:172][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Body : The relative matrices do not match
+[2020.05.10-02.30.42:178][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Hair : The relative matrices do not match
+[2020.05.10-02.30.42:181][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Bottoms : The relative matrices do not match
+[2020.05.10-02.30.42:185][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Tops : The relative matrices do not match
+[2020.05.10-02.30.42:189][342]LogFbx: Warning: Not valid bind pose for Pose (BindPose) - Node Shoes : The relative matrices do not match
+[2020.05.10-02.30.42:189][342]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2020.05.10-02.30.42:194][342]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Eyes
+[2020.05.10-02.30.42:195][342]LogFbx: Warning: Recreating bind pose succeeded.
+[2020.05.10-02.30.42:206][342]LogFbx: Triangulating skeletal mesh Eyes
+[2020.05.10-02.30.42:559][342]LogFbx: Triangulating skeletal mesh Eyelashes
+[2020.05.10-02.30.42:591][342]LogFbx: Triangulating skeletal mesh Body
+[2020.05.10-02.30.45:544][342]LogFbx: Triangulating skeletal mesh Hair
+[2020.05.10-02.30.46:229][342]LogFbx: Triangulating skeletal mesh Bottoms
+[2020.05.10-02.30.46:812][342]LogFbx: Triangulating skeletal mesh Tops
+[2020.05.10-02.30.47:426][342]LogFbx: Triangulating skeletal mesh Shoes
+[2020.05.10-02.30.48:351][342]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 12
+[2020.05.10-02.30.48:361][342]LogLODUtilities: Warning: Warning skeletal mesh influence count of 9 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.000000
+[2020.05.10-02.30.49:112][342]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 365
+[2020.05.10-02.30.52:255][342]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 355
+[2020.05.10-02.30.52:857][342]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 345
+[2020.05.10-02.30.52:857][342]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.30.52:857][342]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.30.52:858][342]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.30.52:858][342]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.30.52:859][342]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.30.52:867][342]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.30.52:868][342]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.30.52:868][342]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.30.52:868][342]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.30.52:868][342]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.30.53:103][342]LogSkeletalMesh: Building Skeletal Mesh Running...
+[2020.05.10-02.30.57:352][342]LogSkeletalMesh: Section 0: 8722 vertices, 63 active bones
+[2020.05.10-02.30.57:353][342]LogSkeletalMesh: Section 1: 3853 vertices, 3 active bones
+[2020.05.10-02.30.57:354][342]LogSkeletalMesh: Section 2: 2784 vertices, 8 active bones
+[2020.05.10-02.30.57:354][342]LogSkeletalMesh: Section 3: 2434 vertices, 13 active bones
+[2020.05.10-02.30.57:355][342]LogSkeletalMesh: Section 4: 3690 vertices, 8 active bones
+[2020.05.10-02.30.57:363][342]LogSkeletalMesh: Section 0: Material=0, 15162 triangles
+[2020.05.10-02.30.57:363][342]LogSkeletalMesh: Section 1: Material=1, 4666 triangles
+[2020.05.10-02.30.57:363][342]LogSkeletalMesh: Section 2: Material=2, 4510 triangles
+[2020.05.10-02.30.57:363][342]LogSkeletalMesh: Section 3: Material=3, 4361 triangles
+[2020.05.10-02.30.57:363][342]LogSkeletalMesh: Section 4: Material=4, 6494 triangles
+[2020.05.10-02.30.57:681][342]LogSkeletalMesh: Built Skeletal Mesh [4.58s] /Game/Character/Remy/Animacao/Running.Running
+[2020.05.10-02.30.57:779][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Running_PhysicsAsset': Can't find file.
+[2020.05.10-02.30.57:780][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Running_PhysicsAsset': Can't find file.
+[2020.05.10-02.30.57:804][342]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.30.57:804][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(0) Hips
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(1) Spine
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(2) Spine1
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(3) Spine2
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(4) Neck
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(5) Head
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(6) HeadTop_End
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(7) RightEye
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(8) LeftEye
+[2020.05.10-02.30.57:822][342]LogFbx: SortedLinks :(9) LeftShoulder
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(10) LeftArm
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(11) LeftForeArm
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(12) LeftHand
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(13) LeftHandMiddle1
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(14) LeftHandMiddle2
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(15) LeftHandMiddle3
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(16) LeftHandMiddle4
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(17) LeftHandThumb1
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(18) LeftHandThumb2
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(19) LeftHandThumb3
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(20) LeftHandThumb4
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(21) LeftHandIndex1
+[2020.05.10-02.30.57:823][342]LogFbx: SortedLinks :(22) LeftHandIndex2
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(23) LeftHandIndex3
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(24) LeftHandIndex4
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(25) LeftHandRing1
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(26) LeftHandRing2
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(27) LeftHandRing3
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(28) LeftHandRing4
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(29) LeftHandPinky1
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(30) LeftHandPinky2
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(31) LeftHandPinky3
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(32) LeftHandPinky4
+[2020.05.10-02.30.57:824][342]LogFbx: SortedLinks :(33) RightShoulder
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(34) RightArm
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(35) RightForeArm
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(36) RightHand
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(37) RightHandMiddle1
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(38) RightHandMiddle2
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(39) RightHandMiddle3
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(40) RightHandMiddle4
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(41) RightHandThumb1
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(42) RightHandThumb2
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(43) RightHandThumb3
+[2020.05.10-02.30.57:825][342]LogFbx: SortedLinks :(44) RightHandThumb4
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(45) RightHandIndex1
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(46) RightHandIndex2
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(47) RightHandIndex3
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(48) RightHandIndex4
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(49) RightHandRing1
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(50) RightHandRing2
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(51) RightHandRing3
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(52) RightHandRing4
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(53) RightHandPinky1
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(54) RightHandPinky2
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(55) RightHandPinky3
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(56) RightHandPinky4
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(57) LeftUpLeg
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(58) LeftLeg
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(59) LeftFoot
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(60) LeftToeBase
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(61) LeftToe_End
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(62) RightUpLeg
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(63) RightLeg
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(64) RightFoot
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(65) RightToeBase
+[2020.05.10-02.30.57:826][342]LogFbx: SortedLinks :(66) RightToe_End
+[2020.05.10-02.30.57:830][342]LogFbx: Parsing AnimStack mixamo.com
+[2020.05.10-02.30.57:830][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Running_Anim': Can't find file.
+[2020.05.10-02.30.57:831][342]LogLinker: Failed to load '/Game/Character/Remy/Animacao/Running_Anim': Can't find file.
+[2020.05.10-02.30.57:831][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:831][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:831][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:831][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:832][342]LogFbx: Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:833][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:834][342]LogFbx: Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:835][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:836][342]LogFbx: Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:837][342]LogFbx: Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:838][342]LogFbx: Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:839][342]LogFbx: Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:840][342]LogFbx: Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:840][342]LogFbx: Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:840][342]LogFbx: Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:840][342]LogFbx: Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:840][342]LogFbx: Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:841][342]LogFbx: Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:841][342]LogFbx: Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:841][342]LogFbx: Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:841][342]LogFbx: Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:841][342]LogFbx: Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
+[2020.05.10-02.30.57:841][342]LogFbx: Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
+[2020.05.10-02.31.09:491][342]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 335
+[2020.05.10-02.31.13:567][342]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 325
+[2020.05.10-02.31.16:556][342]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 315
+[2020.05.10-02.31.27:985][342]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Remy/Animacao/Running_Anim.Running_Anim
+[2020.05.10-02.31.27:985][342]LogAnimationCompression: Recompressing (AnimSequence /Game/Character/Remy/Animacao/Running_Anim.Running_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.05.10-02.31.28:383][342]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.05.10-02.31.28:383][342]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2020.05.10-02.31.35:363][426]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 305
+[2020.05.10-02.31.35:559][429]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 295
+[2020.05.10-02.31.38:904][487]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 285
+[2020.05.10-02.31.51:757][679]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 275
+[2020.05.10-02.31.59:519][812]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 265
+[2020.05.10-02.32.01:394][841]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 255
