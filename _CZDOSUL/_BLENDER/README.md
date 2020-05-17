@@ -32,7 +32,7 @@ também ser utilizao nas interações para com ele.
 
 ### Menu de gerenciamento de janelas
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/01_menu_janelas.png?raw=true "Menu de janelas")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/01_menu_janelas.png?raw=true "Menu de janelas")
 
 O Blender tem um menu para cada janela e no primeiro ícone à esquerda
 pode escolher qual a janela queremos trabalhar no momento.
@@ -45,7 +45,7 @@ a janela escolhida).
 
 ### Menu View
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/02_menu_view.png?raw=true "Menu View")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/02_menu_view.png?raw=true "Menu View")
 
 Neste menu destacamos o item Tool Shelf que é a barra de ferramentas do Blender que fica na área superior
 à esquerda como mostrado na seta e o item Properties que quando selecionado exibe na extrema direita da tela
@@ -53,19 +53,19 @@ as propriedades do objeto selecionado.
 
 ### Atributos dos objetos
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/04_atributos_objetos.png?raw=true "Atributos dos objetos")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/04_atributos_objetos.png?raw=true "Atributos dos objetos")
 
 Esta área é utilizada para acessar e modificar valores dos atributos ou de outros objetos relacionados ao objeto selecionado.
 
 ### Outline
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/05_outline.png?raw=true "Timeline")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/05_outline.png?raw=true "Timeline")
 
 Esta área mostra tudo o que está na nossa cena 3D ou a grosso modo a área de exibição de camadas do Photoshop.
 
 ### Timeline ou Linha do Tempo
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/03_timeline.png?raw=true "Timeline")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/03_timeline.png?raw=true "Timeline")
 
 Esta área é utilizada para quem pretende trabalhar com animações.
 
@@ -82,7 +82,7 @@ E também neste endereço é possível encontrar sua última versão feita para 
 
 Após a execução do script é possível encontrá-lo no menu de objetos.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/06_screencastkeys.png?raw=true "Timeline")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/06_screencastkeys.png?raw=true "Timeline")
 
 #### Botão Scroll do mouse em Operações de Visualização
 
@@ -101,7 +101,7 @@ outros apps de modelagem.
 
 ### (Blender 2.7) Modo de visualizações da Cena e Atalhos
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/07_modosdevisualizacao.png?raw=true "Modos de Visualização")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/07_modosdevisualizacao.png?raw=true "Modos de Visualização")
 
 Na área superior à direita da cena 3D é exibido qual o modo de visualização está sendo utilizado na cena 3d
 (no caso acima é a User Perpective).
@@ -115,7 +115,7 @@ os eixos Y e Z).
 
 ### Duplicação/Remoção de painéis
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/08_duplicacaoremocaopanels.png?raw=true "Duplicação/Remoção de Painéis")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/08_duplicacaoremocaopanels.png?raw=true "Duplicação/Remoção de Painéis")
 
 Na área superior à direita de cada painél é exibido alguns traços na diagonal formando um triângulo e partir
 dele podemos adicionar ou ocultar um painel no Blender conforme clicamos com o o botão esquerdo do mouse e arrastamos.
@@ -127,9 +127,9 @@ o painel existente que está a direita.
 
 ### Dividir/Juntar (Split/Join) área de trabalho na horizontal e na vertical
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/09_splitareahorizontal.png?raw=true "Split Área Horizontal")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/09_splitareahorizontal.png?raw=true "Split Área Horizontal")
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/10_splitareavertical.png?raw=true "Split Área Vertical")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/10_splitareavertical.png?raw=true "Split Área Vertical")
 
 Estacionando o mouse em uma borda lateral ou superior de uma área de trabalho do Blender é possível dividir ou
 juntar áreas de trabalho
@@ -141,14 +141,14 @@ informamos qual área deverá ser mesclada com a indicada.
 
 ### Escolha de layouts pré definidos para trabalho
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/11_layoutspredefinidos.png?raw=true "Lista de layouts pré definidos")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/11_layoutspredefinidos.png?raw=true "Lista de layouts pré definidos")
 
 O Blender possui alguns layouts pré definidos para determinadas preferência de modo de trabalho. Para
 que seja possível basta clicar na área superior como mostrada na imagem e trocar o modo.
 
 ### Busca de comandos em área de trabalho
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/12_buscacomandos.png?raw=true "Busca de Comandos")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/12_buscacomandos.png?raw=true "Busca de Comandos")
 
 Caso seja preciso buscar algum comando durante o trabalho basta pressionar a tecla espaço que um menu
 contendo um índice com todos os comandos possíveis se abrirá com a função auto completar filtrando
@@ -156,11 +156,11 @@ os resultado enquanto digita.
 
 ### Edição de Objetos
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/13_edicaodeobjetos.png?raw=true "Edição de Objetos")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/13_edicaodeobjetos.png?raw=true "Edição de Objetos")
 
 Caso precise alterar um face, os componentes do vértice ou edge é necessário alter para modo de edição de objetos ou pressionar a tecla TAB.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/14_edicaodeobjetosabrangente.png?raw=true "Edição de Objetos Funções")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/14_edicaodeobjetosabrangente.png?raw=true "Edição de Objetos Funções")
 
 Quando o objeto selecionado está em modo edição é possível utilizar os botões acima circulados que permitem selecionar múltiplos vértices,
 selecionar múltiplos edges e múltiplas faces.
@@ -169,32 +169,32 @@ Para selecionar/remover múltiplos itens a tecla SHIFT deverá estar pressionada
 
 ### Display/Shade methods
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/15_displayshademethods.png?raw=true "Display/Shade")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/15_displayshademethods.png?raw=true "Display/Shade")
 
 Durante o trabalho de edição de objetos por vezes é necessário alterar a visualização do objeto entre sem ou com preenchimento
 (Wireframe e Solid) e isso é feito no menu Display/Shade.
 
 ### Translação e Escala
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/16_translacaoescala.png?raw=true "Translação e Escala")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/16_translacaoescala.png?raw=true "Translação e Escala")
 
 Quando selecionado o objeto é possível trabalhar com translação e escala nos itens circulados acima.
 
 ### Exclusão de intervalo de vértices
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/17_exclusao.png?raw=true "Exclusão de Vértices em Intervalo")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/17_exclusao.png?raw=true "Exclusão de Vértices em Intervalo")
 
 Quando selecionado dado intervalo de objetos, ao pressionar a tecla X um menu se abrirá com várias opções referente a ação Delete e já na 1ª opção
 "Vértices" sendo selecionada serão excluídos.
 
 ### Espelhamento de objetos
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/18_espelhamento_01.png?raw=true "Espelhamento de Objetos")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/18_espelhamento_01.png?raw=true "Espelhamento de Objetos")
 
 No menu mais à direita, onde podemos alterar os atributos de nossos objetos, existe uma opção representada por uma ferramenta, clicando nela e em
 seguida em Add Modifier escolhemos a opção Mirror.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/18_espelhamento_02.png?raw=true "Espelhamento de Objetos (escolha do eixo)")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/18_espelhamento_02.png?raw=true "Espelhamento de Objetos (escolha do eixo)")
 
 Nessa área o eixo (X, Y ou Z) utilizado para fazer o mirror (espelhamento) é baseado no pivô do objeto (indentificado no círculo vermelho à esquerda
 na imagem acima).
@@ -204,27 +204,27 @@ para que seja possível editar o objeto normalmente sem que ele seja afetado pel
 
 ### Juntar Objetos (Object Join)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/19_objectjoin.png?raw=true "Object Join")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/19_objectjoin.png?raw=true "Object Join")
 
 Quando existem mais de um objeto sendo trabalho no Blender é possível juntá-lo selecionando-os com a tecla SHIFT pressionada e em seguida
 ir no menu Object > Join (ou utilizar o atalho CRTL + J).
 
 ### UV Image Editor
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/20_uv_imageeditor.png?raw=true "UV Image Editor")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/20_uv_imageeditor.png?raw=true "UV Image Editor")
 
 Para escolher o UV Image Editor siga no Menu Principal > UV Image Editor.
 
 ### Remove Doubles (removendo vértices duplicados)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/21_removedoubles.png?raw=true "Remove Doubles (removendo vértices duplicados)")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/21_removedoubles.png?raw=true "Remove Doubles (removendo vértices duplicados)")
 
 Para remover vértices duplicados selecione todos os vértices do objeto com a tecla A, em seguida pressione a tecla Espaço e digite Remove Doubles ou apenas
 selecione os vérices, pressione a tecla W e no menu que se abrirá selecione Remove Doubles.
 
 ### Projetar uma imagem UV 3D como é vista para uma 2D
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/22_projectfromview.png?raw=true "Projetar 3D em 2D (Project from view)")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/22_projectfromview.png?raw=true "Projetar 3D em 2D (Project from view)")
 
 Para projetar uma imagem 3D como é vista na tela para uma 2D basta após selecionados os vértices que deseja que seja transformado em 2D
 no Image UV Editor ir em Mesh > UV Unwrap > Project from View. Nessa hora acontece um mapeamento e sempre que você alterar a visão do seu
@@ -234,7 +234,7 @@ Lembrando que para interagir com o objeto em UV as teclas G, R e S funcionam com
 
 ### Criar uma imagem do tipo UV Grid
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/23_imagem_uvgrid.png?raw=true "Imagem tipo UV Grid")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/23_imagem_uvgrid.png?raw=true "Imagem tipo UV Grid")
 
 Para criar uma imagem do tipo UV Grid clique no botão New logo abaixo da área de imagem da área UV 3D exibida na figura acima, e na caixa
 Generated Type clique em UV Grid.
@@ -242,14 +242,14 @@ Generated Type clique em UV Grid.
 
 ### Utilizando um tipo de material que não sofra influência da luz (Shadeless)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/24_shadeless.png?raw=true "Shadeless")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/24_shadeless.png?raw=true "Shadeless")
 
 Para trabalhar um material em cima de um objeto para que ele não sofra influência da luz, após clicar na opção Material (circulado de vermelho) devemos
 marcar a opção Shadeless mais abaixo (com determinada área do objeto já pré selecionada).
 
 ### Juntando vértices manualmente
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/25_juntarvertices.png?raw=true "Juntando Vértices")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/25_juntarvertices.png?raw=true "Juntando Vértices")
 
 Para juntar vértices manualmente basta deixar a tecla B pressionada e ir arrastando o mouse com o botão esquerdo pressionado. A cada vértice selecionado
 deve-se soltar o botão esquerdo para selecionar outro vértice. Ao final após todos os vértices selecionados como desejado pressione a tecla F que serão
@@ -257,45 +257,45 @@ criados novos vértices ligando os pontos selecionados.
 
 ### Preenchendo faces com vértices pré selecionados (ou menu Mesh | Face | Make Edge/Face)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/26_preencher_vertices_1.png?raw=true "Selecionando os Vértices")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/26_preencher_vertices_1.png?raw=true "Selecionando os Vértices")
 
 Para criar um nova face primeiro é necessário selecionar determinados vértices que estão a sua volta.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/27_preencher_vertices_2.png?raw=true "Criando uma nova face")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/27_preencher_vertices_2.png?raw=true "Criando uma nova face")
 
 E depois pressionar a tecla F.
 
 ### Dissolve Edges (Removendo linhas entre vértices)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/28_dissolve_edges.png?raw=true "Dissolve Edges")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/28_dissolve_edges.png?raw=true "Dissolve Edges")
 
 Para remover uma linha entre vértices selecione a edge (linha), pressione a tecla X (ou Delete) e no menu Delete, escolha a opção Dissolve Edges.
 Repare que na figura foram circulados 2 vértices que estão no meio da linha quase que imperceptíveis.
 
 ### Juntar Vértices (Merge - At Center)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/29_juntar_vertices.png?raw=true "Juntar Vértices")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/29_juntar_vertices.png?raw=true "Juntar Vértices")
 
 Para juntar vértices selecione os que deverão ser juntados com as teclas Alt + M e no menu que se abrirá selecione o item At Center.
 
 ### Juntar Linhas (Bridge Edge Loops)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/30_bridge_edge_loops_1.png?raw=true "Selecionar Linhas")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/30_bridge_edge_loops_1.png?raw=true "Selecionar Linhas")
 
 Para juntar linhas selecione as que deverão ser juntadas a partir de seus vértices (usando a seleção de vértices normal com a tecla B e botão 
 esquerdo do mouse) e pressionando a tecla Espaço digite Bridge Edge Loops, selecione a opção e clique com o mouse.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/31_bridge_edge_loops_2.png?raw=true "Linhas Selecionadas formando Faces")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/31_bridge_edge_loops_2.png?raw=true "Linhas Selecionadas formando Faces")
 
 Após o comando realizado a seleção ficará como a que está acima.
 
 ### Para duplicar objetos vá o menu Object > Duplicate Objects.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/32_duplicate_objects.png?raw=true "Duplicar Objetos")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/32_duplicate_objects.png?raw=true "Duplicar Objetos")
 
 ### Para duplicar vértices de um mesh selecione os vértices a serem duplicados, vá em Mesh > Add Duplicate
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/33_duplicate_mesh.png?raw=true "Add Duplicate")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_CZDOSUL/_BLENDER/_MEDIA/_BLENDER_2_7/33_duplicate_mesh.png?raw=true "Add Duplicate")
 
 Ou pressine as teclas SHIFT + D após os vértices terem sido selecionados.
 
