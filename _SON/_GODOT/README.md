@@ -7,14 +7,14 @@ School of Net
 
 É a área de trabalho da Godot.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/_MEDIA/01_godot_viewport.PNG?raw=true "Viewport")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_godot_viewport.png?raw=true "Viewport")
 
 ### 2D ou 3D
 
 - Na Godot, diferente da Unity nós não escolhemos um estilo de jogo 2D ou 3D. Você
 pode mudar essas perspectiva a todo momento.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/_MEDIA/02_godot_mudanca_ambiente.png?raw=true "Perspectiva")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/02_godot_mudanca_ambiente.png?raw=true "Perspectiva")
 
 ### Script
 
