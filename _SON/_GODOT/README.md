@@ -5,7 +5,7 @@ School of Net
 
 ### Viewport
 
-É a área de trabalho da Godot.
+É a área de trabalho da Godot, é onde será visualizado seu jogo (fases, menus, cenas, etc).
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_godot_viewport.png?raw=true "Viewport")
 
@@ -15,6 +15,18 @@ School of Net
 pode mudar essas perspectiva a todo momento.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/02_godot_mudanca_ambiente.png?raw=true "Perspectiva")
+
+### Espaço de Trabalho 2D
+
+- O espaço de trabalho 2D está dentro do quadrado azul circulado e é nele que o jogo será produzido.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/03_godot_espaco_trabalho_2d.png?raw=true "Espaço de trabalho 2D")
+
+E tudo o que está contido dentro dele será exibido ao lado direito na área Node.
+
+### Boas práticas
+
+Quando for criar personagens, cenas e etc, crie diretórios com seus respectivos nomes.
 
 ### Script
 
