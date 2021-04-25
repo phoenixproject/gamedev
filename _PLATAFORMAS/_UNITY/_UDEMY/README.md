@@ -107,7 +107,7 @@ após criados os layers, identificá-los nos objetos desejados.
 
 Os layers ficarão ordenados como na figura abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/01_space_shooting_layers.PNG?raw=true "Sorting Layer")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/01_space_shooting_layers.PNG?raw=true "Sorting Layer")
 
 ### Scrolling the Background / Bitmap Snap / Background Câmera / Background Holder
 
@@ -121,7 +121,7 @@ que quando for colocar o outro a sua frente uma regra básica para que dois bitm
   - Mantendo a tecla **V** pressionada arraste com o mouse para a esquerda em direção ao bitmap 1 (BG1) que o **Snap** entre
   as figuras será realizado como na figura abaixo.
 
-  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/02_space_shooting_background_snap.png?raw=true "Background Snap")
+  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/02_space_shooting_background_snap.png?raw=true "Background Snap")
 
 - É aconselhável alterar o background da câmera com a cor de fundo do background utilizado no fundo da cena
 no intuito de não causar uma impressão bruta na área em que os dois fazem divisa.
@@ -315,7 +315,7 @@ Após realizada a alteração no script acima deve-se arrastar o objeto __Fire__
 e o __Prefab__ **PlayerShot** para dentro do atributo público **Shot**. Ambos contidos no script **PlayerController** anexado ao objeto
 __Player__ pertencente a aba __Hierarchy__. Deve ficar como na figura abaixo. 
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/03_space_shooting_firing_shots.png?raw=true "Firing Shots")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/03_space_shooting_firing_shots.png?raw=true "Firing Shots")
 
 Feito isso é possível pressionar o botão **Play**, movimentar a nave do jogador e ao apertar a tecla _J_ que o tiro é acionado. Ressaltando
 que para alterar a posição do shot é preciso alterar a posição do objeto __Fire__ __Point__ com a ferramenta **Move Tool**, já que _prefab_
@@ -324,7 +324,7 @@ está associado a ele.
 Adiante entraremos novamente em __Project__ __Settings__ e retirar os atributos que envolvem tanto o objeto __Player__ quanto __Player__ __Shot__
 da secção __Physics__ __2D__ como no quadro abaixo porque estes _layers_ não devem interagir com os outros nessa secção.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/04_space_shooting_phisics_2d.png?raw=true "Physics 2D")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/04_space_shooting_phisics_2d.png?raw=true "Physics 2D")
 
 Prosseguindo, vale lembrar que o componente __Sprite__ __Renderer__ tanto do _prefab_ __PlayerShot__ quando dos _space_ _objects_ possui um
 atributo **Sorting Layer** para que os mesmos sejam organizados.
@@ -370,15 +370,15 @@ Em seguida expandimos algum __**Sprite 2D**__ em **Sprite Mode** do tipo _Multip
 **Create** na aba __Animation__ se abrirá. Logo após clique no botão **Create** para criar uma
 nova animação e depois arraste para a linha do tempo os sprites que desejar como na figura abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/05_space_shooting_animation.png?raw=true "Animation")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/05_space_shooting_animation.png?raw=true "Animation")
 
 Adicione o keyframe no instante 1:30 como abaixo:
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/06_space_shooting_animation_keyframe.png?raw=true "Animation Keyframe")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/06_space_shooting_animation_keyframe.png?raw=true "Animation Keyframe")
 
 E no instante 0:30 desligar o Sprite Renderer.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/07_space_shooting_animation_sprite_renderer_off.png?raw=true "Animation Sprite Renderer Off")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/07_space_shooting_animation_sprite_renderer_off.png?raw=true "Animation Sprite Renderer Off")
 
 E por fim transformar essa animação em um __Prefab__, criar o script abaixo (de nome **DestroyOverTime**) e associar a esta animação e realizar um _Override_ no mesmo.
 
@@ -433,7 +433,7 @@ ao atributo **Sorting Layer** e alterar o valor de **Order in Layer** para _-1_ 
 Em seguida abrir o __Prefab__ **PlayerShot** e no atributo **Impact Effect** do componente que carrega o script **Player Shot** adicionar
 o __Prefab__ **impact effect** como feito abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/08_space_shooting_impact_effects_on_player_shot.png?raw=true "Impact Effects on Player Shot")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/08_space_shooting_impact_effects_on_player_shot.png?raw=true "Impact Effects on Player Shot")
 
 ### Destroying Meteors
 
@@ -494,7 +494,7 @@ em _x_ para 0;
 - **Start Color** > Random Between Two Colors, *Clicar nos campos para preencher as duas cores*; 
 - **Size over Lifetime** > *Clicar para deixar marcado*;
 - **Size over Lifetime** > *Size* > *Clicar para escolher a reta tombada para a esquerda no gráfico Particle System Curves*;
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/09_space_shooting_size_over_lifetime.png?raw=true "Size over Lifetime")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/09_space_shooting_size_over_lifetime.png?raw=true "Size over Lifetime")
 - **Looping** > *Desmarcar* (pode pressionar Play no painel Particle Effect para testar o efeito);
 
 - Agora clique em **Add Component**, adicinoar o script __Destroy__ __Over__ __Time__ e marcar sua proprieda pública como _1.75_;
@@ -645,7 +645,7 @@ Para o objeto __meteoro__ contido em __Hierarchy__ adicionamos a este o script *
 - Altere o atributo **Move Speed** do script para valor 3;
 - Adicione um componente do tipo __Box__ __Collider2D__ ao objeto **EnemyGreen** e clique
 em _Edit Collider_ para diminuir a área de colisão do inimigo;
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/10_space_shooting_making_enemies.png?raw=true "Making Enemies")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/10_space_shooting_making_enemies.png?raw=true "Making Enemies")
 - Crie uma __Tag__ e um __Layer__ com o nome _Enemy_ e adicione ambos ao objeto;
 - Arraste o script **HurtPlayer** para dentro do objeto **EnemyGreen**.
 
@@ -915,13 +915,13 @@ realize um Override no objeto da aba __Hierarchy__ e exclua-o.
 
 - Prosseguimos no __Prefab__ **EnemyShot**, criamos um layer chamado __EnemyShot__, o ordenamos logo abaixo do layer _Enemy_;
 
-  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/10_space_shooting_making_enemies.png?raw=true "Enemy Shot")
+  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/10_space_shooting_making_enemies.png?raw=true "Enemy Shot")
 
 - Adiante entraremos novamente em __Project__ __Settings__ e retirar os atributos que envolvem tanto o objeto __Enemy__ quanto __Enemy__ __Shot__
 da secção __Physics__ __2D__ como no quadro abaixo porque estes _layers_ não devem interagir com os outros nessa secção. Isso faz com que 
 o tiro da nave do player não interaja com o tiro da da nave inimiga, assim como em algumas games de Beat'up que não é possível atacar seu parceiro;
 
-  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_UDEMY/__MEDIA/12_space_shooting_phisics_2d.png?raw=true "Physics 2D") 
+  ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__UNITY/_SPACESHOOTING/12_space_shooting_phisics_2d.png?raw=true "Physics 2D") 
 
 ### Giving Enemies Health
 
