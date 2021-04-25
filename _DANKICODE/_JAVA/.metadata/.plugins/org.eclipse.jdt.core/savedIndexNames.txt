@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+D:\_SISTEMAS\_GAMEDEV\_DANKICODE\_JAVA\.metadata\.plugins\org.eclipse.jdt.core
-565840480.index
-2367201796.index
-1004358532.index
