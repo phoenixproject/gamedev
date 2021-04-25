@@ -7,20 +7,20 @@ School of Net
 
 É a área de trabalho da Godot, é onde será visualizado seu jogo (fases, menus, cenas, etc).
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_godot_viewport.png?raw=true "Viewport")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/_GODOT/01_godot_viewport.png?raw=true "Viewport")
 
 ### 2D ou 3D
 
 - Na Godot, diferente da Unity nós não escolhemos um estilo de jogo 2D ou 3D. Você
 pode mudar essas perspectiva a todo momento.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/02_godot_mudanca_ambiente.png?raw=true "Perspectiva")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/_GODOT/02_godot_mudanca_ambiente.png?raw=true "Perspectiva")
 
 ### Espaço de Trabalho 2D
 
 - O espaço de trabalho 2D está dentro do quadrado azul circulado e é nele que o jogo será produzido.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/03_godot_espaco_trabalho_2d.png?raw=true "Espaço de trabalho 2D")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/_GODOT/03_godot_espaco_trabalho_2d.png?raw=true "Espaço de trabalho 2D")
 
 E tudo o que está contido dentro dele será exibido ao lado direito na área Node.
 
@@ -616,7 +616,7 @@ pode valer para a criação de objetos e componentes (não sei ao certo).
 Vá no canto superior direito da tela e logo abaixo de onde está ativado o modo para mudança de __Layout__
 e ao lado direito de onde está desenhado um cadeado, clique no simbolo da lista à sua direita e acesse o menu abaixo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/_SON/__MEDIA/01_son_debug_mode.PNG?raw=true "Debug Mode")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/_GODOT/01_son_debug_mode.PNG?raw=true "Debug Mode")
 
 ### Exportar apk on Android
 
