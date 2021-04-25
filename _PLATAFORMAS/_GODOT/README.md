@@ -1,7 +1,7 @@
 ###### [Sintaxe básica de escrita e formatação no GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
 
-# son
-School of Net
+# SON / HGDEV
+School of Net / Heartbeast
 
 ### Viewport
 
@@ -23,6 +23,12 @@ pode mudar essas perspectiva a todo momento.
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/03_godot_espaco_trabalho_2d.png?raw=true "Espaço de trabalho 2D")
 
 E tudo o que está contido dentro dele será exibido ao lado direito na área Node.
+
+### Filesystem
+
+- Quando são importados assets ou demais arquivos eles podem ser inseridos no diretório que automaticamente são exibidos na árvore à esquerda.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/04_godot_filesystem_location_explorer.png?raw=true "Filesystem Explorer")
 
 ### Boas práticas
 
