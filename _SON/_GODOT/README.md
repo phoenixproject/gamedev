@@ -32,6 +32,7 @@ Quando for criar personagens, cenas e etc, crie diretórios com seus respectivos
 
 A aba de Script é onde escrevemos nossos códigos na Godot.
 
+----------------------------------------------------------------------------------------
 ### 
 
 ### AssetLib
