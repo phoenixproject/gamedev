@@ -34,7 +34,7 @@ E tudo o que está contido dentro dele será exibido ao lado direito na área No
 
 - Quando deseja-se que uma animação inicie-se junto a instância da Godot basta deixar marcado a opção Autoplay on Load.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/04_godot_autoplay_on_load.png?raw=true "Auto Play")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/05_godot_autoplay_on_load.png?raw=true "Auto Play")
 
 ### Boas práticas
 
