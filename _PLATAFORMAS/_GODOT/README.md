@@ -30,6 +30,12 @@ E tudo o que está contido dentro dele será exibido ao lado direito na área No
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/04_godot_filesystem_location_explorer.png?raw=true "Filesystem Explorer")
 
+### Auto Play on Load
+
+- Quando deseja-se que uma animação inicie-se junto a instância da Godot basta deixar marcado a opção Autoplay on Load.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/04_godot_autoplay_on_load.png?raw=true "Auto Play")
+
 ### Boas práticas
 
 Quando for criar personagens, cenas e etc, crie diretórios com seus respectivos nomes.
@@ -37,6 +43,15 @@ Quando for criar personagens, cenas e etc, crie diretórios com seus respectivos
 ### Script
 
 A aba de Script é onde escrevemos nossos códigos na Godot.
+
+### GDScript - onready
+
+```python
+	// onready funciona na Godot como uma espécie de await,
+	// ou seja, que aguarda a instância de fato acontecer 
+	// para armazená-la na variável
+	onready var animationPlayer = get_node("AnimationPlayer")
+```
 
 ----------------------------------------------------------------------------------------
 ### 
