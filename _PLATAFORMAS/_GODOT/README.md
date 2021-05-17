@@ -36,11 +36,30 @@ E tudo o que está contido dentro dele será exibido ao lado direito na área No
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/05_godot_autoplay_on_load.png?raw=true "Auto Play")
 
-### Layout
+### Layout (background 2D)
 
-- Caso precise escolher um layout adequado para que uma elemento se adapte a ele, defina-o como na figura abaixo.
+- Caso precise escolher um layout adequado para que uma elemento se adapte a ele, defina-o como na figura abaixo. O objeto do tipo
+ColorRect pode ser utilizado para dar cor a algo que podemos usar como background.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/06_godot_layout_escolha.png?raw=true "Auto Play")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/06_godot_layout_escolha.png?raw=true "Layout")
+
+### Lock Node
+
+- Para um Node não possa mais ser movimentado basta selecioná-lo e pressionar o cadeado na ferramenta.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/07_godot_lock_node.png?raw=true "Lock Node")
+
+### Bitmap to 2D pixel (aspecto pixelado)
+
+- É possível definir um bitmap como um 2D pixel, ou seja, com aspecto pixelado. Apenas selecionando o bitmap que deseja aplicar o efeito e clicando na aba **Import** > **Preset** efeito em seguida na opção **2D Pixel**. Também é possível colocar este efeito como padrão marcando a opção **Set as Default for Texture**.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/07_godot_lock_node.png?raw=true "Lock Node")
+
+### Para selecionar objeto junto com os filhos
+
+- Para selecionar e arrastar um objeto junto de seus filhos basta marcar a opção abaixo.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/09_godot_select_objeto_junto_com_filhos.png?raw=true "Select the object")
 
 ### Boas práticas
 
