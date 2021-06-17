@@ -34,13 +34,17 @@ threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
 É o intervalo de frames exibidos na tela.
 
+### Model Sheet
+
+É a representação de um personagem desenhado em diferentes posições que é feita para auxiliar em sua modelagem e animação.
+
 ### Spritesheet
 
 É uma imagem que tem todas as imagens (ou sprites) do game (lembra o Tile Map).
 
 ### Game Character 3D Wireframe
 
-É um modelo de personagem 3d]
+É um modelo de personagem 3d
 
 ### Sprite
 
@@ -112,6 +116,18 @@ Interface padrão do Java que implementa o uso de threads.
 Método do Java para seja executado de forma sincronizado.
 
 ### Postmortem Game
+
+### Modelagem Orgânica
+
+São objetos animados, com movimento, naturais, orgânicos.
+
+### Hard Surface
+
+É utilizada para objetos mecânicos de forma geral.
+
+## Modelagem Inorgânica
+
+São oobjetos animados.
 
 #### Fontes para Modelagem
 ##### [Mixamo](https://www.mixamo.com/#/)<br/>
