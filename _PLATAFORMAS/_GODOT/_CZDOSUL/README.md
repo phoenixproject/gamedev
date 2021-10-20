@@ -55,7 +55,7 @@ No menu Player Settings, definir os seguinte atributos:
 
 - Definir Bundle Identifier como com.jogo2d.nome (ex: com.jogo2d.rafaelmartins).
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/01_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/01.png?raw=true)
 
 #### 3 - Scenes
 
@@ -64,7 +64,7 @@ No menu Player Settings, definir os seguinte atributos:
     Menu: Cena será para controle do fluxo de jogo.
     Main: Cena para o jogo (Gameplay).
 	
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/02_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/02.png?raw=true)
 
 (De preferência, criar os arquivos dentro de uma pasta Scenes (manter coerência para Scripts, Materiais, Resources etc.)
 
@@ -89,7 +89,7 @@ Passos:
 - 4.9 – Posicione de acordo com sua preferência para montar o cenário da fase 1;
 - 4.10 – Certifique-se que todo Tile dentro do prefab possui um componente BoxCollider2d;
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/03_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/03.png?raw=true)
 
 #### 5 - Personagem (Sprite / animações)
 
@@ -109,7 +109,7 @@ Passos:
 
 Para adicionar novas animações ao Player, basta arrastar as imagens (Frames) ao objeto Player na cena. O menu de contexto de animações da Unity (Window -> Animator) abrirá para inserção da nova animação na pasta de recursos. O objeto de animações (Animator) deve conter o seguinte fluxo:
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/04_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/04.png?raw=true)
 
 - As animações presentes no Player são:
 
@@ -125,7 +125,7 @@ Para adicionar novas animações ao Player, basta arrastar as imagens (Frames) a
 
 Resultado Final 
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/05_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/05.png?raw=true)
 
 -****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**
 
@@ -227,7 +227,7 @@ O HUD está contido dentro do prefab Canvas segmentado em GameObjects para contr
 - Shoot: botão para atirar (A, mobile)
 - Jump: botão para pular (B, mobile)
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/06_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/06.png?raw=true)
 
 #### 3 - Controles
 
@@ -238,7 +238,7 @@ Mapeamento das teclas:
 - V = ataca
 - X = atira
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/07_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/07.png?raw=true)
 
 Como exercício, implemente a mesma funcionalidade, mas utilize funções de toque para dispositivos móveis.
 
@@ -264,7 +264,7 @@ Para Desktop (PC/Mac):
     Abrir a pasta onde o projeto foi compilado e executar o arquivo do projeto (.xcworkspace) para abrir o ambiente XCode
     Clicar em Run no Xcode (com um aparelho ligado no Mac)
 	
-	![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/08_.png?raw=true)
+	![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/08.png?raw=true)
 
 -****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**
 
@@ -287,7 +287,7 @@ Como atividade desta Unidade 4, o aluno deverá entregar a terceira e última pa
 
 Adicionar um GameObject vazio na cena Main e depois adicionar Prefabs Enemy em posições estratégicas do nível como em cima das plataformas. Se necessário, adicione mais plataformas (Unidade 2) para projetar o campo de visão dos inimigos.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/09_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/09.png?raw=true)
 
 Confira o prefab Enemy, ele deve conter:
 
@@ -300,17 +300,17 @@ Confira o prefab Enemy, ele deve conter:
 
 O controle de áudio é realizado pelo GameObject AudioSource, localizado na pasta Prefabs. Adicione o controle na cena. A música de fundo associada ao objeto é a synthpop. Você pode customizar o som de entrada a seu gosto.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/10_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/10.png?raw=true)
 
 Obs: Acesse http://www.freesound.org para obter arquivos de música e efeitos sonoros para utilização gratuita.
 
 A implementação do som está realizada na classe GameManager (altere se preferir criar uma classe que gerencia os sons de seu jogo). Para isso, crie uma variável pública contendo uma referência para o prefab AudioSource e uma variável bool para checagem de atividade do componente. Opcionalmente, você pode criar um botão que ligue e desligue o som do jogo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/11_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/11.png?raw=true)
 
 Com uma função de checagem, é possível ligar e desligar o som do nível:
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/12_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/12.png?raw=true)
 
 Para associar essa função ao evento de botão,  crie um botão SoundButton no Canvas da cena (criado mas pode ser alterado). No Inspector, vá na On Click (), arraste o componente Canvas para o objeto e selecione a função GameManager.SounToggle na lista. Dessa forma, o jogo ligará e desligará a música. O processo pode ser repetido para efeitos sonoros.
 
@@ -320,7 +320,7 @@ Crie cenas extras como SplashScene, MenuScene e BossScene (cena Boss já criada 
 
 Por fim, na cena Boss, adicione o prefab Backgrounds e também as plataformas para manter o Meca e o prefab Boss posicionados corretamente:
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/13_.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/13.png?raw=true)
 
 #### Inteligência Artificial
 
