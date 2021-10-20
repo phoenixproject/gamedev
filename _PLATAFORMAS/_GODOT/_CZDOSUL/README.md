@@ -1,6 +1,6 @@
 ###### [Sintaxe básica de escrita e formatação no GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
 
-## PROJETO de Game 2D
+# PROJETO de Game 2D (Sugerido) - Proposta e arquivos para o projeto (sugestão do professor conteudista)
 
 #### O gênero, a princípio da atividade, é um jogo de plataforma 2D:
 
@@ -9,6 +9,9 @@ Caso optem por escolher outro gênero eu estarei adaptando os critérios de aval
 
 ## Atividade tem início no dia 01/10/2021 à 00:00 A.M (BRT).
 ## O prazo final para o envio é até o dia 12/11/2021 até às 23:59 P.M. (BRT).
+
+
+# Conteúdos das Unidades
 
 -****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**
 
@@ -36,13 +39,13 @@ O projeto é um 2D Platformer, estilo encontrado em todas as plataformas de dese
 
 *O uso do material de arte está autorizado apenas para a disciplina. É expressamente proibida a utilização comercial deste material.
 
-#### Criação do projeto
+#### 1 - Criação do projeto
 
 - Criar projeto 2d (qualquer nome ou terminologia)
 
 - Copie a pasta Resources (Materiais da Unidade), Prefabs, Scripts, Animations e Materials para dentro da pasta Assets
 
-#### Configuração inicial
+#### 2 - Configuração inicial
 
 No menu Player Settings, definir os seguinte atributos:
 
@@ -52,16 +55,20 @@ No menu Player Settings, definir os seguinte atributos:
 
 - Definir Bundle Identifier como com.jogo2d.nome (ex: com.jogo2d.rafaelmartins).
 
-    Scenes
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/01_.png?raw=true)
+
+#### 3 - Scenes
 
 - Criar duas cenas: Menu e Main
 
     Menu: Cena será para controle do fluxo de jogo.
     Main: Cena para o jogo (Gameplay).
+	
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/02_.png?raw=true)
 
 (De preferência, criar os arquivos dentro de uma pasta Scenes (manter coerência para Scripts, Materiais, Resources etc.)
 
-#### Cenário e Parallax
+#### 4 - Cenário e Parallax
 
 Na cena MAIN, criaremos uma tela de fundo com efeito de parallax, para simular uma aeronave em constante movimento.
 
@@ -82,7 +89,9 @@ Passos:
 - 4.9 – Posicione de acordo com sua preferência para montar o cenário da fase 1;
 - 4.10 – Certifique-se que todo Tile dentro do prefab possui um componente BoxCollider2d;
 
-#### Personagem (Sprite / animações)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/03_.png?raw=true)
+
+#### 5 - Personagem (Sprite / animações)
 
 O MECA é o personagem do jogo do projeto e está dentro de um prefab pronto. Para compreender o prefab, criar um novo ou fazer suas próprias alterações, deve-se realizar o checklist.
 
@@ -100,6 +109,8 @@ Passos:
 
 Para adicionar novas animações ao Player, basta arrastar as imagens (Frames) ao objeto Player na cena. O menu de contexto de animações da Unity (Window -> Animator) abrirá para inserção da nova animação na pasta de recursos. O objeto de animações (Animator) deve conter o seguinte fluxo:
 
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/04_.png?raw=true)
+
 - As animações presentes no Player são:
 
   - IDLE = animação de repouso;
@@ -113,6 +124,8 @@ Para adicionar novas animações ao Player, basta arrastar as imagens (Frames) a
 - As animações no projeto da Unidade não utilizam Keys ou Layers para chamada de animação (apenas as chamadas programáticas via código-fonte).
 
 Resultado Final 
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/05_.png?raw=true)
 
 -****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**
 
@@ -128,7 +141,7 @@ Como atividade desta Unidade, o aluno deverá entregar a segunda parte do projet
 
 *O uso do material de arte está autorizado apenas para a disciplina. É expressamente proibida a utilização comercial deste material.
 
-#### Integração e entendimento de scripts
+#### 1 - Integração e entendimento de scripts
 
 Os scripts possuem a implementação para as entidades básicas do projeto. Cabe ao aluno fazer modificações ou reescrever os scripts conforme sua necessidade.
 
@@ -200,7 +213,7 @@ Adicionar o script Meca no GameObject Player. Entendendo e modificando os métod
 - método Shoot() = Instância um prefab Bullet
 - FadeAndExit() = executa uma coroutine para o Player sumir após colidir com a porta de saída
 
-#### Heads-Up Display
+#### 2 - Heads-Up Display
 
 O HUD está contido dentro do prefab Canvas segmentado em GameObjects para controle do jogo. Adicione o prefab Canvas na cena.
 
@@ -214,7 +227,9 @@ O HUD está contido dentro do prefab Canvas segmentado em GameObjects para contr
 - Shoot: botão para atirar (A, mobile)
 - Jump: botão para pular (B, mobile)
 
-#### Controles
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/06_.png?raw=true)
+
+#### 3 - Controles
 
 Para os controles do Player, implementa-se uma rotina no método Update() (Meca.cs)
 Mapeamento das teclas:
@@ -223,9 +238,11 @@ Mapeamento das teclas:
 - V = ataca
 - X = atira
 
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/07_.png?raw=true)
+
 Como exercício, implemente a mesma funcionalidade, mas utilize funções de toque para dispositivos móveis.
 
-#### Compilação
+#### 4 - Compilação
 
 Para Desktop (PC/Mac):
 
@@ -240,18 +257,18 @@ Para Desktop (PC/Mac):
     Alterar configurações (se necessário)
     Build and Run
 
-    
-
 #### Para iOS:
 
     Clicar na plataforma iOS e depois em Switch Platform
     Build
     Abrir a pasta onde o projeto foi compilado e executar o arquivo do projeto (.xcworkspace) para abrir o ambiente XCode
     Clicar em Run no Xcode (com um aparelho ligado no Mac)
+	
+	![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/08_.png?raw=true)
 
 -****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**-****---**
 
-## ETAPA 2ETAPA 3
+## ETAPA 3
 
 ### Unidade 4 – Projeto de Jogo 2d
 
@@ -270,25 +287,30 @@ Como atividade desta Unidade 4, o aluno deverá entregar a terceira e última pa
 
 Adicionar um GameObject vazio na cena Main e depois adicionar Prefabs Enemy em posições estratégicas do nível como em cima das plataformas. Se necessário, adicione mais plataformas (Unidade 2) para projetar o campo de visão dos inimigos.
 
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/09_.png?raw=true)
+
 Confira o prefab Enemy, ele deve conter:
 
 - BoxCollider2D e Rigibody2D
-
 - Enemy (Script)
-
 - Sprite Renderer (sprite inicial do inimigo)
-
 - Objeto Animator (para controle das animações do inimigo)
 
 #### Áudio
 
 O controle de áudio é realizado pelo GameObject AudioSource, localizado na pasta Prefabs. Adicione o controle na cena. A música de fundo associada ao objeto é a synthpop. Você pode customizar o som de entrada a seu gosto.
 
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/10_.png?raw=true)
+
 Obs: Acesse http://www.freesound.org para obter arquivos de música e efeitos sonoros para utilização gratuita.
 
 A implementação do som está realizada na classe GameManager (altere se preferir criar uma classe que gerencia os sons de seu jogo). Para isso, crie uma variável pública contendo uma referência para o prefab AudioSource e uma variável bool para checagem de atividade do componente. Opcionalmente, você pode criar um botão que ligue e desligue o som do jogo.
 
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/11_.png?raw=true)
+
 Com uma função de checagem, é possível ligar e desligar o som do nível:
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/12_.png?raw=true)
 
 Para associar essa função ao evento de botão,  crie um botão SoundButton no Canvas da cena (criado mas pode ser alterado). No Inspector, vá na On Click (), arraste o componente Canvas para o objeto e selecione a função GameManager.SounToggle na lista. Dessa forma, o jogo ligará e desligará a música. O processo pode ser repetido para efeitos sonoros.
 
@@ -297,6 +319,8 @@ Para associar essa função ao evento de botão,  crie um botão SoundButton no 
 Crie cenas extras como SplashScene, MenuScene e BossScene (cena Boss já criada pare referência). Na cena Splash, adicione uma imagem de apresentação. Na cena Menu, adicione botões como Jogar (“Play”), Opções (“Settings”) e outras opções que ache pertinentes. Utilize o mecanismo visto no material da Unidade para transição entre as cenas.
 
 Por fim, na cena Boss, adicione o prefab Backgrounds e também as plataformas para manter o Meca e o prefab Boss posicionados corretamente:
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/13_.png?raw=true)
 
 #### Inteligência Artificial
 
@@ -323,3 +347,96 @@ Dica: procure pelos termos Boss Fight 2d, Megaman Bosses AI e termos referentes 
 Procure também pelos termos Chase, Seek and Evade para encontrar algoritmos e formas de fazer perseguição e fuga em entidades nos jogos.
 
 -****---**-****---**-****---**-****--
+
+# Explicação da atividade para os que optarem fazer jogos de outros gêneros
+
+Em aspectos gerais os alunos deverão entregar um jogo 2D, de qualquer gênero.
+
+Para os alunos que optem por fazer um jogo 2D de diferente gênero, seguem aqui alguns passos e ao final os critérios que serão analisados.
+
+Utilizarei as etapas sugeridas pelo professor conteudista como base, para que assim fique fácil de entender a explicação do que é pedido na disciplina.
+
+*---***-----****----*****-----*****-----*****------*****----**-*-**********-*******------**********---------**********
+
+## Etapa 1
+
+Desenvolver, pesquisar ou montar um cenário 2D, nos quais, contenham o cenário do jogo + o personagem + o terreno ou plataformas, no qual, o personagem se movimentará.
+
+*---***-----****----*****-----*****-----*****------*****----**-*-**********-*******------**********---------**********
+
+## Etapa 2
+
+Começaremos a desenvolver, programar e implementar as mecânicas básicas do jogo.
+Como por exemplo:
+
+    Movimentação (mover para os lados com o teclado + pulo, ou seja, a troca de sprites e animações);
+    Perda de vidas ou de porcentagem da barra de vida;
+    Ataques, caso houver;
+    Movimentação do cenário conforme o jogador avança;
+    Trocas de cenário.
+    Implementação de música de background e efeitos sonoros;
+    Implementação e montagem da HUD para nosso jogador;
+
+*---***-----****----*****-----*****-----*****------*****----**-*-**********-*******------**********---------**********
+
+## Etapa 3
+
+Com todas as mecânicas implementadas vamos inserir os efeitos sonoros e inimigos (caso haja).
+
+Além é claro de implementar o "Game over" ou critérios de derrota do jogador, como por exemplo, o jogador perdeu todas as vidas ou a condição de derrota seja satisfeita.
+
+Implementar o "You win" ao terminar o jogo ou a condição de vitória seja satisfeita.
+
+Caso haja inimigos, a implementação das mecânicas deverão ser apresentadas, como por exemplo:
+
+    Movimentação pelo cenário;
+    Implementação de uma "inteligência artificial"/ detecção do jogador, no qual, caso o inimigo encontre o jogador o inimigo irá atacar ou avançar até o jogador para derrotá-lo;
+        Caso haja um boss deverá ser aplicada a mesma mecânica dos inimigos;
+            Porém deverá conter:
+                Quantidade de vida maior comparado aos inimigos comuns para que assim ele seja derrotado com maior dificuldade;
+
+*---***-----****----*****-----*****-----*****------*****----**-*-**********-*******------**********---------***********---***-----****----*****-----*****-----*****------*****----**-*-**********-*******------**********---------**********
+
+### Critérios a serem analisados
+
+#### Jogos do gênero de aventura, ação, plataforma e outros do gênero:
+
+    Uma fase ou duas fases contendo os inimigos e o boss ao final (caso hajam);
+        Como sugestão, poderá ser uma fase com os inimigos e a outra somente com o boss do jogo.
+
+#### Jogos do gênero de RPG e derivados:
+
+    Uma missão deverá ser aplicada no jogo;
+
+Ou
+
+    Batalha deverá ser aplicada no jogo;
+
+#### Para jogos no estilo "Flappy bird" ou "Angry birds", onde há apenas "uma fase" deverá conter:
+
+    A pontuação do jogador;
+    Quantidade de vidas do jogador; 
+
+*---***-----****----*****-----*****-----*****------*****----**-*-**********-*******------**********---------********** 
+
+# Mas AONDE eu envio ou publico??
+
+Para publicação, seguem aqui alguns exemplos de sites gratuitos:
+
+- https://roastmygame.com/ (Links para um site externo.)
+
+- http://www.desura.com/ (Links para um site externo.)
+
+- https://www.kongregate.com/ (Links para um site externo.)
+
+- https://itch.io/ (Links para um site externo.)
+
+- https://gamejolt.com/ (Links para um site externo.)
+
+- https://www.newgrounds.com/ (Links para um site externo.)
+
+E dentre outros
+
+- Fonte: https://www.gamedeveloper.com/business/the-5-best-free-places-to-publish-your-game (Links para um site externo.)
+
+- https://codeswholesale.com/blog/5-best-platforms-to-publish-your-indie-game/
