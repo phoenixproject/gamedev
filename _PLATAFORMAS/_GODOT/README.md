@@ -1,7 +1,7 @@
 ###### [Sintaxe básica de escrita e formatação no GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax)<br/>
 
-# SON / HGDEV
-School of Net / Heartbeast
+# SON / HGDEV / CZDOSUL
+School of Net / Heartbeast / Projeto 2D
 
 ### Viewport
 
@@ -70,6 +70,13 @@ Quando for criar personagens, cenas e etc, crie diretórios com seus respectivos
 A aba de Script é onde escrevemos nossos códigos na Godot.
 
 ### GDScript - onready
+
+```python
+	var variable_name : type = value
+	// ou seja:
+	var nome_da_variavel : tipo_da_variavel = valor
+```
+
 
 ```python
 	// onready funciona na Godot como uma espécie de await,
