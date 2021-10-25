@@ -307,11 +307,11 @@ Obs: Acesse http://www.freesound.org para obter arquivos de música e efeitos so
 
 A implementação do som está realizada na classe GameManager (altere se preferir criar uma classe que gerencia os sons de seu jogo). Para isso, crie uma variável pública contendo uma referência para o prefab AudioSource e uma variável bool para checagem de atividade do componente. Opcionalmente, você pode criar um botão que ligue e desligue o som do jogo.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/11.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/11.PNG?raw=true)
 
 Com uma função de checagem, é possível ligar e desligar o som do nível:
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/12.png?raw=true)
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__RESOURCES/_CZDOSUL/__POS/_PROJETO2D/12.PNG?raw=true)
 
 Para associar essa função ao evento de botão,  crie um botão SoundButton no Canvas da cena (criado mas pode ser alterado). No Inspector, vá na On Click (), arraste o componente Canvas para o objeto e selecione a função GameManager.SounToggle na lista. Dessa forma, o jogo ligará e desligará a música. O processo pode ser repetido para efeitos sonoros.
 
