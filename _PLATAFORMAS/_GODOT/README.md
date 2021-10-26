@@ -61,6 +61,14 @@ ColorRect pode ser utilizado para dar cor a algo que podemos usar como backgroun
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/09_godot_select_objeto_junto_com_filhos.png?raw=true "Select the object")
 
+### Para deixar a imagem com aspecto pixelado
+
+- 1º - Devemos selecionar a imagem que desejamos;
+- 2º - Em __Preset__ escolhemos o valor *2D_ _Pixel*;
+- 3º - E por fim ainda em __Preset__ marcamos *Set as Default for 'Texture'* para o próximo bitmap já venha com esta configuração.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/10_godot_bitmap_com_aspecto_pixelado.PNG?raw=true "Imagem com aspecto Pixelado")
+
 ### Boas práticas
 
 Quando for criar personagens, cenas e etc, crie diretórios com seus respectivos nomes.
