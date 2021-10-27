@@ -55,19 +55,49 @@ ColorRect pode ser utilizado para dar cor a algo que podemos usar como backgroun
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/07_godot_lock_node.png?raw=true "Lock Node")
 
+### Para deixar a imagem com aspecto pixelado
+
+- 1º - Devemos selecionar a imagem que desejamos;
+- 2º - Em __Preset__ escolhemos o valor *2D_ _Pixel* e em seguida no botão _Reimport_ para reimportar o bitmap já com suas novas cofigurações;
+- 3º - E por fim ainda em __Preset__ marcamos *Set as Default for 'Texture'* para o próximo bitmap já venha com esta configuração.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/10_godot_bitmap_com_aspecto_pixelado.PNG?raw=true "Imagem com aspecto Pixelado")
+
 ### Para selecionar objeto junto com os filhos
 
 - Para selecionar e arrastar um objeto junto de seus filhos basta marcar a opção abaixo.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/09_godot_select_objeto_junto_com_filhos.png?raw=true "Select the object")
 
-### Para deixar a imagem com aspecto pixelado
+### Para alterar o tamanho da Window onde acontecerá o jogo
 
-- 1º - Devemos selecionar a imagem que desejamos;
-- 2º - Em __Preset__ escolhemos o valor *2D_ _Pixel*;
-- 3º - E por fim ainda em __Preset__ marcamos *Set as Default for 'Texture'* para o próximo bitmap já venha com esta configuração.
+- Siga em *Project > Project Settins > General > Property > Display >  Window* e altere os valores desejados.
 
-![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/10_godot_bitmap_com_aspecto_pixelado.PNG?raw=true "Imagem com aspecto Pixelado")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/11_godot_window_resize.PNG?raw=true "Select the object")
+
+- Para *mobile games* nesta mesma área é possível alterar outras informações que são adequadas para telas de smartphones e tables como por exemplo:
+  - Na coluna à esquerda em __Display__ > _Window_, em __Size__, alterar _Width_ para 480 e _Height_ para 854;
+  - Ainda na mesa área _Property_, um pouco mais abaixo, em __Handeld__ > _Orientation_ marcar _portrait_ (importante para aqueles que querem desenvolver o jogo para um aparelho de smartphone que rode em formato paisagem;
+  - Um pouco adiante em __Stretch__ > _Aspect_ marcar _keep_;
+  - Na coluna à esquerda, em __Rendering__ > __2d__ > *Use Pixel Snap* e marcar _On_ (é bom marcar para jogos que exibem arte em Pixel);
+  - E por fim ainda na coluna à esquerda, em **Input Devices** > _Pointing_ > *Emulate Touch From Mouse* marcar _On_.
+  
+### Para adicionar um background em um componente Sprite
+
+Para adicionar um background num componente do tipo __Sprite__ é preciso:
+
+1º - Criar o componente do tipo __Sprite__:
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/12_godot_criando_sprite_para_background.png?raw=true "Componente Sprite")
+
+2º - Arraste seu bitmap para a área vazia do __Sprite__;
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/13_godot_adicionando_bitmap_ao_componente_sprite.png?raw=true "Adicionando componente ao Sprite")
+
+3º - Desligue o modo Centralizado do componente __Sprite__ para que o background permaneça posicionado dentro da área limitada na propriedade __Display__ em *Project Settings*.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/14_godot_desligando_centerede_para_background_ficar_centralizado.png?raw=true "Centralizando o background no Display")
+
 
 ### Boas práticas
 
