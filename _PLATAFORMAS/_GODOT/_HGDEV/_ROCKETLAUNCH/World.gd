@@ -9,3 +9,4 @@ onready var animationPlayer = get_node("AnimationPlayer")
 func _on_LaunchButton_pressed():
 	#pass # Replace with function body.
 	animationPlayer.play("Launch")
+

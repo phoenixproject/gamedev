@@ -84,7 +84,7 @@ ColorRect pode ser utilizado para dar cor a algo que podemos usar como backgroun
   
 ### Para adicionar um background em um componente Sprite
 
-Para adicionar um background num componente do tipo __Sprite__ é preciso:
+Para adicionar um image/background num componente do tipo __Sprite__ é preciso:
 
 1º - Criar o componente do tipo __Sprite__:
 
