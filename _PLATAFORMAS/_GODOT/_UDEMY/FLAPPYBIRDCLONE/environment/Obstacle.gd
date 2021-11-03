@@ -16,5 +16,5 @@ func _on_Wall_body_entered(body):
 
 func _on_ScoreArea_body_entered(body):
 	if body is Player:
-		print("Player scored")
+		#print("Player scored")
 		emit_signal("score")
