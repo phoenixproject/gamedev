@@ -26,9 +26,13 @@ position = Vector2( 721, 0 )
 [node name="Ground" parent="." instance=ExtResource( 3 )]
 position = Vector2( 0, 684.552 )
 
+[node name="Sprite" parent="Ground" index="0"]
+position = Vector2( -0.492493, 0 )
+
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 115, 427 )
 
+[connection signal="start_game" from="MenuLayer" to="." method="_on_MenuLayer_start_game"]
 [connection signal="body_entered" from="Ground/DeathZone" to="." method="_on_DeathZone_body_entered"]
 [connection signal="died" from="Player" to="." method="_on_Player_died"]
 

@@ -1,16 +1,26 @@
 extends CanvasLayer
 
+signal start_game
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+onready var start_message = $StartMenu/StartMessage
+onready var tween = $Tween
+onready var score_label = $GameOverMenu/VBoxContainer/ScoreLabel
+onready var high_score_label = $GameOverMenu/VBoxContainer/HighScoreLabel
+onready var game_over_menu = $GameOverMenu
 
+var game_started = false
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+func _input(event):
+	if event.is_action_pressed("flap") && !game_started:
+		emit_signal("start_game")
+		tween.interpolate_property(start_message, "modulate:a", 1, 0, 0.5)
+		tween.start()
+		game_started = true
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func init_game_over_menu(score, highscore):
+	score_label.text = "SCORE: " + str(score)
+	game_over_menu.visible = true
+	high_score_label.text = "BEST: " + str(highscore)
+	
+func _on_RestartButton_pressed():
+	get_tree().reload_current_scene()

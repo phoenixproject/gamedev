@@ -2,6 +2,8 @@ extends Node2D
 
 signal score
 
+onready var point = $Point
+
 const SPEED = 200
 
 func _process(delta):
@@ -16,5 +18,5 @@ func _on_Wall_body_entered(body):
 
 func _on_ScoreArea_body_entered(body):
 	if body is Player:
-		#print("Player scored")
+		point.play()
 		emit_signal("score")
