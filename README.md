@@ -132,3 +132,5 @@ São oobjetos animados.
 #### Fontes para Modelagem
 ##### [Mixamo](https://www.mixamo.com/#/)<br/>
 
+#### Termos para busca
+- Para chão: ground (game ground)
