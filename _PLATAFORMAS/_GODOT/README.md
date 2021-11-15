@@ -3,6 +3,10 @@
 # SON / HGDEV / CZDOSUL / UDEMY
 School of Net / Heartbeast / Projeto 2D
 
+### Algumas conclusões/entendimentos importantes sobre a Godot
+
+- **Objetos (Nodes, Cenas, etc):** na Godot os Nodes podem ser entendidos como objetos que possuem atributos com valores pré definidos capazes de serem alterados junto a seus comportamentos (métodos) que ao todo (atributos e métodos) definem a caracterítica de determinado Nó (Node, Cena, etc). O nome o objeto é de meu entendimento conceitual porque um Nó (Node, Cena, etc) consegue ser criado isoladamente e reaproveitado em outro Nó como atributo, assumindo a regra de orientação a objetos.
+
 ### Viewport
 
 É a área de trabalho da Godot, é onde será visualizado seu jogo (fases, menus, cenas, etc).
