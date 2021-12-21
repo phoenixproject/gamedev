@@ -102,6 +102,14 @@ Para adicionar um image/background num componente do tipo __Sprite__ é preciso:
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/14_godot_desligando_centerede_para_background_ficar_centralizado.png?raw=true "Centralizando o background no Display")
 
+### Para manter a proporção do sprite quando a resolução mudar
+
+Para manter a proporação de um sprite quando a resolução da tela que possui o jogo for alterada basta seguir em Projeto > Configurações do Projeto >  Display > Window em __Strech__ maraca em *Mode* o valor *2D* e em *Aspect* marcar *keep* que é responsável por fazer os ajustes da resolução se o tamanho da tela for aumentado (por exemplo).
+
+Atributo __Aspect__:
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/15_godot_mantendo_proporcao_quando_resolucao_muda.png?raw=true "Aspect: keep")
+
 
 ### Boas práticas
 
