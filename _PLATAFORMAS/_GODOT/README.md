@@ -3,6 +3,12 @@
 # SON / HGDEV / CZDOSUL / UDEMY
 School of Net / Heartbeast / Projeto 2D
 
+# Série Godot - Estudo
+
+##### [Overview of Godot's key concepts](https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html)<br/>
+
+#### Favorites Repositories
+
 ### Algumas conclusões/entendimentos importantes sobre a Godot
 
 - **Objetos (Nodes, Cenas, etc):** na Godot os Nodes podem ser entendidos como objetos que possuem atributos com valores pré definidos capazes de serem alterados junto a seus comportamentos (métodos) que ao todo (atributos e métodos) definem a caracterítica de determinado Nó (Node, Cena, etc). O nome o objeto é de meu entendimento conceitual porque um Nó (Node, Cena, etc) consegue ser criado isoladamente e reaproveitado em outro Nó como atributo, assumindo a regra de orientação a objetos.
