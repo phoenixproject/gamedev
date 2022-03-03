@@ -5,9 +5,7 @@ School of Net / Heartbeast / Projeto 2D
 
 # Série Godot - Estudo
 
-##### [Overview of Godot's key concepts](https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html)<br/>
-
-#### Favorites Repositories
+##### [01 - Overview of Godot's key concepts](https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html)<br/>
 
 ### Algumas conclusões/entendimentos importantes sobre a Godot
 
