@@ -1,18 +1,5 @@
-# czdosul
-CST em Jogos Digitais
-
-# dankicode
-Curso de Desenvolvimento de Games
-
-# son
-School of Net
-
-# udemy
-Curso(s) de Desenvolvimento de Games
-
-# ifes
-
-Instituto Federal do Espírito Santo
+### Fontes: 
+CST em Jogos Digitais, Curso de Desenvolvimento de Games, School of Net, Udemy, Instituto Federal do Espírito Santo
 
 ## Dicionário Conceitual de Termos Básicos ou Conceitos Técnicos para Desenvolvedores de Games:
 
