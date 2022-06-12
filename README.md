@@ -116,6 +116,10 @@ São objetos animados, com movimento, naturais, orgânicos.
 
 São oobjetos animados.
 
+## Narração de histórias (Storytelling)
+
+Narração de histórias é a atividade que consiste em transmitir eventos na forma de palavras, imagens, e sons muitas vezes pela improvisação ou embelezamento
+
 #### Fontes para Modelagem
 ##### [Mixamo](https://www.mixamo.com/#/)<br/>
 
