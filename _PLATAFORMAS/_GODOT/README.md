@@ -36,7 +36,7 @@ E tudo o que está contido dentro dele será exibido ao lado direito na área No
 
 - O plano cartesiano da Godot define que o objeto posto em cima dele obtém valores positivos se for para baixo do eixo X e negativos para acima do eixo X.
 
-![Alt text](https://github.com/phoenixproject/gamedev/tree/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/01_plano_cartesiano.png?raw=true "Características do Plano Cartesiano da Godot")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/01_plano_cartesiano.PNG?raw=true "Características do Plano Cartesiano da Godot")
 
 Esse comportamento é também indicado para as laterais do eixo Y como indicado na foto.
 
@@ -50,7 +50,7 @@ Esse comportamento é também indicado para as laterais do eixo Y como indicado 
 
 - Na Godot, o termo "res://" pode ser entendido a como se fosse a raiz do projeto, ou seja, poderia ser entendido (a grosso modo) como o "C:" do Windows ou o "\" no Linux. E na foto podemos visualizar que **res://Scripts/** faz referência a pasta chamada **Scripts** que está na raiz do projeto.
 
-![Alt text](https://github.com/phoenixproject/gamedev/tree/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/02_caminho_dos_arquivos_estaticos.png?raw=true "Caminho dos arquivos estáticos")
+![Alt text](https://github.com/phoenixproject/gamedev/tree/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/02_caminho_dos_arquivos_estaticos.PNG?raw=true "Caminho dos arquivos estáticos")
 
 ### Auto Play on Load
 
@@ -95,7 +95,7 @@ ColorRect pode ser utilizado para dar cor a algo que podemos usar como backgroun
 
 - Para movimentar um objeto filho contido no pai, sem que este pai tenha alteração de características, clique no botão __Move Node__ e movimento o filho de uma forma que só altere as características dele.
 
-![Alt text](https://github.com/phoenixproject/gamedev/tree/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/03_movendo_objeto_filho_a_partir_do_pai.png?raw=true "Movimentando um objeto filho a partir do pai")
+![Alt text](https://github.com/phoenixproject/gamedev/tree/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/03_movendo_objeto_filho_a_partir_do_pai.PNG?raw=true "Movimentando um objeto filho a partir do pai")
 
 ### Para alterar o tamanho da Window onde acontecerá o jogo
 
@@ -142,7 +142,7 @@ Atributo __Aspect__:
 
 - Para movimentar o centro do eixo das coordenadas (Y) e abscissas para qualquer, mantenha pressionado o botão __Scroll__ (do mouse) e arraste o mouse para qualquer lado.
 
-![Alt text](https://github.com/phoenixproject/gamedev/tree/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/01_plano_cartesiano.png?raw=true "Características do Plano Cartesiano da Godot")
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT/01_plano_cartesiano.PNG?raw=true "Características do Plano Cartesiano da Godot")
 
 Esse comportamento também se aplica para o ambiente 2D ou para o 3D.
 
