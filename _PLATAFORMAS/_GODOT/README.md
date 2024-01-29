@@ -9,7 +9,7 @@ School of Net / Heartbeast / Projeto 2D
 
 ### Algumas conclusões/entendimentos importantes sobre a Godot
 
-- **Objetos (Nodes, Cenas, etc):** na Godot os Nodes podem ser entendidos como objetos que possuem atributos com valores pré definidos capazes de serem alterados junto a seus comportamentos (métodos) que ao todo (atributos e métodos) definem a caracterítica de determinado Nó (Node, Cena, etc). O nome o objeto é de meu entendimento conceitual porque um Nó (Node, Cena, etc) consegue ser criado isoladamente e reaproveitado em outro Nó como atributo, assumindo a regra de orientação a objetos.
+- **Objetos (Nodes, Cenas, etc):** na Godot os Nodes podem ser entendidos como objetos que possuem atributos com valores pré definidos capazes de serem alterados junto a seus comportamentos (métodos) que ao todo (atributos e métodos) definem a caracterítica de determinado Nó (Node, Cena, etc). O nome objeto é de meu entendimento (pessoal) conceitual porque um Nó (Node, Cena, etc) consegue ser criado isoladamente e reaproveitado em outro Nó como atributo, assumindo a regra de orientação a objetos. Alguns entendem que tudo na Godot é uma Cena, mas o conceito do que é uma cena também pode ser entedido como um nó, pois dentro de uma Cena há vários nós que possuem características e comportamentos similares.
 
 ### Viewport
 
@@ -32,11 +32,25 @@ pode mudar essas perspectiva a todo momento.
 
 E tudo o que está contido dentro dele será exibido ao lado direito na área Node.
 
+### Características do plano cartesiano
+
+- O plano cartesiano da Godot define que o objeto posto em cima dele obtém valores positivos se for para baixo do eixo X e negativos para acima do eixo X.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT0/01_plano_cartesiano.png?raw=true "Características do Plano Cartesiano da Godot")
+
+Esse comportamento é também indicado para as laterais do eixo Y como indicado na foto.
+
 ### Filesystem
 
 - Quando são importados assets ou demais arquivos eles podem ser inseridos no diretório que automaticamente são exibidos na árvore à esquerda.
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/04_godot_filesystem_location_explorer.png?raw=true "Filesystem Explorer")
+
+### Caminho dos arquivos estáticos
+
+- Na Godot, o termo "res://" pode ser entendido a como se fosse a raiz do projeto, ou seja, poderia ser entendido (a grosso modo) como o "C:" do Windows ou o "\" no Linux. E na foto podemos visualizar que **res://Scripts/** faz referência a pasta chamada **Scripts** que está na raiz do projeto.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT0/02_caminho_dos_arquivos_estaticos.png?raw=true "Caminho dos arquivos estáticos")
 
 ### Auto Play on Load
 
@@ -77,6 +91,12 @@ ColorRect pode ser utilizado para dar cor a algo que podemos usar como backgroun
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/09_godot_select_objeto_junto_com_filhos.png?raw=true "Select the object")
 
+### Para movimentar o objeto filho a partir do pai estar selecionado
+
+- Para movimentar um objeto filho contido no pai, sem que este pai tenha alteração de características, clique no botão __Move Node__ e movimento o filho de uma forma que só altere as características dele.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT0/03_movendo_objeto_filho_a_partir_do_pai.png?raw=true "Movimentando um objeto filho a partir do pai")
+
 ### Para alterar o tamanho da Window onde acontecerá o jogo
 
 - Siga em *Project > Project Settins > General > Property > Display >  Window* e altere os valores desejados.
@@ -114,6 +134,17 @@ Atributo __Aspect__:
 
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/15_godot_mantendo_proporcao_quando_resolucao_muda.png?raw=true "Aspect: keep")
 
+### Para movimentar os eixos no plano cartesiano
+
+- Para movimentar o eixo das abscissas (X) para cima ou para baixo, mantenha pressionada a tecla (do teclado) __Ctrl__ e gire com o botão __Scroll__ (do mouse) para cima ou para baixo.
+
+- Para movimentar o eixo das coordenadas (Y) para a esquerda ou para a direita, mantenha pressionadas as teclas (do teclado) __Ctrl__ e __Shift__ e gire com o botão __Scroll__ (do mouse) para cima ou para baixo.
+
+- Para movimentar o centro do eixo das coordenadas (Y) e abscissas para qualquer, mantenha pressionado o botão __Scroll__ (do mouse) e arraste o mouse para qualquer lado.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/INTRODUCAOGODOT0/01_plano_cartesiano.png?raw=true "Características do Plano Cartesiano da Godot")
+
+Esse comportamento também se aplica para o ambiente 2D ou para o 3D.
 
 ### Boas práticas
 
