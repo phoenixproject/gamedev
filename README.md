@@ -3,13 +3,13 @@ CST em Jogos Digitais, Curso de Desenvolvimento de Games, School of Net, Udemy, 
 
 ## Dicionário Conceitual de Termos Básicos ou Conceitos Técnicos para Desenvolvedores de Games:
 
-### Game Loop
+#### Game Loop
 
 Ao contrário de aplicações comuns em todo o game existe um loop principal. E como um 
 jogo possui códigos de programação e gráficos ao mesmo tempo é preciso trabalhar com
 threads porque em diversos momentos ambos precisam funcionar ao mesmo tempo.
 
-### Renderizar
+#### Renderizar
 
 É basicamente desenhar na tela o gráfico do jogo ou mostrar os gráficos na tela.
 
