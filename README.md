@@ -59,6 +59,10 @@ a padronizar a aparência, roupas, etc, de modo a enfatizar gestos e atitudes de
 
 ### Game Desing
 
+É a parte responsável pela criação e planejamento desse game. Ela não é uma pessoa que está executando a produção, mas, sim, idealiza e determina como o jogo deve ser.
+
+[Profissão game designer](https://www.alura.com.br/conteudo/game-design-definindo-principios-jogo-digital)<br/>
+
 ### Tile Map ou Tilemap
 
 É o Level Design, ou seja, a parte de criação da fase do jogo
@@ -108,9 +112,9 @@ Modelo para blueprint frontal e lateral
 
 ### UV Wrapping (blueprint)
 
-### Paint.net
+Mapeamento UV é um processo de modelagem 3D que consiste em projetar uma imagem 2D na superfície de um modelo 3D para mapeamento de textura.
 
-## Ferramentas do Java utilizas em desenvolvimento de Apps e Games
+[Mapeamento UV](https://pt.wikipedia.org/wiki/Mapeamento_UV)<br/>
 
 ### Runnable
 
@@ -121,6 +125,8 @@ Interface padrão do Java que implementa o uso de threads.
 Método do Java para seja executado de forma sincronizado.
 
 ### Postmortem Game
+
+Um conceito aplicado a jogos chamado post-mortem, ou seja, após o ciclo de venda do jogo ter término.
 
 ### Modelagem Orgânica
 
@@ -138,8 +144,26 @@ São oobjetos animados.
 
 Narração de histórias é a atividade que consiste em transmitir eventos na forma de palavras, imagens, e sons muitas vezes pela improvisação ou embelezamento
 
-#### Fontes para Modelagem
-##### [Mixamo](https://www.mixamo.com/#/)<br/>
+## Ferramentas 
 
-#### Termos para busca
+### Sprite Fusion - Tilemap Editor
+
+The Easy-to-Use Tilemap Editor. A free level design tool to craft beautiful 2D tilemaps right in your browser using any tileset.
+
+[Sprite Fusion - Tilemap Editor](https://www.spritefusion.com/#/)<br/>
+[O MELHOR EDITOR DE LEVEL DESIGN QUE JÁ TESTEI! | SPRITE FUSION](https://www.youtube.com/watch?v=fJkp6gYF9FQ/#/)<br/>
+
+### Mixamo
+
+Mixamo is a web-based service for 3D character animation, which uses machine learning methods to automate the animation process
+
+[Mixamo](https://www.mixamo.com/#/)<br/>
+
+### Paint.net
+
+paint.net é um programa de computador gratuito e open-source utilizado na manipulação e edição de imagem e fotografia. Foi escrito para a plataforma .NET Framework e pode ser executado nas versões Microsoft Windows que suportem .NET e necessita do .NET Framework instalado no sistema
+
+[Paint.net](https://www.getpaint.net/#/)<br/>
+
+## Termos para busca
 - Para chão: ground (game ground)
