@@ -61,11 +61,29 @@ a padronizar a aparência, roupas, etc, de modo a enfatizar gestos e atitudes de
 
 ### Tile Map ou Tilemap
 
+É o Level Design, ou seja, a parte de criação da fase do jogo
+
 ### Tile Set ou Tileset
+
+Um tileset é um conjunto de texturas reunidas numa mesma imagem, uma composição. Estas texturas formam as peças gráficas que compõem um cenário de um videogame: pisos, paredes, escadas, telhados, etc.
+
+Para criar este conjunto, usamos uma grade composta de quadrados do mesmo tamanho. Neste caso, 16x16px. Cada quadrado desta grade é chamado de tile, a menor parte da composição. 
+
+[O que é tileset e tilemap no desenvolvimento de games?](https://www.domestika.org/pt/blog/6985-o-que-e-tileset-e-tilemap-no-desenvolvimento-de-games)<br/>
 
 ### GDD
 
+Um documento de design de jogo é um documento de design de software vivo altamente descritivo do design de um videogame. Um GDD é criado e editado pela equipe de desenvolvimento e é usado principalmente na indústria de videogames para organizar os esforços de uma equipe de desenvolvimento
+
+[Como (e quando) criar um GDD: formatos, dicas e exemplos práticos](https://producaodejogos.com/gdd/)<br/>
+
+[TEmplate Game Design Document (GDD)](https://files.cercomp.ufg.br/weby/up/151/o/PRODUTO_TECNICO_Cristina_APP_BIM_Game_Design.pdf)<br/>
+
 ### Spritesheets
+
+Em computação gráfica, um atlas de textura é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas.
+
+[A Utilização de Sprite Sheets](https://materialpublic.imd.ufrn.br/curso/disciplina/5/59/7/4)<br/>
 
 ### Modelagem Inorgânica
 
