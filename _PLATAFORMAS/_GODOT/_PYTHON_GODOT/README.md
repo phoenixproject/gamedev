@@ -9,6 +9,9 @@ O objetivo é entender até onde o GD Script se comporta como Python testando se
 - Creating your first script
 ##### [Creating your first script](https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_first_script.html)<br/>
 
+- Criando seu primeiro script¶
+##### [Criando seu primeiro script](https://docs.godotengine.org/pt-br/4.x/getting_started/step_by_step/scripting_first_script.html)<br/>
+
 - GDScript reference
 ##### [GDScript reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#doc-gdscript)<br/>
 
