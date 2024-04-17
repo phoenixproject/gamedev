@@ -3,6 +3,16 @@ Repositório de comparação de semelhança de linguagens entre GD Script e Pyth
 
 O objetivo é entender até onde o GD Script se comporta como Python testando seus limites e contextualizar caminhos para fazer uma aplicação utilizando linguagem de programação GD Script como se fossemos aprender qualquer outro tipo de linguagem pela primeira vez.
 
+### Hello World
+
+O script do Hello World é bem similar ao do Python.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_PYTHONGODOT/01_godot_python.PNG?raw=true "Hello World")
+
+Basta "atachar" um script na própria cena 2D e inserir o método init(), que é uma espécie de construtor da classe/script e que exibirá o texto na aba __debugger__ da Godot.
+
+--
+
 - Fontes
 ##### [01 -  Learn programming with GDScript (Part 1)](https://www.youtube.com/watch?v=cx_yTggSENU)<br/>
 
