@@ -45,6 +45,9 @@ O projeto contém uma classe chamada Carro que possui um construtor e é instanc
 - GDScript reference
 ##### [GDScript reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html#doc-gdscript)<br/>
 
+- Godot Engine 4.2 documentation in English 
+##### [Godot Engine 4.2 documentation in English](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html)<br/>
+
 - Aplicando princípios de orientação a objetos em Godot
 ##### [Aplicando princípios de orientação a objetos em Godot](https://docs.godotengine.org/pt-br/4.x/tutorials/best_practices/what_are_godot_classes.html)<br/>
 
