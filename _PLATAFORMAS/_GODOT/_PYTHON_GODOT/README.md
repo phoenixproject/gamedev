@@ -11,6 +11,14 @@ O script do Hello World é bem similar ao do Python.
 
 Basta "atachar" um script na própria cena 2D e inserir o método init(), que é uma espécie de construtor da classe/script e que exibirá o texto na aba __debugger__ da Godot.
 
+### Objetos
+
+O script do Objetos é bem similar ao do Python.
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_PYTHONGODOT/02_godot_python.PNG?raw=true "Objetos"
+
+O projeto contém uma classe chamada Carro que possui um construtor e é instanciada a partir do script __Node2d.gd__ .
+
 --
 
 - Fontes
