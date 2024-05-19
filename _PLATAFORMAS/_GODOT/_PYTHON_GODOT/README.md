@@ -29,6 +29,10 @@ O projeto contém uma classe chamada Carro que possui um construtor e é instanc
 
 - Fontes
 ##### [01 -  Learn programming with GDScript (Part 1)](https://www.youtube.com/watch?v=cx_yTggSENU)<br/>
+###### [Learn programming with GDScript (Part 1](https://github.com/godotneers/programming-video)<br/>
+
+##### [02 -  Learn programming with GDScript (Part 2)](https://www.youtube.com/watch?v=f5i9pErfvj8)<br/>
+###### [Learn programming with GDScript (Part 2](https://github.com/godotneers/programming-video/tree/part-2)<br/>
 
 ##### [ LucyLavend Channel ](https://www.youtube.com/@LucyLavend)<br/>
 
