@@ -133,6 +133,67 @@ Mapeamento UV é um processo de modelagem 3D que consiste em projetar uma imagem
 
 [Mapeamento UV](https://pt.wikipedia.org/wiki/Mapeamento_UV)<br/>
 
+#### - O que são shaders?
+
+Shaders são pequenos scripts que contém cálculos matemáticos e agloritmos para calcular o valor de cada pixel da imagem a ser renderizado, com base no maerial e nas informações de cores.
+
+#### - O que são texturas?
+
+Texturas são imagens, ou mapas de bits, com a informação de cor de cada pixel. Uma imagem pode conter várias texturas, de form que o shader do material as use no cálculo das cores.
+
+#### - O qu eé reflexão especular?
+
+É parte das superfície com faces alinhadas e que reflestem a luz em direções similares. 
+
+#### - O que é reflexão difusa?
+
+É parte da superfíce que contém faces irregulares e que refletem em diferentes ângulos.
+
+#### - O que é luz ambiente?
+
+É a intensidade da iluminação no ambiente que faz com que as faces ocultas não fiquem simplesmente pretas ao serem renderizadas.
+
+#### - O que é render?
+
+É o processo de interpretação de um ambiente tridimensional (essencialmente matemático) e sua apresentação para o usuário.
+
+#### - O que é Bump Map?
+
+Utiliza imagens em escalas de cinz para adicionar efeitos de sombras em detalhes criados no modelo. O elemento 3D continua com o mesmo número de polígonos, mas é simulada uma sombra detalhada de acordo com os níveis de cinza.
+
+#### - O que é diffuse Map?
+
+É o mapeamento mais comum. Trata-se do embrulho de um modelo com o arquivo de textura, como é embrulhada uma caixa de presente, por exemplo. Nesta técnica apresenta-se o valor de cada pixel da imagem em sua cor original.
+
+#### - O que faz um specular Map?
+
+Permite ao modelo ter um efeito de luz especular em alguns pontos específicos, mapeados previamente.
+
+#### - Como é feito um normal Map?
+
+É normalmente feito com um modelo de alta fidelidade e grande número de polígonos. Extrai a normal de cada superfície ea representa usando o modelo de cores RGB, associados a cada um dos eixos (XYZ). Este mapa é então transferido ao modelo low poly.
+
+#### - O que é glow map?
+
+Controla o brilho específico em pontos de modelo tridimensional, causando exposições diferentes à iluminação, enquanto que o specular amp permite ao modelo ter um eefitos de luz epsecular em alguns pontos especificos e o reflection map, também conhecido como enviroment map, representa a reflexão espelhada do ambiente.
+
+#### - Características importantes de um shader
+
+Eles possuem grandes poder computacional para algoritmos que são repetidamente executados.
+
+#### - Mapemento UV
+
+Coloca os ojbetos em um plano com dois eixos limitados em uma área de 0 a 1.
+
+#### - O que faz um shader de iluminação?
+
+Realiza os cálculos necessários para simular a reflexão da luz em superícies tridimensionais.
+
+#### - O que é diffuse map?
+
+É um tipo de ampeamento onde a textura é posta em volta por completo do item que está sendo mapeado.
+
+
 ## Ferramentas 
 
 #### - Mixamo
