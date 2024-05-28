@@ -10,6 +10,10 @@ School of Net / Heartbeast / Projeto 2D
 ### Algumas conclusões/entendimentos importantes sobre a Godot
 
 - **Objetos (Nodes, Cenas, etc):** na Godot os Nodes podem ser entendidos como objetos que possuem atributos com valores pré definidos capazes de serem alterados junto a seus comportamentos (métodos) que ao todo (atributos e métodos) definem a caracterítica de determinado Nó (Node, Cena, etc). O nome objeto é de meu entendimento (pessoal) conceitual porque um Nó (Node, Cena, etc) consegue ser criado isoladamente e reaproveitado em outro Nó como atributo, assumindo a regra de orientação a objetos. Alguns entendem que tudo na Godot é uma Cena, mas o conceito do que é uma cena também pode ser entedido como um nó, pois dentro de uma Cena há vários nós que possuem características e comportamentos similares.
+- O node é a peça fundamental para a construção de qualquer jogo na Godot e cada Node tem as suas própias características e funcionalidades únicas. 
+- Um conjunto de Node pode formar uma Scene/Cena.
+- As Scenes/Cenas são salvas com extensão .tscn.
+- Observar o Editor Settings porque nele são guardadas configurações importantes como cena de arranque da aplicação, escala de visualização do editor (para diferentes telas, uso de editor de script ao clicar, entre outras configurações importantes iniciais.
 
 ### Viewport
 

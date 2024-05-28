@@ -193,6 +193,9 @@ Realiza os cálculos necessários para simular a reflexão da luz em superícies
 
 É um tipo de ampeamento onde a textura é posta em volta por completo do item que está sendo mapeado.
 
+#### - Comutação Gráfica
+
+A Computação Gráfica é, como o próprio nome diz, a parte da Ciência da Computação que é responsável pelo processamento e apresentação dos elementos gráficos de um sistema. O Processo de interpretação de um ambiente tridimensional (essencialmente matemático) e sua apresentação para o usuário é conhecido como Render, a palavra de origem inglesa e considerada um neologismo no português.
 
 ## Ferramentas 
 
