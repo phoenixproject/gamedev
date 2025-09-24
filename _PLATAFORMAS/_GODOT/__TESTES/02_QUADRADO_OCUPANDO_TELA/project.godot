@@ -10,6 +10,12 @@ config_version=5
 
 [application]
 
-config/name="TesteGodot4"
-config/features=PackedStringArray("4.0", "Vulkan Clustered")
-config/icon="res://icon.png"
+config/name="QuadradoOcupandoTela"
+run/main_scene="uid://by3thcpqcfdvo"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
