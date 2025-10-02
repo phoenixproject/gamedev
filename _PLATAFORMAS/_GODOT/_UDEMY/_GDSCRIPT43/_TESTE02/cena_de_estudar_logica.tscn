@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://dpyene64shhby"]
+[gd_scene load_steps=2 format=3 uid="uid://dpyene64shhby"]
+
+[ext_resource type="Script" uid="uid://blt7o5icwm8ch" path="res://cena_de_estudar_logica.gd" id="1_fn8pq"]
 
 [node name="CenaDeEstudarLogica" type="Node"]
+script = ExtResource("1_fn8pq")
