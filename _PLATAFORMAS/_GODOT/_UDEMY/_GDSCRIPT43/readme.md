@@ -89,3 +89,7 @@ func divisao():
 	else:
 		print("Não pode realizar a divisão")
 ```
+
+Variáveis do tipo @export podem receber valores estáticos, contudo ao declaramos uma variável do tipo @export a IDE da Godot entende que há um novo atributo parametrizável e quando seu valor é alterado ele sobrepõe o já declarado no código
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/_GDSCRIPT43/teste01_07.png?raw=true "Variável Export")	

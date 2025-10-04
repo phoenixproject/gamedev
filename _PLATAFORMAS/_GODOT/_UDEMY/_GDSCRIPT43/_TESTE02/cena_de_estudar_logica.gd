@@ -1,5 +1,7 @@
 extends Node
 
+@export var saudacao : String = "Novo Teste"
+
 var mensagem : String = "Olá novo mundo"
 
 var numero_a : int = 5
@@ -16,9 +18,10 @@ func _ready() -> void:
 	# ola_mundo1()
 	# ola_mundo2(mensagem)
 	# soma()
+	print(saudacao)
 	divisao()
 	
-func ola_mundo1():
+func ola_mundo1():	
 	print("Olá mundo")
 	
 func ola_mundo2(mensagem):

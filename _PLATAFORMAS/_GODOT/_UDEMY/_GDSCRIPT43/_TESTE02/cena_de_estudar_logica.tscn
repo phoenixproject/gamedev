@@ -4,3 +4,4 @@
 
 [node name="CenaDeEstudarLogica" type="Node"]
 script = ExtResource("1_fn8pq")
+saudacao = "Mais um"
