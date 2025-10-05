@@ -116,7 +116,8 @@ extends Node
 
 @export_category("VAR_STRING")
 @export var saudacao : String = "Novo Teste"
-@export var mensagem : String = "Olá novo mundo"
+# @export var mensagem : String = "Olá novo mundo"
+@export var nome_personagem : String
 
 @export_category("VAR_INTEGER")
 @export var numero_a : int = 5
@@ -125,6 +126,8 @@ extends Node
 @export_category("VAR_FLOAT")
 @export var numero_quebrado_a : float = 0.5
 @export var numero_quebrado_b : float = 2.5
+@export var vida_do_personagem: int
+@export var dano_do_inimigo: int
 
 @export_category("VAR_BOOLEAN")
 @export var pode_realizar_divisao : bool = true
@@ -136,15 +139,25 @@ func _ready() -> void:
 	# ola_mundo2(mensagem)
 	# soma()
 	print(saudacao)
-	divisao()
+	#divisao()
 	
 func _process(delta: float) -> void:
-	Input.is_action_just_pressed("im_atacar")
-	print(delta)
+	# Input.is_action_just_pressed("im_atacar")
+	# print(delta)
 	pass
 
 func _physics_process(delta: float) -> void:
-	print(delta)
+	# print(delta)
+	if(Input.is_action_just_pressed("im_atacar")):
+		vida_do_personagem = vida_do_personagem - dano_do_inimigo
+		
+		if vida_do_personagem > 0:
+			print("O personagem está vivo. Vida do personagem: " + str(vida_do_personagem))
+		elif vida_do_personagem == 0:
+			print("O personagem acabou de morrer")
+		else:
+			print("O inimigo está atacando um alvo morto")
+		
 	pass	
 	
 func ola_mundo1():	
@@ -181,3 +194,6 @@ func divisao():
 		print("Não pode realizar a divisão")
 
 ```
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/_GDSCRIPT43/teste01_11.png?raw=true "Rotinas de uso de variável")	
+
+Método _physics_process usado para obter resultado de eventos de ações dos inputs.
