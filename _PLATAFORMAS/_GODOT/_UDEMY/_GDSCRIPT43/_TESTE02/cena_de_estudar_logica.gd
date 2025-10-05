@@ -1,16 +1,19 @@
 extends Node
 
+@export_category("VAR_STRING")
 @export var saudacao : String = "Novo Teste"
+@export var mensagem : String = "Olá novo mundo"
 
-var mensagem : String = "Olá novo mundo"
+@export_category("VAR_INTEGER")
+@export var numero_a : int = 5
+@export var numero_b : int = 2
 
-var numero_a : int = 5
-var numero_b : int = 2
+@export_category("VAR_FLOAT")
+@export var numero_quebrado_a : float = 0.5
+@export var numero_quebrado_b : float = 2.5
 
-var numero_quebrado_a : float = 0.5
-var numero_quebrado_b : float = 2.5
-
-var pode_realizar_divisao : bool = true
+@export_category("VAR_BOOLEAN")
+@export var pode_realizar_divisao : bool = true
 
 func _ready() -> void:
 	# var mensagem : String = "Olá novo mundo"
@@ -20,6 +23,14 @@ func _ready() -> void:
 	# soma()
 	print(saudacao)
 	divisao()
+	
+func _process(delta: float) -> void:
+	print(delta)
+	pass
+
+func _physics_process(delta: float) -> void:
+	print(delta)
+	pass	
 	
 func ola_mundo1():	
 	print("Olá mundo")
