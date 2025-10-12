@@ -1,5 +1,4 @@
-
-Última aula: https://www.udemy.com/course/aprenda-godot-e-gdscript-em-7-dias/learn/lecture/46001893#overview
+Curso: https://www.udemy.com/course/aprenda-godot-e-gdscript-em-7-dias
 
 - Cena: uma cena pode ter diversos objetos e esses objetos podem ser salvos como outras cenas.
 
@@ -247,9 +246,44 @@ func lista_e_randomizacao():
 	
 	print(dialogo_npc_1["lista_de_frases"][2])
 	print(dialogo_npc_1)
-
-
 ```
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/_GDSCRIPT43/teste01_11.png?raw=true "Rotinas de uso de variável")	
 
 Método _physics_process usado para obter resultado de eventos de ações dos inputs.
+
+
+#### Game Sword Fantasy
+
+Pack: https://kenmi-art.itch.io/cute-fantasy-rpg
+
+###### Para realizar o desenvolvimento do personagem
+
+Configurar movimentação em 4 direções + inputs (Teclas)
+Usar CharacterBody2D como objeto base na Cena
+Usar como filho de CharacterBody uma Sprite2D para visualizar a textura do personagem
+Na aba InputMap (Configurações do Projeto), mapear 4 ações para movimentação (W/A/S/D, Setas etc)
+Usar de velocity e move_and_slide() para mover o personagem
+
+Configurar animações de Parado/Andando em 4 direções
+Usar de um AnimationPlayer para configurar as animações
+Criar keyframes das propriedades hframes/vframes, frame atual e texture dentro do AnimationPlayer, para criar as respectivas animações
+
+Configurar ataque + animações de ataque
+Configurar uma Input para o ataque
+Priorizar a animação de ataque sobre as outras animações usando um if
+OPCIONAL: Fazer o personagem parar de andar enquanto estiver atacando
+
+Configurar ações de ataque com picareta/machado/enxada/regador
+Mesma lógica do ataque, porém configurando outras teclas para cada ação, exemplo: 1 para ataque com picareta, 2 para ataque com machado etc.
+Priorizar a animação da ação sobre as outras animações
+OPCIONAL: Fazer o personagem parar de andar enquanto estiver executando a ação
+
+Configurar uma área de ataque para as ações acima
+Use de uma Area2D + CollisionShape2D
+DICA: Você pode configurar se a colisão do ataque está ativado ou não por meio de keyframes nas respectivas animações de ataque
+Você pode mudar a posição da colisão baseado na direção na qual o personagem está andando
+
+Adicionar uma câmera para mover o personagem
+Adicionar como filho de CharacterBody2D uma Camera2D
+Marcar o enabled da câmera para ela seguir o personagem
+Adicionar suavização na movimentação da câmera através do position smoothing
