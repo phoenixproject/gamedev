@@ -132,15 +132,43 @@ extends Node
 @export_category("VAR_BOOLEAN")
 @export var pode_realizar_divisao : bool = true
 
+@export_category("OBJETOS")
+@export var filho_1 : Node
+@export var filho_2 : Node
+
+var lista: Array = []
+var lista_de_ataque: Array = [3, 7]
+var lista_dicionario: Dictionary = {}
+var dialogo_npc_1 : Dictionary = {
+	"lista_de_frases" : {
+		0 : "Ola",
+		1 : "Tudo bem com você?",
+		2 : "Me chamado Ming"
+	},
+	
+	"expressoes_faciais" : {
+		0 : "Amigável",
+		1 : "Questionando",
+		2 : "Triste"
+	},
+	
+	"nomes_npcs" : {
+		0 : "Ming",
+		1 : "Gran Diano",
+		2 : "Junior San"
+	}
+}
+
 func _ready() -> void:
 	# var mensagem : String = "Olá novo mundo"
 	
 	# ola_mundo1()
 	# ola_mundo2(mensagem)
 	# soma()
-	print(saudacao)
+	# print(saudacao)
 	#divisao()
-	
+	lista_e_randomizacao()
+		
 func _process(delta: float) -> void:
 	# Input.is_action_just_pressed("im_atacar")
 	# print(delta)
@@ -192,6 +220,34 @@ func divisao():
 		print(resultado_da_divisao3)
 	else:
 		print("Não pode realizar a divisão")
+		
+func lista_e_randomizacao():
+	# Número INTEIRO aleatório
+	print(randi_range(lista_de_ataque[0], lista_de_ataque[1]))
+	# Número QUEBRADO aleatório
+	print(randf_range(lista_de_ataque[0], lista_de_ataque[1]))
+
+	var ataque: int = randi_range(lista_de_ataque[0], lista_de_ataque[1])
+	print(ataque)
+	
+	lista_dicionario[0] = filho_1
+	lista_dicionario[10] = filho_2
+		
+	print(lista_dicionario)
+	
+	lista_dicionario[0] = {
+		"objeto": filho_1,
+		"nome": "Ming",
+		"idade": 25,
+		"profissão": "Desenvolvedor de Jogos"
+	}
+	
+	print(lista_dicionario[0])
+	print(lista_dicionario[0]["nome"])
+	
+	print(dialogo_npc_1["lista_de_frases"][2])
+	print(dialogo_npc_1)
+
 
 ```
 ![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GODOT/_UDEMY/_GDSCRIPT43/teste01_11.png?raw=true "Rotinas de uso de variável")	

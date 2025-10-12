@@ -2,8 +2,14 @@
 
 [ext_resource type="Script" uid="uid://blt7o5icwm8ch" path="res://cena_de_estudar_logica.gd" id="1_fn8pq"]
 
-[node name="CenaDeEstudarLogica" type="Node"]
+[node name="CenaDeEstudarLogica" type="Node" node_paths=PackedStringArray("filho_1", "filho_2")]
 script = ExtResource("1_fn8pq")
 saudacao = "Mais um"
 vida_do_personagem = 5
 dano_do_inimigo = 1
+filho_1 = NodePath("Filho1")
+filho_2 = NodePath("Filho2")
+
+[node name="Filho1" type="Node" parent="."]
+
+[node name="Filho2" type="Node" parent="."]
