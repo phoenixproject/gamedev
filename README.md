@@ -107,6 +107,22 @@ Em computação gráfica, um atlas de textura é uma imagem que contém várias 
 
 [A Utilização de Sprite Sheets](https://materialpublic.imd.ufrn.br/curso/disciplina/5/59/7/4)<br/>
 
+Spritesheet Exemplo 01
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GERAL/spritesheet_exemplo_01.jpg?raw=true "Spritesheet Exemplo 01")	
+
+Spritesheet Exemplo 02
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GERAL/spritesheet_exemplo_02.jpg?raw=true "Spritesheet Exemplo 02")	
+
+Spritesheet Exemplo 03
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GERAL/spritesheet_exemplo_03.jpg?raw=true "Spritesheet Exemplo 03")	
+
+Spritesheet Exemplo 04
+
+![Alt text](https://github.com/phoenixproject/gamedev/blob/master/__MEDIA/__GERAL/spritesheet_exemplo_04.png?raw=true "Spritesheet Exemplo 04")	
+
 #### - Synchronized
 
 Método do Java para seja executado de forma sincronizado.

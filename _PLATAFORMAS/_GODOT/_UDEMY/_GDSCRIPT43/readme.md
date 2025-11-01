@@ -258,32 +258,55 @@ Pack: https://kenmi-art.itch.io/cute-fantasy-rpg
 
 ###### Para realizar o desenvolvimento do personagem
 
-Configurar movimentação em 4 direções + inputs (Teclas)
-Usar CharacterBody2D como objeto base na Cena
-Usar como filho de CharacterBody uma Sprite2D para visualizar a textura do personagem
-Na aba InputMap (Configurações do Projeto), mapear 4 ações para movimentação (W/A/S/D, Setas etc)
-Usar de velocity e move_and_slide() para mover o personagem
+- Configurar movimentação em 4 direções + inputs (Teclas)
+	Usar CharacterBody2D como objeto base na Cena
+	Usar como filho de CharacterBody uma Sprite2D para visualizar a textura do personagem
+	Na aba InputMap (Configurações do Projeto), mapear 4 ações para movimentação (W/A/S/D, Setas etc)
+	Usar de velocity e move_and_slide() para mover o personagem
 
-Configurar animações de Parado/Andando em 4 direções
-Usar de um AnimationPlayer para configurar as animações
-Criar keyframes das propriedades hframes/vframes, frame atual e texture dentro do AnimationPlayer, para criar as respectivas animações
+- Configurar animações de Parado/Andando em 4 direções
+	Usar de um AnimationPlayer para configurar as animações
+	Criar keyframes das propriedades hframes/vframes, frame atual e texture dentro do AnimationPlayer, para criar as respectivas animações
 
-Configurar ataque + animações de ataque
-Configurar uma Input para o ataque
-Priorizar a animação de ataque sobre as outras animações usando um if
-OPCIONAL: Fazer o personagem parar de andar enquanto estiver atacando
+- Configurar ataque + animações de ataque
+	Configurar uma Input para o ataque
+	Priorizar a animação de ataque sobre as outras animações usando um if
+	OPCIONAL: Fazer o personagem parar de andar enquanto estiver atacando
 
-Configurar ações de ataque com picareta/machado/enxada/regador
-Mesma lógica do ataque, porém configurando outras teclas para cada ação, exemplo: 1 para ataque com picareta, 2 para ataque com machado etc.
-Priorizar a animação da ação sobre as outras animações
-OPCIONAL: Fazer o personagem parar de andar enquanto estiver executando a ação
+- Configurar ações de ataque com picareta/machado/enxada/regador
+	Mesma lógica do ataque, porém configurando outras teclas para cada ação, exemplo: 1 para ataque com picareta, 2 para ataque com machado etc.
+	Priorizar a animação da ação sobre as outras animações
+	OPCIONAL: Fazer o personagem parar de andar enquanto estiver executando a ação
 
-Configurar uma área de ataque para as ações acima
-Use de uma Area2D + CollisionShape2D
-DICA: Você pode configurar se a colisão do ataque está ativado ou não por meio de keyframes nas respectivas animações de ataque
-Você pode mudar a posição da colisão baseado na direção na qual o personagem está andando
+- Configurar uma área de ataque para as ações acima
+	Use de uma Area2D + CollisionShape2D
+	DICA: Você pode configurar se a colisão do ataque está ativado ou não por meio de keyframes nas respectivas animações de ataque
+	Você pode mudar a posição da colisão baseado na direção na qual o personagem está andando
 
-Adicionar uma câmera para mover o personagem
-Adicionar como filho de CharacterBody2D uma Camera2D
-Marcar o enabled da câmera para ela seguir o personagem
-Adicionar suavização na movimentação da câmera através do position smoothing
+	Adicionar uma câmera para mover o personagem
+	Adicionar como filho de CharacterBody2D uma Camera2D
+	Marcar o enabled da câmera para ela seguir o personagem
+	Adicionar suavização na movimentação da câmera através do position smoothing
+	
+	
+#### Considerações acerca de criação de personsagem 2D
+
+- Ao criar um personagem 2D, utilizar-se de um nó do tipo CharacterBody2D e para que possamos visualizá-lo na cena é preciso que ele tenha um (objeto) filho do tipo Sprite2D. Sendo que a classe CharacterBody2D pode ser renomeada/entendida como Personagem ou Person, etc, entretanto, a textura (a arte do personagem) ficará na classe Sprite2D e lá poderá ter o nome de textura ou texture ou outro nome que achar que identifica melhor esse conceito.
+
+- Para que a textura fique na classe Sprite2D é necessário arrastar/buscar um bitmap de textura para o atributo Texture dessa classe.
+
+- Por questão de organização de código é recomendável criar uma pasta com o nome "personagem" e salvar a cena que foi criada somente para este personagem, nesta pasta. 
+
+- Todo o script e movimentação do personagem deverá ficar na classe CharacterBody2D que foi renomeada como Personagem, ou seja, é preciso atribuir um script a esta classe. Lembrando que quando um script é adicionado a uma classe ele traz um código padrão relacionado àquele tipo de objeto que a classe representa, portanto deve-se manter apenas o cabeçalho e pagar o resto.
+
+- Não esquecer que o mapeamento de teclas deverá ser feito em Project > Project Settings > Input Map. Utilizar a função _physics_process e usar os métodos velocity e move_and_slide() para mover o personagem dentro dela. 
+
+- Lembrando que o caractere underline ("_") é utilizado para tornar tanto parâmetros de função quanto métodos em estado privado quando precedido em seus nomes.
+
+- Para capturar os valores mapeados (de um direcional de 4 direções) pelo teclado uma das alternativas mais fáceis é o método Input.get_vector pois ele recebe por parâmetro um valor negativo e outro positivo para x e um negativo e outro positivo para y. E para executar a movimentação desejada é necessário capturar a velocidade desejada com o atributo "velocity" que é do tipo de classe Vector2, ou seja, uma classe que recebe dois parâmetros referentes as posições X e Y que constam na classe Vector2 que por sinal é o retorno do método Input.get_vector. E por fim move_and_slide() é executado após o atributo "velocity" para movimentar o personagem com as direções informadas pelo direcional
+
+
+- 
+
+
+
